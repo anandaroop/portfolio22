@@ -29,7 +29,7 @@ const Page: NextPage<Props> = ({ project }) => {
           {project.Slides.map((slide: Slide) => (
             <img
               key={slide.id}
-              className="w-[200px] m-2"
+              className="m-2 w-[200px]"
               src={slide.placeholder}
               alt={slide.caption}
             />

@@ -4,7 +4,7 @@ export const Header = () => (
   <Link href={`/`}>
     <a>
       <header>
-        <h1 className="text-2xl px-5">Anandaroop Roy</h1>
+        <h1 className="px-5 text-2xl">Anandaroop Roy</h1>
       </header>
     </a>
   </Link>
