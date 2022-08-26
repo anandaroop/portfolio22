@@ -1,3 +1,5 @@
 export const Footer = () => (
-  <footer>Copyright © 2000–{new Date().getFullYear()}</footer>
+  <footer>
+    <div className="px-5">Copyright © 2000–{new Date().getFullYear()}</div>
+  </footer>
 )
