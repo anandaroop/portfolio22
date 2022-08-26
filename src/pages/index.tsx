@@ -3,6 +3,7 @@ import type { Project } from "~/types"
 
 import Head from "next/head"
 import { fetchData } from "~/lib/fetchData"
+import { ProjectList } from "~/components/ProjectList"
 
 interface Props {
   featuredProjects: Project[]
@@ -10,10 +11,12 @@ interface Props {
 }
 
 const Home: NextPage<Props> = ({ featuredProjects, projects }) => {
+  const allProjects = [...featuredProjects, ...projects]
+
   return (
     <>
       <Head>
-        <title>Portfolio 22</title>
+        <title>Anandaroop Roy</title>
         <meta
           name="description"
           content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
@@ -21,9 +24,7 @@ const Home: NextPage<Props> = ({ featuredProjects, projects }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-3xl my-4">Portfolio 22</h1>
-
-      <pre>{JSON.stringify({ featuredProjects, projects }, null, 2)}</pre>
+      <ProjectList projects={allProjects} />
     </>
   )
 }
