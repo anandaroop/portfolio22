@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <div className="min-h-screen bg-neutral-200 text-neutral-900 dark:bg-neutral-700 dark:text-neutral-300">
         <div
-          className={`container mx-auto min-h-screen bg-neutral-100 dark:bg-neutral-600 ${
+          className={`container mx-auto min-h-screen bg-neutral-100 dark:bg-neutral-700 ${
             DEBUG_BREAKPOINTS && breakpoint_outline_styles
           }`}
         >
