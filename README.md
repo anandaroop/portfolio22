@@ -3,6 +3,7 @@
 ## Develop
 
 ```
+yarn graphql
 yarn dev
 ```
 
