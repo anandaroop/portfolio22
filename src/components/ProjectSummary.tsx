@@ -1,13 +1,17 @@
-import Link from "next/link"
 import type { Project } from "~/types"
+
+import Link from "next/link"
+import { getSlugFromProject } from "~/lib/slugs"
 
 interface Props {
   project: Project
 }
 
 export const ProjectSummary: React.FC<Props> = ({ project }) => {
+  const slug = getSlugFromProject(project)
+
   return (
-    <Link href={`/projects/${project.id}`}>
+    <Link href={`/projects/${slug}`}>
       <a className="aspect-square w-1/2 p-4 opacity-90 hover:opacity-100 sm:w-1/3 lg:w-1/5">
         <div className="relative">
           <div className="absolute top-0 w-full overflow-hidden overflow-ellipsis p-2 text-lg font-medium text-neutral-700 transition-all sm:text-xl lg:text-2xl">

@@ -2,17 +2,19 @@ import type { NextPage } from "next"
 import type { Project, Slide } from "~/types"
 
 import Head from "next/head"
+
 import { fetchData } from "~/lib/fetchData"
+import { getIdFromSlug, getSlugFromProject } from "~/lib/slugs"
 
 interface Props {
-  project: Project
+  project: Project & { slug: string }
 }
 
 const Page: NextPage<Props> = ({ project }) => {
   return (
     <>
       <Head>
-        <title>Anandaroop Roy | {project.title}</title>
+        <title>{`Anandaroop Roy | ${project.title}`}</title>
         <meta
           name="description"
           content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
@@ -55,26 +57,37 @@ export async function getStaticPaths() {
   const { data } = await fetchData(`
     query ProjectIDsQuery { 
         allProjects(filter: {visible: 1}) {
-            id 
+            id
+            title
         } 
     }
     `)
-  const paths = data.allProjects.map(({ id }: { id: number }) => ({
-    params: { id },
-  }))
+
+  const paths = data.allProjects.map(
+    ({ id, title }: { id: number; title: string }) => {
+      const slug = getSlugFromProject({ id, title })
+
+      return {
+        params: { slug },
+      }
+    }
+  )
   return { paths, fallback: false }
 }
 
 interface Context {
   params: {
-    id: number
+    slug: string
   }
 }
 
 export async function getStaticProps(context: Context) {
   const {
-    params: { id },
+    params: { slug },
   } = context
+
+  const id = getIdFromSlug(slug)
+
   const {
     data: { project },
   } = await fetchData(
@@ -103,5 +116,6 @@ export async function getStaticProps(context: Context) {
         `,
     { id }
   )
-  return { props: { project } }
+
+  return { props: { project: { ...project, slug } } }
 }
