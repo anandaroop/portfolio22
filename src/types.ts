@@ -19,6 +19,7 @@ export type Slide = {
   position: number
   caption: string
   image: string
+  baseName: string
   placeholder: string
   width: number
   height: number

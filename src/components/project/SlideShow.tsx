@@ -7,9 +7,6 @@ import PhotoSwipeLightbox from "photoswipe/lightbox"
 import PhotoSwipe from "photoswipe"
 import "photoswipe/style.css"
 
-import { DELAY_IMAGES } from "~/lib/debug"
-import { ProjectList } from "../ProjectList"
-
 interface Props {
   slides: Slide[]
 }
@@ -42,14 +39,10 @@ export const SlideShow: React.FC<Props> = ({ slides }) => {
         className="mt-8 grid w-full grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-6"
       >
         {slides.map((slide) => {
-          const prefix = DELAY_IMAGES
-            ? `https://deelay.me/${DELAY_IMAGES}/`
-            : ""
+          const src = `/slides/${slide.id}/500-min/${slide.baseName}.webp`
+          const largeSrc = `/slides/${slide.id}/orig/${slide.image}`
 
-          // TODO: replace me with real asset
-          const src = `${prefix}http://www.anandarooproy.com/assets/slide/image/${slide.id}/${slide.image}`
-          const largeSrc = `${prefix}http://www.anandarooproy.com/assets/slide/image/${slide.id}/large/${slide.image}`
-
+          // for these 1000px images, we want to present it larger than its natural size
           const scaled = scaleUp(slide)
 
           return (

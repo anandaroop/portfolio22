@@ -99,6 +99,7 @@ export async function getStaticProps(context: Context) {
                     position
                     caption
                     image
+                    baseName
                     placeholder
                     width
                     height

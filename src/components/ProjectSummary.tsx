@@ -3,7 +3,6 @@ import type { Project } from "~/types"
 import Link from "next/link"
 import { LazyLoadImage } from "react-lazy-load-image-component"
 
-import { DELAY_IMAGES } from "~/lib/debug"
 import { getSlugFromProject } from "~/lib/slugs"
 
 interface Props {
@@ -13,11 +12,7 @@ interface Props {
 export const ProjectSummary: React.FC<Props> = ({ project }) => {
   const slug = getSlugFromProject(project)
   const slide = project.Slides[0]
-
-  const prefix = DELAY_IMAGES ? `https://deelay.me/${DELAY_IMAGES}/` : ""
-
-  // TODO: replace me with real asset
-  const imgSrc = `${prefix}http://www.anandarooproy.com/assets/slide/image/${slide.id}/small/${slide.image}`
+  const imgSrc = `/slides/${slide.id}/200-square/${slide.baseName}.webp`
 
   return (
     <Link href={`/projects/${slug}`}>

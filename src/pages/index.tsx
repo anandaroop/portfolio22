@@ -52,7 +52,7 @@ export async function getStaticProps(): Promise<{ props: Props }> {
           }
           Slides {
               id
-              image
+              baseName
               placeholder
           }
       }
