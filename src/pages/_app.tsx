@@ -14,12 +14,12 @@ function MyApp({ Component, pageProps }: AppProps) {
       {DEBUG_BREAKPOINTS && <Debugger />}
       <div className="min-h-screen bg-neutral-200 text-neutral-900 dark:bg-neutral-700 dark:text-neutral-300">
         <div
-          className={`container mx-auto min-h-screen bg-neutral-100 dark:bg-neutral-600 ${
+          className={`container mx-auto flex min-h-screen flex-col bg-neutral-100 dark:bg-neutral-600 ${
             DEBUG_BREAKPOINTS && breakpoint_outline_styles
           }`}
         >
           <Header />
-          <main>
+          <main className="flex-1">
             <Component {...pageProps} />
           </main>
           <Footer />
