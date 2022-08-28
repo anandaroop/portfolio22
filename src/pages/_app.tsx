@@ -1,9 +1,9 @@
 import "../styles/globals.css"
 import type { AppProps } from "next/app"
+
+import { DEBUG_BREAKPOINTS } from "~/lib/debug"
 import { Header } from "~/components/Header"
 import { Footer } from "~/components/Footer"
-
-const DEBUG_BREAKPOINTS = false
 
 const breakpoint_outline_styles =
   "outline outline-8 outline-red-500 sm:outline-orange-500 md:outline-yellow-500 lg:outline-green-500 xl:outline-blue-600 2xl:outline-violet-500"
