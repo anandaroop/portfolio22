@@ -1,12 +1,11 @@
 import type { NextPage } from "next"
-import type { Project, Slide } from "~/types"
+import type { Project } from "~/types"
 
 import Head from "next/head"
-import { LazyLoadImage } from "react-lazy-load-image-component"
 
-import { DELAY_IMAGES } from "~/lib/debug"
 import { fetchData } from "~/lib/fetchData"
 import { getIdFromSlug, getSlugFromProject } from "~/lib/slugs"
+import { SlideShow } from "~/components/project/SlideShow"
 
 interface Props {
   project: Project & { slug: string }
@@ -38,28 +37,7 @@ const Page: NextPage<Props> = ({ project }) => {
           dangerouslySetInnerHTML={{ __html: project.description }}
         />
 
-        <div className="flex flex-wrap">
-          {project.Slides.map((slide: Slide) => {
-            const prefix = DELAY_IMAGES
-              ? `https://deelay.me/${DELAY_IMAGES}/`
-              : ""
-
-            // TODO: replace me with real asset
-            const imgSrc = `${prefix}http://www.anandarooproy.com/assets/slide/image/${slide.id}/small/${slide.image}`
-
-            return (
-              <>
-                <LazyLoadImage
-                  alt={slide.caption}
-                  className="w-[240px]"
-                  wrapperClassName="m-2 w-[240px]"
-                  src={imgSrc}
-                  placeholderSrc={slide.placeholder}
-                />
-              </>
-            )
-          })}
-        </div>
+        <SlideShow slides={project.Slides} />
       </div>
     </>
   )
