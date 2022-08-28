@@ -6,12 +6,16 @@ import Head from "next/head"
 import { fetchData } from "~/lib/fetchData"
 import { getIdFromSlug, getSlugFromProject } from "~/lib/slugs"
 import { SlideShow } from "~/components/project/SlideShow"
+import { VimeoClips } from "~/components/project/VimeoClips"
 
 interface Props {
   project: Project & { slug: string }
 }
 
 const Page: NextPage<Props> = ({ project }) => {
+  const photoSlides = project.Slides.filter((slide) => !slide.clip)
+  const videoClips = project.Slides.filter((slide) => !!slide.clip)
+
   return (
     <>
       <Head>
@@ -37,7 +41,9 @@ const Page: NextPage<Props> = ({ project }) => {
           dangerouslySetInnerHTML={{ __html: project.description }}
         />
 
-        <SlideShow slides={project.Slides} />
+        <SlideShow slides={photoSlides} />
+
+        {videoClips && <VimeoClips clips={videoClips} />}
       </div>
     </>
   )
@@ -98,6 +104,8 @@ export async function getStaticProps(context: Context) {
                     id
                     position
                     caption
+                    clip
+                    aspect
                     image
                     baseName
                     placeholder

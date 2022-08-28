@@ -18,6 +18,8 @@ export type Slide = {
   id: number
   position: number
   caption: string
+  clip: number
+  aspect: string
   image: string
   baseName: string
   placeholder: string
