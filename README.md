@@ -1,5 +1,12 @@
 # Portfolio 22
 
+## Initial Setup
+
+```sh
+# since generated image variants are not checked in
+yarn images
+```
+
 ## Develop
 
 ```sh
@@ -9,28 +16,24 @@ yarn dev
 
 # for steady feedback about dark mode
 yarn dark
-
-# for impatient deploy
-yarn go
-
-# or…
-```
-
-## Export static site
-
-```sh
-yarn export
-```
-
-## Preview static site
-
-```sh
-yarn serve
 ```
 
 ## Deploy
 
 ```sh
+
+# for impatient deploy
+yarn go
+
+# or…
+
+# export static site
+yarn export
+
+# preview static site
+yarn serve
+
+# deploy
 yarn deploy
 ```
 
