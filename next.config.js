@@ -3,7 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
-  experimental: { esmExternals: true },
+  experimental: {
+    esmExternals: true,
+    scrollRestoration: true,
+  },
 }
 
 module.exports = nextConfig
