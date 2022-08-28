@@ -29,7 +29,7 @@ export const SlideShow: React.FC<Props> = ({ slides }) => {
   useEffect(() => {
     const lightbox = new PhotoSwipeLightbox({
       gallery: "#slide-show",
-      children: "a",
+      children: "a.slide",
       pswpModule: PhotoSwipe,
     })
     lightbox.init()
@@ -53,23 +53,25 @@ export const SlideShow: React.FC<Props> = ({ slides }) => {
           const scaled = scaleUp(slide)
 
           return (
-            <a
-              key={slide.id}
-              className=""
-              href={largeSrc}
-              data-pswp-width={scaled.width}
-              data-pswp-height={scaled.height}
-              data-cropped="true"
-            >
-              <img
-                className="aspect-square w-full object-cover transition-transform hover:scale-[102%]"
-                src={src}
-                alt={slide.caption}
+            <div key={slide.id}>
+              <a
+                className="slide"
+                href={largeSrc}
+                data-pswp-width={scaled.width}
+                data-pswp-height={scaled.height}
+                data-cropped="true"
+              >
+                <img
+                  className="aspect-square w-full object-cover transition-transform hover:scale-[102%]"
+                  src={src}
+                  alt={slide.caption}
+                />
+              </a>
+              <div
+                className="my-2 mb-4 lg:my-4 lg:mb-8 lg:text-lg"
+                dangerouslySetInnerHTML={{ __html: slide.caption }}
               />
-              <div className="my-2 mb-4 lg:my-4 lg:mb-8 lg:text-lg">
-                {slide.caption}
-              </div>
-            </a>
+            </div>
           )
         })}
       </div>

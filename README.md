@@ -50,3 +50,6 @@ tailwind dx
 
 dark mode
 : developing with `yarn dark` script to provide immediate and thorough feedback
+
+hydration error
+: can be caused by invalid html nesting (&lt;a&gt; inside of &lt;a&gt;)
