@@ -5,10 +5,13 @@ import Head from "next/head"
 
 import { fetchData } from "~/lib/fetchData"
 import { getIdFromSlug, getSlugFromProject } from "~/lib/slugs"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
 interface Props {
   project: Project & { slug: string }
 }
+
+const DELAY = 0
 
 const Page: NextPage<Props> = ({ project }) => {
   return (
@@ -37,14 +40,24 @@ const Page: NextPage<Props> = ({ project }) => {
         />
 
         <div className="flex flex-wrap">
-          {project.Slides.map((slide: Slide) => (
-            <img
-              key={slide.id}
-              className="m-2 w-[200px]"
-              src={slide.placeholder}
-              alt={slide.caption}
-            />
-          ))}
+          {project.Slides.map((slide: Slide) => {
+            const prefix = DELAY ? `https://deelay.me/${DELAY}/` : ""
+
+            // TODO: replace me with real asset
+            const imgSrc = `${prefix}http://www.anandarooproy.com/assets/slide/image/${slide.id}/small/${slide.image}`
+
+            return (
+              <>
+                <LazyLoadImage
+                  alt={slide.caption}
+                  className="w-[240px]"
+                  wrapperClassName="m-2 w-[240px]"
+                  src={imgSrc}
+                  placeholderSrc={slide.placeholder}
+                />
+              </>
+            )
+          })}
         </div>
       </div>
     </>
@@ -106,7 +119,7 @@ export async function getStaticProps(context: Context) {
                     id
                     position
                     caption
-                    #image
+                    image
                     placeholder
                     width
                     height
