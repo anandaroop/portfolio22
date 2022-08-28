@@ -68,7 +68,7 @@ export const SlideShow: React.FC<Props> = ({ slides }) => {
                 />
               </a>
               <div
-                className="my-2 mb-4 lg:my-4 lg:mb-8 lg:text-lg"
+                className="my-2 mb-4 overflow-hidden lg:my-4 lg:mb-8 lg:text-lg"
                 dangerouslySetInnerHTML={{ __html: slide.caption }}
               />
             </div>
