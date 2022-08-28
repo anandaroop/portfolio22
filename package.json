@@ -5,6 +5,7 @@
   "scripts": {
     "graphql": "json-graphql-server data.json --p 3001",
     "dev": "next dev",
+    "dark": "while [ true ]; do osascript -e 'tell app \"System Events\" to tell appearance preferences to set dark mode to not dark mode'; sleep 5; done",
     "lint": "next lint",
     "format": "prettier --write .",
     "clean": "rm -rf out .next",
