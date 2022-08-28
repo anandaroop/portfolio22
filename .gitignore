@@ -36,8 +36,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# image procesing
-public/slides
-data.*.*.json
+# backups
 *.bak
 *.tgz
+
+# image procesing
+public/slides/*/200-square
+public/slides/*/500-min
+data.*.*.json
