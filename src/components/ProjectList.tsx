@@ -1,4 +1,5 @@
 import type { Project } from "~/types"
+
 import { ProjectSummary } from "./ProjectSummary"
 
 interface Props {

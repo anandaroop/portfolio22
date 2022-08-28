@@ -2,6 +2,7 @@ import type { NextPage } from "next"
 import type { Project } from "~/types"
 
 import Head from "next/head"
+
 import { fetchData } from "~/lib/fetchData"
 import { ProjectList } from "~/components/ProjectList"
 
