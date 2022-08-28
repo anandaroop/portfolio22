@@ -19,6 +19,7 @@ export type Slide = {
   position: number
   caption: string
   clip: number
+  vimeo_clipid: string
   aspect: string
   image: string
   baseName: string

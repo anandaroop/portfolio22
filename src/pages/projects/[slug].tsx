@@ -43,7 +43,7 @@ const Page: NextPage<Props> = ({ project }) => {
 
         <SlideShow slides={photoSlides} />
 
-        {videoClips && <VimeoClips clips={videoClips} />}
+        {videoClips.length > 0 && <VimeoClips clips={videoClips} />}
       </div>
     </>
   )
@@ -105,6 +105,7 @@ export async function getStaticProps(context: Context) {
                     position
                     caption
                     clip
+                    vimeo_clipid
                     aspect
                     image
                     baseName

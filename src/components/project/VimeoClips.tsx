@@ -9,19 +9,26 @@ export const VimeoClips: React.FC<Props> = ({ clips }) => {
     <div>
       <h2 className="my-4 text-xl lg:my-5 lg:text-2xl">Video</h2>
       {clips.map((clip) => {
-        const aspectUtilityClass = `aspect-${clip.aspect}`
-        console.log(aspectUtilityClass)
-
-        const caption = clip.caption
-          .replace(
-            /<iframe/,
-            `<iframe class="${aspectUtilityClass} w-full lg:w-1/2"`
-          )
-          .replace(/width="\d+"/, "")
-          .replace(/height="\d+"/, "")
-
         return (
-          <div key={clip.id} dangerouslySetInnerHTML={{ __html: caption }} />
+          <>
+            <iframe
+              className={
+                clip.aspect === "3-2"
+                  ? "aspect-3-2 w-full lg:w-1/2"
+                  : clip.aspect === "4-3"
+                  ? "aspect-4-3 w-full lg:w-1/2"
+                  : ""
+              }
+              src={`https://player.vimeo.com/video/${clip.vimeo_clipid}`}
+              frameBorder="0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+            ></iframe>
+            <div
+              className="mt-2 lg:mt-4 lg:text-xl"
+              dangerouslySetInnerHTML={{ __html: clip.caption }}
+            />
+          </>
         )
       })}
     </div>
