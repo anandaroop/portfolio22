@@ -7,13 +7,10 @@ import { fetchData } from "~/lib/fetchData"
 import { ProjectList } from "~/components/ProjectList"
 
 interface Props {
-  featuredProjects: Project[]
-  projects: Project[]
+  allProjects: Project[]
 }
 
-const Home: NextPage<Props> = ({ featuredProjects, projects }) => {
-  const allProjects = [...featuredProjects, ...projects]
-
+const Home: NextPage<Props> = ({ allProjects }) => {
   return (
     <>
       <Head>
@@ -35,10 +32,7 @@ export default Home
 export async function getStaticProps(): Promise<{ props: Props }> {
   const response = await fetchData(`
       query ProjectsQuery {
-          featuredProjects: allProjects(filter: {visible: 1, featured: 1}, sortField: "year", sortOrder: "desc") {
-              ...project
-          }
-          projects: allProjects(filter: {visible: 1, featured: 0}, sortField: "year", sortOrder: "desc") {
+          allProjects(filter: {visible: 1}, sortField: "year", sortOrder: "desc") {
               ...project
           }
       }
