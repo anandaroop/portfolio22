@@ -4,7 +4,8 @@ import type { Project } from "~/types"
 import Head from "next/head"
 
 import { fetchData } from "~/lib/fetchData"
-import { ProjectList } from "~/components/ProjectList"
+// import { ProjectList } from "~/components/ProjectList"
+import { ProjectListMemo as ProjectList } from "~/components/ProjectList"
 
 interface Props {
   allProjects: Project[]

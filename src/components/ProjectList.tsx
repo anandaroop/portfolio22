@@ -1,5 +1,6 @@
 import type { Project } from "~/types"
 
+import React from "react"
 import { ProjectSummary } from "./ProjectSummary"
 
 interface Props {
@@ -15,3 +16,5 @@ export const ProjectList: React.FC<Props> = ({ projects }) => {
     </div>
   )
 }
+
+export const ProjectListMemo = React.memo(ProjectList)
