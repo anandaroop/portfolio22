@@ -18,4 +18,55 @@
   .aspect-4-3 {
     aspect-ratio: 4 / 3;
   }
+
+  .hi,
+  .hi1 {
+    outline: solid 2px red;
+  }
+  .hi:hover,
+  .hi1:hover {
+    background: red;
+  }
+
+  .hi2 {
+    outline: solid 2px orange;
+  }
+  .hi2:hover {
+    background: orange;
+  }
+
+  .hi3 {
+    outline: solid 2px yellow;
+  }
+  .hi3:hover {
+    background: yellow;
+  }
+
+  .hi4 {
+    outline: solid 2px green;
+  }
+  .hi4:hover {
+    background: green;
+  }
+
+  .hi5 {
+    outline: solid 2px blue;
+  }
+  .hi5:hover {
+    background: blue;
+  }
+
+  .hi6 {
+    outline: solid 2px indigo;
+  }
+  .hi6:hover {
+    background: indigo;
+  }
+
+  .hi7 {
+    outline: solid 2px violet;
+  }
+  .hi7:hover {
+    background: violet;
+  }
 }
