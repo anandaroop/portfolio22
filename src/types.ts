@@ -6,9 +6,12 @@ export type Client = {
 export type Project = {
   id: number
   title: string
+  subtitle: string
   year: string
   month: string
   description: string
+  visible: boolean
+  featured: boolean
   Slides: Slide[]
   TagsSlides: TagSlide[]
   Client: Client
