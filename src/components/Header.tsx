@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { useSearch } from "./search"
+import { useSearch } from "~/components/search/SearchContext"
 
 export const Header = () => {
   const { enterSearchMode } = useSearch()

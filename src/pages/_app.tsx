@@ -4,12 +4,8 @@ import type { AppProps } from "next/app"
 import { DEBUG_BREAKPOINTS } from "~/lib/debug"
 import { Header } from "~/components/Header"
 import { Footer } from "~/components/Footer"
-import {
-  InertWhileSearching,
-  SearchModal,
-  SearchProvider,
-  useSearch,
-} from "~/components/search"
+import { SearchProvider, useSearch } from "~/components/search/SearchContext"
+import { SearchModal } from "~/components/search/SearchModal"
 
 const breakpoint_outline_styles =
   "outline outline-8 outline-red-500 sm:outline-orange-500 md:outline-yellow-500 lg:outline-green-500 xl:outline-blue-600 2xl:outline-violet-500"
@@ -27,11 +23,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           }`}
         >
           <Header />
-          <InertWhileSearching>
-            <main className="flex-1">
-              <Component {...pageProps} />
-            </main>
-          </InertWhileSearching>
+          <main className="flex-1">
+            <Component {...pageProps} />
+          </main>
           <Footer />
         </div>
       </div>
