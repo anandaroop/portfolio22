@@ -48,6 +48,29 @@ export const SearchModal: React.FC = () => {
   )
 }
 
+/**
+ * Most inert-ness seems to be handled natively by <dialog> element
+ * when invoked with dialog.showModal() —— but not scroll lock :(
+ */
+export const InertWhileSearching: React.FC<{ children: ReactNode }> = ({
+  children,
+}) => {
+  const { inSearchMode } = useSearch()
+
+  useEffect(() => {
+    const html = document.querySelector("html")
+    if (!html) return
+
+    if (inSearchMode) {
+      html.style.overflow = "hidden"
+    } else {
+      html.style.overflow = ""
+    }
+  }, [inSearchMode])
+
+  return <div>{children}</div>
+}
+
 /* context */
 
 type SearchContextType = {
@@ -57,7 +80,7 @@ type SearchContextType = {
   toggleSearchMode: () => void
 }
 
-const SearchContext = React.createContext<SearchContextType>({
+export const SearchContext = React.createContext<SearchContextType>({
   inSearchMode: false,
   enterSearchMode: () => console.log("unimplemented"),
   exitSearchMode: () => console.log("unimplemented"),
