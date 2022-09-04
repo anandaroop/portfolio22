@@ -4,13 +4,16 @@ import type { AppProps } from "next/app"
 import { DEBUG_BREAKPOINTS } from "~/lib/debug"
 import { Header } from "~/components/Header"
 import { Footer } from "~/components/Footer"
+import { SearchModal, SearchProvider, useSearch } from "~/components/search"
 
 const breakpoint_outline_styles =
   "outline outline-8 outline-red-500 sm:outline-orange-500 md:outline-yellow-500 lg:outline-green-500 xl:outline-blue-600 2xl:outline-violet-500"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <SearchProvider>
+      <SearchDebug />
+      <SearchModal />
       {DEBUG_BREAKPOINTS && <Debugger />}
       <div className="min-h-screen bg-neutral-200 text-neutral-900 dark:bg-neutral-700 dark:text-neutral-300">
         <div
@@ -25,7 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Footer />
         </div>
       </div>
-    </>
+    </SearchProvider>
   )
 }
 
@@ -41,3 +44,5 @@ const Debugger = () => (
     <div className="text-violet-500">2xl</div>
   </div>
 )
+
+const SearchDebug = () => <pre>{JSON.stringify(useSearch())}</pre>
