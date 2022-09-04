@@ -1,17 +1,32 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
-
 import type { Client, Project, Tag } from "~/types"
 
-import React, { useEffect, useRef } from "react"
-import { useSearch } from "./SearchContext"
-
-import { tags, clients, projects } from "../../../data.json"
+import React, {
+  useEffect,
+  useRef,
+  // useState
+} from "react"
 import Link from "next/link"
+
+import { useSearch } from "./SearchContext"
+import {
+  // JankyResults,
+  JankySearch,
+} from "./JankySearch"
+import { getSlugFromProject } from "~/lib/slugs"
+
+const jankySearch = JankySearch.create()
 
 export const SearchModal: React.FC = () => {
   const dialogRef = useRef<HTMLDialogElement>(null)
+
   const { inSearchMode, enterSearchMode, exitSearchMode, query, setQuery } =
     useSearch()
+
+  // const [results, setResults] = useState<JankyResults>({
+  //   clients: [],
+  //   projects: [],
+  //   tags: [],
+  // })
 
   useEffect(() => {
     const dialog = dialogRef.current
@@ -43,47 +58,41 @@ export const SearchModal: React.FC = () => {
     }
   }, [inSearchMode, exitSearchMode, enterSearchMode])
 
-  const matchingTags = tags.filter((tag: Partial<Tag>) => {
-    const re = new RegExp(query, "i")
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    if (tag.name!.match(re)) return true
-  })
+  // asynchronously fetch results when query changes
+  // useEffect(() => {
+  //   const fetchResults = async () => {
+  //     const newResults = await jankySearch.search(query)
+  //     setResults(newResults)
+  //   }
+  //   fetchResults()
+  // }, [query])
 
-  const matchingClients = clients.filter((client: Partial<Client>) => {
-    const re = new RegExp(query, "i")
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    if (client.name!.match(re)) return true
-  })
-
-  const matchingProjects = (
-    projects as unknown as Partial<
-      Pick<Project, "title" | "subtitle" | "description" | "visible">
-    >[]
-  ).filter((project) => {
-    const re = new RegExp(query, "i")
-    if (!project.visible) return false
-    if (
-      project.title!.match(re) ||
-      project.subtitle!.match(re) ||
-      project.description!.match(re)
-    )
-      return true
-  })
+  // synchronously fetch results when query changes
+  const results = jankySearch.searchSync(query)
 
   return (
-    <dialog ref={dialogRef}>
-      <p>I am a search modal</p>
-      <input
-        type="text"
-        placeholder="Enter search terms"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        autoFocus
-      />
+    <dialog
+      className="modal-styles container h-[90vh] w-[60em] border-8 border-black border-opacity-20 bg-white bg-opacity-95 p-7"
+      ref={dialogRef}
+    >
+      <div className="text-xl leading-8">
+        <h2 className="mb-4 text-2xl font-bold">
+          Search results{query.length > 1 ? ` for "${query}"` : ""}
+        </h2>
 
-      <MatchingTags tags={matchingTags} />
-      <MatchingClients clients={matchingClients} />
-      <MatchingProjects projects={matchingProjects} />
+        <input
+          className="my-2 w-full border-2 border-neutral-200 p-1 text-xl"
+          type="text"
+          placeholder="Enter some search terms to see results"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          autoFocus
+        />
+
+        <MatchingProjects projects={results.projects} />
+        <MatchingTags tags={results.tags} />
+        <MatchingClients clients={results.clients} />
+      </div>
     </dialog>
   )
 }
@@ -92,14 +101,16 @@ const MatchingTags: React.FC<{ tags: Partial<Tag>[] }> = ({ tags }) => {
   if (!tags.length) return null
 
   return (
-    <div>
-      <div>Tags</div>
+    <div className="mt-5">
+      <h3 className="font-bold">Tags</h3>
       <ul>
         {tags.map((tag) => {
           return (
-            <li className="mr-2 inline" key={tag.id}>
-              <Link href={`/tags/${tag.name}`}>
-                <a>{tag.name}</a>
+            <li className="mr-2 inline-block " key={tag.id}>
+              <Link href={`/`}>
+                <a className="text-neutral-500 underline underline-offset-4">
+                  {tag.name}
+                </a>
               </Link>
             </li>
           )
@@ -115,14 +126,16 @@ const MatchingClients: React.FC<{ clients: Partial<Client>[] }> = ({
   if (!clients.length) return null
 
   return (
-    <div>
-      <div>Clients</div>
+    <div className="mt-5">
+      <div className="font-bold">Clients</div>
       <ul>
         {clients.map((client) => {
           return (
-            <li className="mr-2 inline" key={client.id}>
-              <Link href={`/clients/${client.name}`}>
-                <a>{client.name}</a>
+            <li className="mr-2 inline-block" key={client.id}>
+              <Link href={`/`}>
+                <a className="text-neutral-500 underline underline-offset-4">
+                  {client.name}
+                </a>
               </Link>
             </li>
           )
@@ -135,17 +148,24 @@ const MatchingClients: React.FC<{ clients: Partial<Client>[] }> = ({
 const MatchingProjects: React.FC<{ projects: Partial<Project>[] }> = ({
   projects,
 }) => {
-  if (!projects.length) return null
+  const { query, exitSearchMode } = useSearch()
+  if (!query.length) return null
 
   return (
-    <div>
-      <div>Projects</div>
+    <div className="mt-4">
+      <div className="font-bold">Projects</div>
       <ul>
         {projects.map((project) => {
+          const slug = getSlugFromProject(project as unknown as Project)
           return (
             <li className="mr-2 inline" key={project.id}>
-              <Link href={`/projects/${project.title}`}>
-                <a>{project.title}</a>
+              <Link href={`/projects/${slug}`}>
+                <a
+                  className="text-neutral-500 underline underline-offset-4"
+                  onClick={exitSearchMode}
+                >
+                  {project.title}
+                </a>
               </Link>
             </li>
           )

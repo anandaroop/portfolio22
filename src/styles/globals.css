@@ -19,6 +19,16 @@
     aspect-ratio: 4 / 3;
   }
 
+  .modal-styles {
+    box-shadow: 0 0 10px 10px #00000022;
+  }
+
+  .modal-styles::backdrop {
+    background: #99999999;
+  }
+
+  /* debugging styles */
+
   .hi,
   .hi1 {
     outline: solid 2px red;

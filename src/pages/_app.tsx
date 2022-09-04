@@ -13,7 +13,7 @@ const breakpoint_outline_styles =
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <SearchProvider>
-      <SearchDebug />
+      {/* <SearchDebug /> */}
       <SearchModal />
       {DEBUG_BREAKPOINTS && <Debugger />}
       <div className="min-h-screen bg-neutral-200 text-neutral-900 dark:bg-neutral-700 dark:text-neutral-300">
@@ -46,4 +46,4 @@ const Debugger = () => (
   </div>
 )
 
-const SearchDebug = () => <pre>{JSON.stringify(useSearch())}</pre>
+// const SearchDebug = () => <pre>{JSON.stringify(useSearch())}</pre>
