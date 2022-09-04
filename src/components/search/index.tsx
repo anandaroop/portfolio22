@@ -8,7 +8,7 @@ import React, {
 
 export const SearchModal: React.FC = () => {
   const dialogRef = useRef<HTMLDialogElement>(null)
-  const { inSearchMode, exitSearchMode } = useSearch()
+  const { inSearchMode, enterSearchMode, exitSearchMode } = useSearch()
 
   useEffect(() => {
     const dialog = dialogRef.current
@@ -27,9 +27,18 @@ export const SearchModal: React.FC = () => {
     // modal state updates app state
     dialog.addEventListener("close", exitSearchMode)
 
+    // listen for hotkey
+    const listenForHotKey = (e: KeyboardEvent) => {
+      if (e.key == "k" && e.metaKey) enterSearchMode()
+    }
+    window.addEventListener("keydown", listenForHotKey)
+
     // clean up
-    return () => dialog.removeEventListener("close", exitSearchMode)
-  }, [inSearchMode, exitSearchMode])
+    return () => {
+      dialog.removeEventListener("close", exitSearchMode)
+      window.removeEventListener("keydown", listenForHotKey)
+    }
+  }, [inSearchMode, exitSearchMode, enterSearchMode])
 
   return (
     <dialog ref={dialogRef}>
