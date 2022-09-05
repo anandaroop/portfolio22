@@ -1,6 +1,7 @@
 export type Client = {
   id: number
   name: string
+  Projects: Project[]
 }
 
 export type Project = {

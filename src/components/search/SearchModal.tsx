@@ -1,11 +1,11 @@
-import type { Project } from "~/types"
+import type { Client, Project } from "~/types"
 import type { ClientDocument, ProjectDocument, TagDocument } from "./engine"
 
 import React, { useEffect, useRef } from "react"
 import Link from "next/link"
 
 import { useSearch } from "./SearchContext"
-import { getSlugFromProject } from "~/lib/slugs"
+import { getSlugFromClient, getSlugFromProject } from "~/lib/slugs"
 import { SearchEngine } from "./engine"
 
 const searchEngine = SearchEngine.create()
@@ -119,6 +119,7 @@ const MatchingTags: React.FC<{ tags: Partial<TagDocument>[] }> = ({ tags }) => {
 const MatchingClients: React.FC<{ clients: Partial<ClientDocument>[] }> = ({
   clients,
 }) => {
+  const { exitSearchMode } = useSearch()
   if (!clients.length) return null
 
   return (
@@ -126,10 +127,14 @@ const MatchingClients: React.FC<{ clients: Partial<ClientDocument>[] }> = ({
       <h3 className="mt-2 font-bold lg:mt-4">Clients</h3>
       <ul className="leading-7 lg:leading-9">
         {clients.map((client) => {
+          const slug = getSlugFromClient(client as unknown as Client)
           return (
             <li className="mr-2 inline-block" key={client.id}>
-              <Link href={`/`}>
-                <a className="text-neutral-500 underline underline-offset-4">
+              <Link href={`/clients/${slug}`}>
+                <a
+                  className="text-neutral-500 underline underline-offset-4"
+                  onClick={exitSearchMode}
+                >
                   {client.name}
                 </a>
               </Link>
