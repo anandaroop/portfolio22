@@ -56,3 +56,9 @@ dark mode
 
 hydration error
 : can be caused by invalid html nesting (&lt;a&gt; inside of &lt;a&gt;)
+
+email obfuscation
+: mailtrap's concatenation technique
+
+modals
+: native dialog with inert + diy scroll lock
