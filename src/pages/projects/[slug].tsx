@@ -2,10 +2,15 @@ import type { NextPage } from "next"
 import type { Project } from "~/types"
 
 import Head from "next/head"
+import Link from "next/link"
 import { gql } from "graphql-request"
 
 import { fetchData } from "~/lib/fetchData"
-import { getIdFromSlug, getSlugFromProject } from "~/lib/slugs"
+import {
+  getIdFromSlug,
+  getSlugFromClient,
+  getSlugFromProject,
+} from "~/lib/slugs"
 import { SlideShow } from "~/components/project/SlideShow"
 import { VimeoClips } from "~/components/project/VimeoClips"
 
@@ -14,6 +19,7 @@ interface Props {
 }
 
 const Page: NextPage<Props> = ({ project }) => {
+  const clientSlug = getSlugFromClient(project.Client)
   const photoSlides = project.Slides.filter((slide) => !slide.clip)
   const videoClips = project.Slides.filter((slide) => !!slide.clip)
 
@@ -34,7 +40,12 @@ const Page: NextPage<Props> = ({ project }) => {
         </h2>
 
         <div className="my-2 p-1 text-lg font-medium md:text-xl lg:text-2xl">
-          {project.Client.name}, {project.year}
+          <Link href={`/clients/${clientSlug}`}>
+            <a className="underline-offset-2 hover:underline">
+              {project.Client.name}
+            </a>
+          </Link>
+          , {project.year}
         </div>
 
         <div
@@ -99,6 +110,7 @@ export async function getStaticProps(context: Context) {
           month
           description
           Client {
+            id
             name
           }
           Slides {
