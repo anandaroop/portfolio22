@@ -1,0 +1,2942 @@
+{
+  "projects": [
+    {
+      "id": "5",
+      "title": "2004 Pro-Choice Electoral Map",
+      "subtitle": "",
+      "year": 2004,
+      "description": "An interactive electoral map allowing users to track election results for pro-choice contenders in Senate, House and governor's races.",
+      "client_name": "Women's eNews",
+      "thumbnail": "/slides/11/200-square/0411-wEnews-1.webp",
+      "slide_captions": [
+        "Before the election.",
+        "After the election."
+      ],
+      "slide_tags": [
+        "cartogram",
+        "electoral",
+        "interactive",
+        "thematic",
+        "usa",
+        "webmaps"
+      ]
+    },
+    {
+      "id": "54",
+      "title": "2006 Midterm Analysis",
+      "subtitle": "",
+      "year": 2007,
+      "description": "These slides come from a series of visualizations created to help contextualize the major shifts that took place during the November 2006 US midterm elections.",
+      "client_name": "New World Foundation",
+      "thumbnail": "/slides/99/200-square/02-Latino-vote-by-party_-19.webp",
+      "slide_captions": [
+        "Latino vote by party, 1996–2006 — The Latino vote had been tilting towards the Republican party for several election cycles, a trend which sharply reversed in 2006, most likely due to the Republican-led attack on immigrants (HR 4437 etc.) which took place earlier in the year.",
+        "Latinos remain more antiwar than general population",
+        "Latino midterm turnout surges in 2006 — In contrast to the population at large, Latino midterm electoral participation surged, presumably thanks to Sensenbrenner et al.",
+        "Republican losses at the state level, 2006",
+        "Republican losses in state legislatures",
+        "Republican losses in governorships",
+        "Increasing rejection of antigay ballot measures",
+        "Republican losses among faith communities",
+        "Nation’s most urgent moral crises — This slide dramatizes the importance of issues of justice and poverty to religious voters, rather than the divisive culture-war issues which get more headlines.",
+        "Changing youth demographics, 1976–2006"
+      ],
+      "slide_tags": [
+        "cartogram",
+        "chart",
+        "electoral",
+        "thematic",
+        "usa"
+      ]
+    },
+    {
+      "id": "62",
+      "title": "A Handbook of the Collection",
+      "subtitle": "",
+      "year": 2008,
+      "description": "<p>\r\nWhen NAMA published in 2008 the first update to its <i>Handbook</i> in fifteen years, they asked me to create this series of four maps to introduce the various sections. I took the opportunity to employ a technique for creating natural-color maps, in which the map's palette is based on ground cover (grassland, desert, etc) rather than the more common method of using elevation to determine the map's coloration.</p>",
+      "client_name": "Nelson-Atkins Museum of Art",
+      "thumbnail": "/slides/142/200-square/South-Asia-v7.webp",
+      "slide_captions": [
+        "South Asia",
+        "Africa",
+        "China",
+        "North America"
+      ],
+      "slide_tags": [
+        "africa",
+        "americas",
+        "asia",
+        "book",
+        "china",
+        "historical",
+        "natural-color",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Adorning the World",
+      "subtitle": "Art of the Marquesas Islands",
+      "year": 2005,
+      "description": "The Marquesas Islands group in the South Pacific.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/75/200-square/0502-Marquesas.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "133",
+      "title": "Afghanistan",
+      "subtitle": "Forging Civilizations along the Silk Road",
+      "year": 2012,
+      "description": "<p>Maps for inclusion in a symposium volume.</p>",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/287/200-square/1204-Silk-Road-v7-Final.webp",
+      "slide_captions": [
+        "Afghanistan and the Silk Road",
+        "Afghanistan region"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "europe",
+        "historical",
+        "natural-color",
+        "silk-road",
+        "south-asia",
+        "topo",
+        "trade"
+      ]
+    },
+    {
+      "id": "40",
+      "title": "All the Mighty World",
+      "subtitle": "The Photographs of Roger Fenton, 1852-1860",
+      "year": 2004,
+      "description": "Map of United Kingdom showing sites important to Fenton's work.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/71/200-square/0407-Fenton.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "59",
+      "title": "Ancient Near East Gallery",
+      "subtitle": "",
+      "year": 2007,
+      "description": "This map, for a text panel in the Ancient Near East galleries at the Metropolitan, shows the Parthian homeland and empire in the third century BCE.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/132/200-square/ANE-Wall-Map-v3.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "exhibition",
+        "historical",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "50",
+      "title": "Art of Africa",
+      "subtitle": "Teachers' Resource Kit",
+      "year": 2006,
+      "description": "Printed map insert to be included in a kit of teaching materials.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/93/200-square/0609-Africa-Kit.webp",
+      "slide_captions": [
+        "Overview map of Africa",
+        "Detail of West Africa"
+      ],
+      "slide_tags": [
+        "africa",
+        "topo"
+      ]
+    },
+    {
+      "id": "135",
+      "title": "Art of German Stoneware",
+      "subtitle": "",
+      "year": 2012,
+      "description": "<p>Stoneware production centers in northern Europe</p>\n",
+      "client_name": "Philadelphia Museum of Art",
+      "thumbnail": "/slides/290/200-square/1202-Stoneware-v5-Final.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "exhibition"
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Art of the First Cities",
+      "subtitle": "The Third Millenium B.C. from the Mediterranean to the Indus",
+      "year": 2003,
+      "description": "",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/49/200-square/0301-First-Cities-Modern.webp",
+      "slide_captions": [
+        "Overall map showing ancient and modern locations in the regions spanned by this exhibition on early civilizations.",
+        "Map of the Near East during the Late Uruk and Early Dynastic periods.",
+        "Map of Near East showing the Ur III state at its greatest extent.",
+        "Map of Near East showing the Akkadian empire at its greatest extent.",
+        "Map of regional trade <i>in situ</i> at the Met."
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "empire",
+        "exhibition",
+        "historical",
+        "mesopotamia",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "72",
+      "title": "Art of the Korean Renaissance",
+      "subtitle": "",
+      "year": 2009,
+      "description": "A simple map of Korea, included in an exhibition on art from the first 200 years of the Joseon dynasty.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/170/200-square/Korea v3.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition"
+      ]
+    },
+    {
+      "id": "153",
+      "title": "Bartholomeus Spranger",
+      "subtitle": "Splendor and Eroticism in Imperial Prague",
+      "year": 2014,
+      "description": "<p>Map of Bartholomeus Spranger's travels throughout the Holy Roman Empire, to accompany a survey of his paintings, drawings, and etchings.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/332/200-square/1408-Spranger-Map-v3.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Bayou Bend Gardens",
+      "subtitle": "",
+      "year": 2005,
+      "description": "A plan of the grounds of Bayou Bend, formerly the estate of Ima Hogg, now a museum of American decorative arts.",
+      "client_name": "Museum of Fine Arts, Houston",
+      "thumbnail": "/slides/5/200-square/0510-MFAH-Bayou-Bend-Garden.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "large-scale",
+        "plan"
+      ]
+    },
+    {
+      "id": "157",
+      "title": "Becoming Another",
+      "subtitle": "The Power of Masks",
+      "year": 2015,
+      "description": "<p>Maps to accompany an exhibition highlighting the commonality in mask traditions from Asia, Siberia and the Americas</p>\n",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/341/200-square/1502-Northern-Hemisphere-Azimuthal-EA.webp",
+      "slide_captions": [
+        "Polar azimuthal view of the northern hemisphere",
+        "The northwest coast of the Americas"
+      ],
+      "slide_tags": [
+        "americas",
+        "asia",
+        "exhibition",
+        "world"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Between Two Cultures",
+      "subtitle": "Chinese Paintings from the Robert H. Ellsworth Collection",
+      "year": 2001,
+      "description": "A simple map of China, used as an endpaper design.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/25/200-square/0101-Ellsworth.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "china"
+      ]
+    },
+    {
+      "id": "63",
+      "title": "Beyond Babylon",
+      "subtitle": "Art, Trade, and Diplomacy in the Second Millennium B.C.",
+      "year": 2008,
+      "description": "I created these maps for an exhibition on the extensive trade interconnections in the Mediterranean world and beyond during the second millennium B.C.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/146/200-square/Overall-v19-Final-Art.webp",
+      "slide_captions": [
+        "The Indus to the Mediterranean, Second Millenium B.C.",
+        "Much of the information in this exhibition came from the contents of the <a href=\"http://en.wikipedia.org/wiki/Ulu_Burun\">Uluburun shipwreck</a>, whose original trading routes are shown in this map."
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "140",
+      "title": "Beyond Babylon (Symposium)",
+      "subtitle": "Art, trade, and diplomacy in the second millennium B.C.",
+      "year": 2013,
+      "description": "<p>Included in a publication following a symposium about the 2008 exhibition.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/306/200-square/1302-General-Revised-v7.webp",
+      "slide_captions": [
+        "The Ancient Near East and the Eastern Mediterranean"
+      ],
+      "slide_tags": [
+        "book",
+        "historical",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "154",
+      "title": "Buddhist Art of Myanmar",
+      "subtitle": "",
+      "year": 2014,
+      "description": "<p>Maps to accompany a pioneering exhibition of Buddhist art from Myanmar (formerly known as Burma).</p>\n",
+      "client_name": "Asia Society",
+      "thumbnail": "/slides/333/200-square/1408-1-Asia-Overall.webp",
+      "slide_captions": [
+        "Asia",
+        "Myanmar"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Building the New Majority",
+      "subtitle": "",
+      "year": 2005,
+      "description": "A cartogram for the 2004 US presidential election dramatizing the concentration of \"blue voters\" in metropolitan areas rather than in the blue states as such.",
+      "client_name": "New World Foundation",
+      "thumbnail": "/slides/4/200-square/0510-NWF-NMF-Electoral.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "cartogram",
+        "electoral",
+        "thematic",
+        "usa"
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Byzantium",
+      "subtitle": "Faith and Power (1261-1557)",
+      "year": 2003,
+      "description": "",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/65/200-square/0312-Byzantium-North.webp",
+      "slide_captions": [
+        "Overall map of Byzantium and surrounding regions.",
+        "Detail map showing the gradual dissolution of the Byzantine empire."
+      ],
+      "slide_tags": [
+        "book",
+        "empire",
+        "europe",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "131",
+      "title": "Byzantium and Islam",
+      "subtitle": "Age of Transition",
+      "year": 2011,
+      "description": "<p>Byzantium and Islam 7th–9th c.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/285/200-square/1112-Byzantium-Final-with-no-bleed.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "africa",
+        "book",
+        "europe",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "147",
+      "title": "Captain Linnaeus Tripe",
+      "subtitle": "Photographer of India and Burma, 1852–1860",
+      "year": 2014,
+      "description": "<p>Two maps commissioned by the National Gallery of Art for a book and exhibition surveying photographs made by Linnaeus Tripe in British India and Burma in the 1850s.</p>\n",
+      "client_name": "National Gallery of Art",
+      "thumbnail": "/slides/322/200-square/1404-Tripe-Map-1-v2-Final.webp",
+      "slide_captions": [
+        "British India and Burma",
+        "South India"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "historical",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "41",
+      "title": "China",
+      "subtitle": "Dawn of a Golden Age, 200-750 AD",
+      "year": 2004,
+      "description": "",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/72/200-square/0407-Golden-Age-Silk-Road.webp",
+      "slide_captions": [
+        "Map of important Silk Road trading posts in China.",
+        "Overall map of China with sites from Late Han to High Tang period."
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "china",
+        "exhibition",
+        "historical",
+        "silk-road",
+        "topo"
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Chinese Architecture",
+      "subtitle": "",
+      "year": 2002,
+      "description": "Part of the monumental <i>Culture and Civilization of China</i> series.",
+      "client_name": "Yale University Press",
+      "thumbnail": "/slides/39/200-square/0207-China.webp",
+      "slide_captions": [
+        "This book employs several maps based on this standard. Custom-generated topographic shaded relief, printed four-color.",
+        "The book also includes dozens of plans of towns and palace complexes, all prepared according to these standards."
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "china",
+        "city",
+        "large-scale",
+        "plan",
+        "topo"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Chinese Sculpture",
+      "subtitle": "",
+      "year": 2005,
+      "description": "More maps of China in the monumental series from Yale UP.",
+      "client_name": "Yale University Press",
+      "thumbnail": "/slides/6/200-square/0510-Yale-China-Sculpture-B.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "china",
+        "topo"
+      ]
+    },
+    {
+      "id": "1",
+      "title": "City of Memory",
+      "subtitle": "",
+      "year": 2006,
+      "description": "<p>\r\n<a href=\"http://www.localprojects.net\">Local Projects</a>, in collaboration with <a href=\"http://www.citylore.org/\">CityLore</a>, is developing City of Memory, a map-based interface to an archive of stories about New York City. City of Memory is scheduled to launch in late 2006.\r\n</p>\r\n<p>\r\nI created the dynamic mapping backend using a combination of open-source geospatial software and public-domain data, as well as more traditional cartographic illustration software.\r\n</p>\r\n",
+      "client_name": "Local Projects",
+      "thumbnail": "/slides/1/200-square/CofM-Prototype-1.webp",
+      "slide_captions": [
+        "Five-borough view of NYC.",
+        "Zoomed into a story."
+      ],
+      "slide_tags": [
+        "city",
+        "gis",
+        "interactive",
+        "large-scale",
+        "nyc",
+        "webmaps",
+        "website"
+      ]
+    },
+    {
+      "id": "76",
+      "title": "Cochineal Red",
+      "subtitle": "",
+      "year": 2010,
+      "description": "Maps showing the origin and cultivation of the various cochineal and other red-dye scale insects from which red colorants have been derived.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/175/200-square/Eurasia-v5.webp",
+      "slide_captions": [
+        "Red-dye scale insect ranges in Eurasia and Africa",
+        "Cochineal insects in the Americas",
+        "Trade pathways for cochineal red"
+      ],
+      "slide_tags": [
+        "africa",
+        "americas",
+        "asia",
+        "book",
+        "empire",
+        "europe",
+        "historical",
+        "science",
+        "thematic",
+        "topo",
+        "world"
+      ]
+    },
+    {
+      "id": "75",
+      "title": "Colburn's Butte",
+      "subtitle": "",
+      "year": 2009,
+      "description": "A map to accompany an article by Kevin J. Avery in the Met's scholarly journal.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/173/200-square/Colburn v4.webp",
+      "slide_captions": [
+        "This map of Zion National Park shows the location of Colburn's Butte, (now known as Tucupit Point), the subject of a watercolor made by American artist Thomas Moran in the 1870s.",
+        "Cover of Journal issue no. 44, showing Moran's watercolor of Colburn's Butte."
+      ],
+      "slide_tags": [
+        "book",
+        "historical",
+        "topo",
+        "usa"
+      ]
+    },
+    {
+      "id": "142",
+      "title": "Creating the Cloisters",
+      "subtitle": "",
+      "year": 2013,
+      "description": "<p>The Met published a special edition of its <i>Bulletin</i> for the 75th anniversary of The Cloisters, detailing its development in the early 20th century. This map shows the the consolidation of properties and the creation of roads and services that resulted in Fort Tryon Park, in which The Cloisters is situated.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/308/200-square/1304-Cloisters-v7-Final.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "city",
+        "historical",
+        "large-scale",
+        "nyc",
+        "plan"
+      ]
+    },
+    {
+      "id": "53",
+      "title": "Cropsey",
+      "subtitle": "",
+      "year": 2007,
+      "description": "<p>\r\nRaw footage of animated maps for <a href=\"http://www.ghostrobot.com/features/2000/08/cropsey.html\">Cropsey</a>, an upcoming \"horror documentary\" about child abductions—both rumored and real—in New York City.\r\n</p>\r\n\r\n<p>\r\nThe action takes place on Staten Island, probably the least well-known of the five boroughs of NYC. The directors therefore wanted to use maps to aid the storytelling.\r\n</p>\r\n",
+      "client_name": "Ghost Robot",
+      "thumbnail": "/slides/98/200-square/cropsey.webp",
+      "slide_captions": [
+        "Montage of raw footage"
+      ],
+      "slide_tags": [
+        "city",
+        "film",
+        "large-scale",
+        "motion",
+        "nyc"
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Detainee Map",
+      "subtitle": "Thousand Points Of Light",
+      "year": 2005,
+      "description": "Digital artist JT Nimoy, Naeem Mohaiemen and I created this map visualization of the geographic distribution of post-9/11 mass detentions in the US. It is part of the <a href=\"http://disappearedinamerica.org/\">Disappeared in America</a> project, and the map was accepted into <a href=\"http://10.futuresonic.com/urban_play/off_the_map_projects/index.html\">Futuresonic 2006</a> in Manchester.\r\n",
+      "client_name": "Visible Collective",
+      "thumbnail": "/slides/79/200-square/dia.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "cartogram",
+        "interactive",
+        "usa",
+        "webmaps",
+        "website"
+      ]
+    },
+    {
+      "id": "164",
+      "title": "Divine Pleasures",
+      "subtitle": "Painting from India's Rajput Courts",
+      "year": 2016,
+      "description": "<p>Map of south Asia for <a href=\"http://www.metmuseum.org/exhibitions/listings/2016/divine-pleasures\">Divine Pleasures: Painting from India's Rajput Courts—The Kronos Collections</a>.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/365/200-square/1605-Kronos-Map-v5b-Final.webp",
+      "slide_captions": [
+        "Sites in Rajasthan and Punjab Hills"
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "historical",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "130",
+      "title": "Durer and Beyond",
+      "subtitle": "Central European Drawings in The Metropolitan Museum of Art, 1400-1700",
+      "year": 2011,
+      "description": "<p>Central Europe</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/284/200-square/1112-Durer-Map-v6.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "exhibition",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "151",
+      "title": "Embodiments",
+      "subtitle": "Masterworks of African Figurative Sculpture",
+      "year": 2014,
+      "description": "<p>Map of over 100 cultural groups for an exhibition of sculptures from sub-Saharan Africa.</p>\n",
+      "client_name": "Fine Arts Museum of San Francisco",
+      "thumbnail": "/slides/330/200-square/1409-Africa-Map-v11-Final.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "africa",
+        "book",
+        "exhibition",
+        "thematic",
+        "topo"
+      ]
+    },
+    {
+      "id": "155",
+      "title": "Ennion",
+      "subtitle": "Master of Roman Glass",
+      "year": 2014,
+      "description": "<p>These maps of production centers and find spots of Roman hand-blown glass accompanied an exhibition of the work of Ennion, one of the few ancient glass makers who signed his work.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/335/200-square/1410-Ennion-Overall.webp",
+      "slide_captions": [
+        "Roman Empire, ca. AD 14",
+        "Detail of Italy"
+      ],
+      "slide_tags": [
+        "book",
+        "empire",
+        "europe",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "55",
+      "title": "Eternal Ancestors",
+      "subtitle": "The Art of the Central African Reliquary",
+      "year": 2007,
+      "description": "From a series of maps showing the locations of various historical central African cultures, as well as the physical geography of the region.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/109/200-square/1-Groups-Displayed-v9.webp",
+      "slide_captions": [
+        "",
+        ""
+      ],
+      "slide_tags": [
+        "africa",
+        "book",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "127",
+      "title": "Fire and Sand",
+      "subtitle": "Ancient Glass in the Princeton University Art Museum",
+      "year": 2012,
+      "description": "<p>Map of the eastern Mediterannean.</p>\n",
+      "client_name": "Princeton University Art Museum",
+      "thumbnail": "/slides/272/200-square/1210-Princeton-Fire-Sand.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "europe",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "78",
+      "title": "Gateway to Himalayan Art",
+      "subtitle": "",
+      "year": 2010,
+      "description": "I worked with <a href=\"http://www.rbhmedia.com/\">RBH</a> to produce a large (roughly 15'×7') backlit map installation for <i>Gateway to Himalayan Art</i>, a new exhibition on permanent display on the second floor of the Rubin. This map artwork served as the basis for that installation.",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/179/200-square/Asia Final 1000px.webp",
+      "slide_captions": [
+        "Overall view",
+        "Detail view"
+      ],
+      "slide_tags": [
+        "asia",
+        "exhibition",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Genesis",
+      "subtitle": "Ideas of Origin in African Sculpture",
+      "year": 2002,
+      "description": "",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/41/200-square/0207-Genesis-Africa.webp",
+      "slide_captions": [
+        "An overall map of Africa, showing locations of traditional cultures.",
+        "A detail map of West Africa, showing the range of the Bamana peoples in Mali."
+      ],
+      "slide_tags": [
+        "africa",
+        "book",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Global Islands",
+      "subtitle": "Une Agora Reunionnaise",
+      "year": 2004,
+      "description": "I worked with artist Caecilia Tripp, during her P.S.1 residency in Queens, to create this map-derived artwork showing the \"ultraperiphery\" (remote, non-sovereign island territories) of Europe. The map was used as part of an installation at Office Roomade in Brussels.",
+      "client_name": "Caecilia Tripp",
+      "thumbnail": "/slides/67/200-square/0405-Ultraperipheries.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "empire",
+        "exhibition",
+        "world"
+      ]
+    },
+    {
+      "id": "134",
+      "title": "Gutai",
+      "subtitle": "Splendid Playground",
+      "year": 2012,
+      "description": "<p>Map of sites and selected prefectures in the Kansai region of Japan for an exhibition of the postwar Gutai collective of modernist artists.</p>",
+      "client_name": "Guggenheim Museum",
+      "thumbnail": "/slides/289/200-square/Kansai-v7-Darker.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition"
+      ]
+    },
+    {
+      "id": "48",
+      "title": "Hatshepsut",
+      "subtitle": "From Queen to Pharaoh",
+      "year": 2005,
+      "description": "Maps to accompany an exhibition about Hatshepsut, female pharaoh of Egypt's 18th dynasty, who presided over a time of economic prosperity and artistic innovation.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/89/200-square/Egypt_v6.webp",
+      "slide_captions": [
+        "Egypt, at the time of Hatshepsut",
+        "Kingdom of Nubia and the upper Nile"
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Her Noise",
+      "subtitle": "",
+      "year": 2005,
+      "description": "<p>\r\nThis whimsical diagram does more to obfuscate, rather than elucidate, the interrelationships between several generations of female experimental musicians.\r\n</p>\r\n\r\n<p>\r\nIt was used as an exhibition catalogue cover for an exhibit at South London Gallery of newly commissioned works by five women sound artists.\r\n</p>\r\n",
+      "client_name": "Forma",
+      "thumbnail": "/slides/84/200-square/Her-Noise-Final.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition"
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Heritage of Power",
+      "subtitle": "Ancient Sculpture from West Mexico; The Andrall E. Pearson Family Collection",
+      "year": 2004,
+      "description": "Map of western Mexico",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/68/200-square/0406-Pearson.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "americas",
+        "book",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "96",
+      "title": "Heroic Africans",
+      "subtitle": "",
+      "year": 2011,
+      "description": "<p>A series of maps for an exhibition of regional sculptural traditions that prevailed throughout precolonial Africa.</p>",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/206/200-square/Africa-v7.webp",
+      "slide_captions": [
+        "Africa, showing peoples highlighted in the exhibition",
+        "Ife, Oyo, Benin",
+        "Akan speaking peoples",
+        "The Grassfields region",
+        "Chokwe and Luluwa",
+        "Kuba",
+        "Hemba"
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "thematic",
+        "topo"
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Hunt for Paradise",
+      "subtitle": "Court Arts of Iran, 1501-1576",
+      "year": 2003,
+      "description": "A map of Iran during the Safavid period.",
+      "client_name": "Asia Society",
+      "thumbnail": "/slides/63/200-square/0308-Safavid.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "mesopotamia",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "49",
+      "title": "I See No Stranger",
+      "subtitle": "Early Sikh Art and Devotion",
+      "year": 2006,
+      "description": "Gallery wall maps for an exhibition of early Sikh devotional art.",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/91/200-square/0609-I-See-No-Stranger-Indi.webp",
+      "slide_captions": [
+        "The expansion of the Mughal empire in the 17th century.",
+        "Map of the Punjab region, spanning modern Pakistan and India."
+      ],
+      "slide_tags": [
+        "asia",
+        "empire",
+        "exhibition",
+        "historical",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "71",
+      "title": "IFPDA.org",
+      "subtitle": "",
+      "year": 2008,
+      "description": "I worked with <a href=\"http://www.mediacombo.net \">MediaCombo</a> to implement a new website for the <a href=\"http://www.ifpda.org \">International Fine Print Dealers Association</a>, built using the open-source Drupal content management system.",
+      "client_name": "International Fine Print Dealers Association",
+      "thumbnail": "/slides/166/200-square/HOMEPAGE.webp",
+      "slide_captions": [
+        "Homepage",
+        "The focus of IFPDA.org is on the member dealers who make up the association. Each member has a dedicated page detailing collecting areas, upcoming exhibitions and currently available works.",
+        "The site also is home to a database of 2000+ artists, each one of whom gets page showing which member dealers are currently offering their works.",
+        "IFPDA offers a comprehensive international calendar relating to the world of prints: exhibitions, art fairs and other special events."
+      ],
+      "slide_tags": [
+        "drupal",
+        "website"
+      ]
+    },
+    {
+      "id": "143",
+      "title": "Interwoven Globe",
+      "subtitle": "The Worldwide Textile Trade, 1500–1800",
+      "year": 2013,
+      "description": "<p>Maps for an exhibition and book surveying the burgeoning global trade in textiles from the 16th to the 19th centures.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/309/200-square/1307-Overall-Europe-Asia-v5.webp",
+      "slide_captions": [
+        "European Maritime Trade Routes to Africa and Asia in the Early Modern Period (endpaper)",
+        "European Maritime Trade Routes to the Americas in the Early Modern Period (endpaper)",
+        "Americas",
+        "Middle East",
+        "East Asia",
+        "South and southeast Asia"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "natural-color",
+        "topo",
+        "trade",
+        "world"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Irving Galleries Wall Maps",
+      "subtitle": "",
+      "year": 2005,
+      "description": "New maps for the walls of the Florence and Herbert Irving Galleries for the Arts of South and Southeast Asia.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/12/200-square/0507-Irving-Southeast-Asia.webp",
+      "slide_captions": [
+        "Map of Southeast Asia.",
+        "Map of South Asia."
+      ],
+      "slide_tags": [
+        "asia",
+        "exhibition",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "58",
+      "title": "Islam in Southeast Asia",
+      "subtitle": "",
+      "year": 2007,
+      "description": "<p>The Asia Society commissioned me to create a series of maps for a school curriculum on the history of <a href=\"http://asiasociety.org/education/islam_in_seasia/\">Islam in Southeast Asia</a>.</p>\r\n\r\n<p>We developed political, physical shaded relief, and thematic maps for each of the following regions: Eurasia, southeast Asia, and the Indo-Malay archipelago.</p>",
+      "client_name": "Asia Society",
+      "thumbnail": "/slides/118/200-square/06_SE_Asia_Physical_v6.webp",
+      "slide_captions": [
+        "Physical Map of Southeast Asia",
+        "Maritime Trade in Southeast Asia",
+        "Colonial Powers in Southeast Asia",
+        "Southeast Asia: Conversion to Islam",
+        "Southeast Asia: Dominant Religions, circa 2000",
+        "Linguistic Families and Preponderant Groups of Southeast Asia",
+        "Physical Map of Indo-Malay Region",
+        "Trade Links of Melaka, ca. 1500",
+        "Land & Sea Elevations of Indo-Malay Region"
+      ],
+      "slide_tags": [
+        "asia",
+        "historical",
+        "thematic",
+        "topo"
+      ]
+    },
+    {
+      "id": "139",
+      "title": "Islamic Teacher Resource Kit",
+      "subtitle": "",
+      "year": 2012,
+      "description": "<p>Adapted from the maps I created for the new Islamic Art wing, these were included in a resource kit for K-12 educators.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/301/200-square/1208-1-Overall-v7.webp",
+      "slide_captions": [
+        "The Islamic World",
+        "The Silk Road and Related Trade Routes",
+        "The Ottoman Empire in the Late 1600s",
+        "The Mongol Empire in the Early 1300s",
+        "Mamluk, Ottoman, and Venetian Territories in the Early 1500s"
+      ],
+      "slide_tags": [
+        "africa",
+        "asia",
+        "empire",
+        "europe",
+        "historical",
+        "middle-east",
+        "natural-color",
+        "silk-road",
+        "topo",
+        "trade",
+        "world"
+      ]
+    },
+    {
+      "id": "82",
+      "title": "Italian Medieval Sculpture",
+      "subtitle": "",
+      "year": 2010,
+      "description": "Map for a volume surveying the Met's entire collection of Italian sculpture from the 9th to the 15th centuries",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/189/200-square/Italy v8.webp",
+      "slide_captions": [
+        "Italy"
+      ],
+      "slide_tags": [
+        "book",
+        "historical"
+      ]
+    },
+    {
+      "id": "65",
+      "title": "James Castle",
+      "subtitle": "",
+      "year": 2008,
+      "description": "Map for a retrospective of the work of James Castle (1899–1977), an artist from rural Idaho.",
+      "client_name": "Philadelphia Museum of Art",
+      "thumbnail": "/slides/151/200-square/Castle v4f.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "topo",
+        "usa"
+      ]
+    },
+    {
+      "id": "74",
+      "title": "Kantha",
+      "subtitle": "",
+      "year": 2009,
+      "description": "This map illustrated an exhibition of embroidered quilts from the Jill and Sheldon Bonovitz and the Stella Kramrisch Collections.",
+      "client_name": "Philadelphia Museum of Art",
+      "thumbnail": "/slides/172/200-square/Bengal v9.webp",
+      "slide_captions": [
+        "Modern West Bengal and Bangladesh, as well as the historical extent of undivided Bengal."
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "historical",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "162",
+      "title": "Kongo",
+      "subtitle": "Power and Majesty",
+      "year": 2015,
+      "description": "<p>Series of maps for <a href=\"http://www.metmuseum.org/press/exhibitions/2015/kongo\">Kongo: Power and Majesty</a>, the Met's landmark survey of Central African art from the 15th to the 20th centuries.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/359/200-square/1506-1-General-v6.webp",
+      "slide_captions": [
+        "Overall map of West Central Africa",
+        "Kingdom of Loango",
+        "Spread of Christianity in Kongo (early period)",
+        "Spread of Christianity in Kongo (late period)",
+        "Chiloango basin, with inset of European colonial spheres of influence after the 1884 Berlin Conference"
+      ],
+      "slide_tags": [
+        "africa",
+        "book",
+        "empire",
+        "exhibition",
+        "historical",
+        "thematic",
+        "topo"
+      ]
+    },
+    {
+      "id": "66",
+      "title": "Landscapes Clear and Radiant",
+      "subtitle": "",
+      "year": 2008,
+      "description": "Maps of eastern China for an exhibition of landscape paintings by the late 17th-century artist Wang Hui.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/152/200-square/1 China v5.webp",
+      "slide_captions": [
+        "Route of the The Kangxi Emperor's Southern Inspection tour of 1689, which Wang Hui was commissioned to commemorate.",
+        "Jiangnan"
+      ],
+      "slide_tags": [
+        "book",
+        "china",
+        "exhibition",
+        "historical",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Loft Movement",
+      "subtitle": "",
+      "year": 2006,
+      "description": "Brent Edwards, professor of English at Rutgers University, and a cultural historian of jazz, asked me to produce some maps illustrating important locations in the downtown New York jazz scene of the 1970s. This period is sometimes known as the \"loft movement.\"",
+      "client_name": "Brent Edwards",
+      "thumbnail": "/slides/76/200-square/Lofts-v5.webp",
+      "slide_captions": [
+        "Loft locations.",
+        "Nightclub locations.",
+        "Theater locations."
+      ],
+      "slide_tags": [
+        "book",
+        "city",
+        "nyc",
+        "presentation"
+      ]
+    },
+    {
+      "id": "146",
+      "title": "Lost Kingdoms",
+      "subtitle": "Hindu-Buddhist Sculpture of Early Southeast Asia",
+      "year": 2014,
+      "description": "<p>Maps for a landmark exhibition of sculpture from the Hindu and Buddhist kingdoms which flourished in Southeast Asia from the 5th to the 9th centuries.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/318/200-square/1402-1-Southeast-Asia-Overview-v4-Final.webp",
+      "slide_captions": [
+        "Southeast Asia and the Indian Ocean World",
+        "Mainland Southeast Asia in the First Millennium",
+        "Peninsular and Insular Southeast Asia in the First Millennium",
+        "Ancient kingdoms with approximate locations and dates"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "historical",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "148",
+      "title": "Map/Timeline for Educators",
+      "subtitle": "metmuseum.org",
+      "year": 2013,
+      "description": "<p>I worked with the Education department at the Met to create this interactive <a href=\"http://www.metmuseum.org/learn/for-educators/map\">map</a> and <a href=\"http://www.metmuseum.org/learn/for-educators/timeline\">timeline</a> resource to aid K-12 educators in finding lesson plans and other resources about artworks in the museum's collection.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/324/200-square/1-landing.webp",
+      "slide_captions": [
+        "<i>Find an Educator Resource</i> landing page with timeline",
+        "Timeline, full-screen mode, with filtered results and popup",
+        "Map, full-screen mode, with hover thumbnail",
+        "Map, full-screen mode, with filtered results and popup"
+      ],
+      "slide_tags": [
+        "interactive",
+        "webmaps",
+        "website"
+      ]
+    },
+    {
+      "id": "156",
+      "title": "Maps of Mexico",
+      "subtitle": "",
+      "year": 2014,
+      "description": "<p>Maps of Mexico for scholarly works by Silvia Arrom (<cite>Volunteering for a Cause: Gender, Faith, and Charity in Mexico from the Reform to the Revolution</cite>) and Randal Sheppard (<cite>Left-wing Exile in Mexico, 1934-60</cite>), published by the University of New Mexico Press.</p>\n",
+      "client_name": "Univ. of New Mexico Press",
+      "thumbnail": "/slides/337/200-square/1412-Map-1.webp",
+      "slide_captions": [
+        "Voluntary associations in turn of the century Mexico (mens' conferences)",
+        "Voluntary associations in turn of the century Mexico (womens' conferences)",
+        "Voluntary associations in turn of the century Jalisco",
+        "Polical map of Mexico"
+      ],
+      "slide_tags": [
+        "americas",
+        "book",
+        "cartogram",
+        "historical",
+        "thematic"
+      ]
+    },
+    {
+      "id": "138",
+      "title": "Measure of America",
+      "subtitle": "",
+      "year": 2011,
+      "description": "<p>Choropleth maps for a UNDP-style human development index (HDI) analysis of locales in the US.</p>\n",
+      "client_name": "Social Science Research Council",
+      "thumbnail": "/slides/297/200-square/1105-6-Economic-Regions-v4.webp",
+      "slide_captions": [
+        "HDI by region, California",
+        "Life expectancy, California",
+        "Income, Marin county",
+        "HDI, Marin county"
+      ],
+      "slide_tags": [
+        "book",
+        "cartogram",
+        "city",
+        "large-scale",
+        "thematic",
+        "usa"
+      ]
+    },
+    {
+      "id": "52",
+      "title": "MegaStructures: Science of Concrete",
+      "subtitle": "",
+      "year": 2006,
+      "description": "Raw footage of animated maps for \"MegaStructures: Science of Concrete\" in National Geographic Channel's <a href=\"http://channel.nationalgeographic.com/channel/megastructures/\">MegaStructures series</a>.\r\n",
+      "client_name": "National Geographic Channel",
+      "thumbnail": "/slides/97/200-square/panama.webp",
+      "slide_captions": [
+        "Montage of raw footage"
+      ],
+      "slide_tags": [
+        "americas",
+        "europe",
+        "motion",
+        "tv"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Metropolitan Museum Journal",
+      "subtitle": "",
+      "year": 2001,
+      "description": "An illustration for volume 36 of the Journal, which is the scholarly periodical published by the Met.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/29/200-square/0106-J36.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "europe",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "99",
+      "title": "Mirror of the Buddha",
+      "subtitle": "",
+      "year": 2011,
+      "description": "<p>A map accompanying an exhibition of Tibetan portraits at the Rubin, the third in series on Tibetan art. </p>",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/220/200-square/Map-1-v2-Final.webp",
+      "slide_captions": [
+        "",
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Monks & Merchants",
+      "subtitle": "Silk Road Treasures from Northwest China",
+      "year": 2001,
+      "description": "",
+      "client_name": "Asia Society",
+      "thumbnail": "/slides/26/200-square/0103-MM-Buddhist.webp",
+      "slide_captions": [
+        "Important Buddhist sites in Gansu and Ningxia.",
+        "A detail map of Gansu and Ningxia provinces, China.",
+        "A panoramic map of sites along the Silk Road, re-used by the Asia Society in multiple media."
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "china",
+        "exhibition",
+        "film",
+        "historical",
+        "silk-road",
+        "topo"
+      ]
+    },
+    {
+      "id": "60",
+      "title": "NBA Earth",
+      "subtitle": "",
+      "year": 2008,
+      "description": "<p>Wieden+Kennedy worked with me to create a basketball-themed layer for Google Earth as part of ESPN's \"Your NBA Destination\" advertising campaign.</p>\r\n\r\n<p>The layer consists of custom artwork, 3D models, and tons of so-called \"placemarks\" representing historical trivia, player hometowns, team arenas and as well as a couple of easter eggs.</p>\r\n\r\n<p>The <a href=\"http://nba.placemarked.com/kml\">KML file</a> can be loaded directly into Google Earth, or you can browse the video and screen captures here.</p>\r\n",
+      "client_name": "ESPN",
+      "thumbnail": "/slides/133/200-square/ge-init.webp",
+      "slide_captions": [
+        "Sample session in NBA Earth",
+        "Initial view of NBA Earth",
+        "This layer made extensive use of 3D models, custom placemarks and image overlays.",
+        "Choosing a placemark from the sidebar brings up a popup panel to display more information and solicit user submissions.",
+        "A glimpse of the geographic content management system I built in order to allow non-specialists to create and maintain placemarks without knowing any KML, the markup language for Google Earth."
+      ],
+      "slide_tags": [
+        "google-earth",
+        "interactive",
+        "website"
+      ]
+    },
+    {
+      "id": "68",
+      "title": "Napa Valley",
+      "subtitle": "",
+      "year": 2008,
+      "description": "Renowned design shop <a href=\"http://2x4.org/\">2x4</a> commissioned me to create artwork to be used in the packaging design for a Napa Valley <a href=\"http://danaestates.com/\">winery</a>.",
+      "client_name": "2x4",
+      "thumbnail": "/slides/158/200-square/Napa Valley (Matching 2x4 Final).webp",
+      "slide_captions": [
+        "Perspective rendering of Napa Valley, generated from USGS DEM data."
+      ],
+      "slide_tags": [
+        "perspective",
+        "topo"
+      ]
+    },
+    {
+      "id": "56",
+      "title": "New Galleries for Oceanic Art",
+      "subtitle": "",
+      "year": 2007,
+      "description": "Maps appearing in a book accompanying new galleries at the Met devoted to Oceanic Art.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/111/200-square/Oceania-v7.webp",
+      "slide_captions": [
+        "",
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "exhibition"
+      ]
+    },
+    {
+      "id": "161",
+      "title": "New York Air",
+      "subtitle": "The View From Above",
+      "year": 2015,
+      "description": "<p>Abrams commissioned me to devise endpaper maps, which could double as a visual table of contents, for <a href=\"http://www.abramsbooks.com/product/new-york-air_9781419717895/\">New York Air</a>, the latest book of aerial photography by George Steinmetz.</p>\n",
+      "client_name": "Abrams Books",
+      "thumbnail": "/slides/357/200-square/1505-1-Manhattan.webp",
+      "slide_captions": [
+        "Photographed sites / table of contents for Manhattan",
+        "Photographed sites / table of contents for greater New York"
+      ],
+      "slide_tags": [
+        "book",
+        "cartogram",
+        "city",
+        "large-scale",
+        "nyc"
+      ]
+    },
+    {
+      "id": "64",
+      "title": "Next Door Neighbors",
+      "subtitle": "",
+      "year": 2008,
+      "description": "<p>\r\nWNPT Nashville Public Television is producing a series called <a href=\"http://www.wnpt.org/productions/nextdoorneighbors/\"><i>Next Door Neighbors</i></a>, which examines Nashville’s growing role as an immigrant destination. The first two installments were on the Kurdish and Somali communities, and WNPT asked me to produce these HDTV-compatible maps for the episodes.\r\n</p>",
+      "client_name": "Nashville Public Television",
+      "thumbnail": "/slides/148/200-square/Kurdistan-Map-Final.webp",
+      "slide_captions": [
+        "\"Greater Kurdistan\"",
+        "Somalia",
+        "Bhutan"
+      ],
+      "slide_tags": [
+        "africa",
+        "asia",
+        "historical",
+        "middle-east",
+        "topo",
+        "tv"
+      ]
+    },
+    {
+      "id": "80",
+      "title": "Olmec",
+      "subtitle": "",
+      "year": 2010,
+      "description": "Maps to accompany an exhibition of Olmec objects: colossal heads, thrones, stelae as well as smaller decorative objects.",
+      "client_name": "Fine Arts Museum of San Francisco",
+      "thumbnail": "/slides/183/200-square/General v6.webp",
+      "slide_captions": [
+        "Overview of the Olmec world",
+        "Site plan of La Venta",
+        "Site plan of Tres Zapotes",
+        "Site plan of San Lorenzo"
+      ],
+      "slide_tags": [
+        "americas",
+        "book",
+        "exhibition",
+        "historical",
+        "plan",
+        "topo"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Paper Before Print",
+      "subtitle": "The History and Impact of Paper in the Islamic World",
+      "year": 2001,
+      "description": "Illustrations for a book about the spread of papermaking in the Islamic world.",
+      "client_name": "Yale University Press",
+      "thumbnail": "/slides/30/200-square/0107-PBP-Overall.webp",
+      "slide_captions": [
+        "An overall map showing the spread of papermaking throughout Europe and Asia.",
+        "A detail map of West Asia."
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "europe",
+        "historical",
+        "mesopotamia",
+        "middle-east",
+        "world"
+      ]
+    },
+    {
+      "id": "69",
+      "title": "Patron and Painter",
+      "subtitle": "",
+      "year": 2008,
+      "description": "A series of three maps for an exhibition on the works of 18th century Tibetan painter Situ Panchen.",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/159/200-square/Map 1 v2.webp",
+      "slide_captions": [
+        "Central Tibet",
+        "North & Central Kham",
+        "Southern Kham"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "132",
+      "title": "Peruvian Featherworks",
+      "subtitle": "Art of the Precolumbian Era",
+      "year": 2012,
+      "description": "<p>Map for an exhibition devoted to the feather arts of ancient Peru.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/286/200-square/1206-Peru-v7-Final.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "americas",
+        "book",
+        "exhibition",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "57",
+      "title": "PlayPumps Locations",
+      "subtitle": "",
+      "year": 2007,
+      "description": "This Google Maps \"mashup\" shows selected installations of PlayPumps throughout southern Africa.\r\n\r\nPlayPumps are sustainable systems for drawing clean water which are powered by childrens' merry-go-rounds. \r\n\r\nMore information at <a href=\"http://www.playpumps.org/\">playpumps.org</a>. Live version of the mashup at <a href=\"http://www.playpumps.org/maps/\"><b>playpumps.org/maps</b></a>.\r\n\r\n",
+      "client_name": "PlayPumps International",
+      "thumbnail": "/slides/113/200-square/Screenshot-1.webp",
+      "slide_captions": [
+        "",
+        "",
+        ""
+      ],
+      "slide_tags": []
+    },
+    {
+      "id": "85",
+      "title": "Poetry in Clay",
+      "subtitle": "",
+      "year": 2011,
+      "description": "<p>A pair of maps created for an exhibition of strikingly modern-looking ceramic ware from 15th-16th c. Korea. The maps were used in the exhibition design, the catalogue, and for first time ever, in an iPad app accompanying the exhibition.</p>",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/203/200-square/Korea-v8.webp",
+      "slide_captions": [
+        "Kiln sites in Korea",
+        "Ceramic production centers in Japan"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "interactive"
+      ]
+    },
+    {
+      "id": "67",
+      "title": "PollTrack",
+      "subtitle": "",
+      "year": 2008,
+      "description": "Art critic and political observer <a href=\"http://umbc.academia.edu/MauriceBerger \">Maurice Berger</a> commissioned me to develop <a href=\"http://www.polltrack.com\">PollTrack</a>, a mapping and blogging platform for his analysis of the landmark 2008 US election cycle. The site, built in Ruby on Rails, features an integrated blogging platform, CMS, and a standards-based map display. Graphic design by Jeanne Ivy.",
+      "client_name": "Maurice Berger",
+      "thumbnail": "/slides/154/200-square/map today.webp",
+      "slide_captions": [
+        "The first of three maps: a current view of the electoral landscape.",
+        "The second of three maps: the projected momentum, based on Maurice Berger's realtime analysis.",
+        "The third of three maps: Maurice Berger's prediction for the election day results in the presidential race.",
+        "The Obama Project: an example of the blogging functionality we developed for PollTrack."
+      ],
+      "slide_tags": [
+        "blog",
+        "electoral",
+        "interactive",
+        "rails",
+        "usa",
+        "webmaps",
+        "website"
+      ]
+    },
+    {
+      "id": "77",
+      "title": "Pompeii",
+      "subtitle": "",
+      "year": 2010,
+      "description": "A contour map of Pompeii, Mount Vesuvius and environs, created for the Metropolitan Museum of Art’s <i>Bulletin</i>.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/178/200-square/Pompeii v6.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "contour",
+        "europe",
+        "historical"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Prague",
+      "subtitle": "The Crown of Bohemia, 1347–1437",
+      "year": 2005,
+      "description": "",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/9/200-square/0507-Prague-Bohemia.webp",
+      "slide_captions": [
+        "Map showing the relationship between the Holy Roman Empire and the lands of the Bohemian Crown under Charles IV around the turn of the fifteenth century.",
+        "A plan of Prague"
+      ],
+      "slide_tags": [
+        "book",
+        "city",
+        "empire",
+        "europe",
+        "exhibition",
+        "historical",
+        "large-scale",
+        "plan",
+        "topo"
+      ]
+    },
+    {
+      "id": "84",
+      "title": "ProxyDemocracy",
+      "subtitle": "",
+      "year": 2010,
+      "description": "I was commissioned by political scientist <a href=\"http://www.people.fas.harvard.edu/~aeggers/\">Andy Eggers</a> to help develop <a href=\"http://www.proxydemocracy.org\">ProxyDemocracy.org</a>, a tool which allows investors to use their proxy voting power—either as shareholders or as mutual fund owners—to hold corporations accountable for their behavior.",
+      "client_name": "ProxyDemocracy",
+      "thumbnail": "/slides/191/200-square/HOMEPAGE c.webp",
+      "slide_captions": [
+        "Homepage",
+        "A mutual fund profile (visualizations by <a href=\"http://www.people.fas.harvard.edu/~aeggers/\">Andy Eggers</a>)",
+        "A company profile",
+        "A list of proposals from a shareholder meeting",
+        "A list of votes on an individual proposal",
+        "A keyword search of the proposals database (approx 200,000 proposals as of late 2010)",
+        "News aggregator and blogging platform"
+      ],
+      "slide_tags": [
+        "rails",
+        "website"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Raqqa",
+      "subtitle": "",
+      "year": 2006,
+      "description": "A map of Islamic lands during the medieval period.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/2/200-square/0602-Raqqa.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Recarving China's Past",
+      "subtitle": "Archaeology, and Architecture of the \"Wu Family Shrines\"",
+      "year": 2005,
+      "description": "Map of showing site of \"Wu Family Shrines\" cemetery and other places of interest in Shandong Province.",
+      "client_name": "Princeton University Art Museum",
+      "thumbnail": "/slides/74/200-square/0501-Wu-Shrines-Shandong.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "china",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Shooting Locations Map",
+      "subtitle": "",
+      "year": 2003,
+      "description": "For a 10-year retrospective exhibition at the Art Directors Club, I was commissioned to produce this wall-size decorative map, showing all of the commercial production company's shooting locations.",
+      "client_name": "@radical.media",
+      "thumbnail": "/slides/64/200-square/0309-Radical-Shoot-Map.webp",
+      "slide_captions": [
+        "",
+        "<i>In situ</i> at the Art Directors Club exhibition, facing a projection wall of @radical.media's work."
+      ],
+      "slide_tags": [
+        "cartogram",
+        "exhibition",
+        "topo",
+        "world"
+      ]
+    },
+    {
+      "id": "144",
+      "title": "Silla",
+      "subtitle": "Korea's Golden Kingdom",
+      "year": 2013,
+      "description": "<p>For an exhibition of art from the Korean kingdom of Silla, I created this map showing Korea as a terminus of the Silk Road trade.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/315/200-square/1307-Eurasia-v4b-Final-with-bleed.webp",
+      "slide_captions": [
+        "Silla and the Eurasian World"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "europe",
+        "exhibition",
+        "natural-color",
+        "silk-road",
+        "topo",
+        "trade",
+        "world"
+      ]
+    },
+    {
+      "id": "70",
+      "title": "Sources of Vietnamese Tradition",
+      "subtitle": "",
+      "year": 2008,
+      "description": "A series of maps commissioned by Columbia University Press for a compendium of primary document translations spanning several centuries of Vietnamese history.",
+      "client_name": "Columbia University Press",
+      "thumbnail": "/slides/162/200-square/1 Early v4.webp",
+      "slide_captions": [
+        "500 BCE to 1600 CE",
+        "17th–18th century",
+        "19th century",
+        "20th century"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "historical"
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Special Registration Map",
+      "subtitle": "",
+      "year": 2003,
+      "description": "Illustration to accompany a magazine article about the INS' post-9/11  program of registering immigrants from certain countries.",
+      "client_name": "Color Lines Magazine",
+      "thumbnail": "/slides/53/200-square/0304-Color-Lines.webp",
+      "slide_captions": [
+        "",
+        "Alternate (unused) version of the illustration, more precise but less appropriate for a general readership."
+      ],
+      "slide_tags": [
+        "cartogram",
+        "magazine",
+        "thematic",
+        "usa"
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Splendid Isolation",
+      "subtitle": "Art of Easter Island",
+      "year": 2001,
+      "description": "An extremely small-scale map of Easter Island. Shaded relief created by digitizing existing topographic maps and creating and rendering a 3-D terrain model.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/36/200-square/0110-Easter.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "100",
+      "title": "Storytelling in Japanese Painting",
+      "subtitle": "",
+      "year": 2011,
+      "description": "<p>A map that appeared in a book presenting 30 Japanese scrolls from the 13th to the 19th c.</p>",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/222/200-square/Japan-v8-Final.webp",
+      "slide_captions": [
+        "The Kii Peninsula"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "98",
+      "title": "Sultans of the South",
+      "subtitle": "",
+      "year": 2011,
+      "description": "<p>The distinctive styles in painting and other arts that arose in the sultanates of India's Deccan plateau were the subject of a 2008 symposium and a 2011 publication from the Met. This series of maps appears in that symposium volume.</p>",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/216/200-square/1-India-c-1600-and-Environs-v9-Final.webp",
+      "slide_captions": [
+        "India, late 16th century",
+        "India, ca. 1400",
+        "The Deccan in the 17th century",
+        "Route of Muhammad bin Tughluq (Ulugh Khan), 1321-1326"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "historical",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Tapestry in the Renaissance",
+      "subtitle": "Art and Magnificence",
+      "year": 2001,
+      "description": "Small map showing sites of tapestry production in the Netherlands.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/37/200-square/0111-Netherlands.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "historical"
+      ]
+    },
+    {
+      "id": "47",
+      "title": "Tesoros/ Treasures/ Tesouros",
+      "subtitle": "The Arts in Latin America, 1492-1820",
+      "year": 2006,
+      "description": "Maps to accompany an exhibition of fine and decorative arts in the Americas spanning the era from European conquest to the advent of national independence movements.",
+      "client_name": "Philadelphia Museum of Art",
+      "thumbnail": "/slides/85/200-square/N_S_America_v7.webp",
+      "slide_captions": [
+        "North and South America, 18th c.",
+        "Viceroyalty of New Spain",
+        "Viceroyalty of Peru",
+        "Spanish and Portuguese trade routes"
+      ],
+      "slide_tags": [
+        "americas",
+        "book",
+        "empire",
+        "historical",
+        "topo",
+        "world"
+      ]
+    },
+    {
+      "id": "165",
+      "title": "The Art of Guido Cagnacci",
+      "subtitle": "",
+      "year": 2016,
+      "description": "<p>Map of the historical region of Romagna for <a href=\"http://www.frick.org/exhibitions/cagnacci\">an exhibition and book on Guido Cagnacci</a>.</p>\n",
+      "client_name": "The Frick Collection",
+      "thumbnail": "/slides/366/200-square/1604-Romagna-v6-Final.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "158",
+      "title": "The Arts of Nepal and Tibet",
+      "subtitle": "",
+      "year": 2015,
+      "description": "<p>Maps for the reinstalled permanent galleries of Nepalese and Tibetan art.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/343/200-square/1503-Nepal.webp",
+      "slide_captions": [
+        "Nepal",
+        "Tibet"
+      ],
+      "slide_tags": [
+        "asia",
+        "exhibition",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "23",
+      "title": "The Berkshires",
+      "subtitle": "",
+      "year": 2002,
+      "description": "A simple locator map of Berkshire County, Massachusetts for a book of photography showcasing the natural and architectural beauty of that region.",
+      "client_name": "Norfleet Press",
+      "thumbnail": "/slides/38/200-square/0204-Berkshires.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "large-scale",
+        "usa"
+      ]
+    },
+    {
+      "id": "136",
+      "title": "The Black Hat Eccentric",
+      "subtitle": "Visions of the Tenth Karmapa",
+      "year": 2012,
+      "description": "<p>Map spread, showing the sequential travels of Tenth Karmapa Chöying Dorje</p>\n",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/291/200-square/1201-Tibet-Spread-v5-Final.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "27",
+      "title": "The Chinese Collection",
+      "subtitle": "Selected Works from the Norton Museum of Art",
+      "year": 2002,
+      "description": "An overall monochrome map of China.",
+      "client_name": "Norton Museum of Art",
+      "thumbnail": "/slides/46/200-square/0211-Norton-China.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "china",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "The Collection in Context",
+      "subtitle": "AsiaSocietyMuseum.org",
+      "year": 2001,
+      "description": "The Asia Society needed over 100 maps to go on their newly redesigned website. I designed a series of basemaps, using their existing design palette, upon which all the other maps were based. ",
+      "client_name": "Asia Society",
+      "thumbnail": "/slides/32/200-square/0109-AW-S.-Asia.webp",
+      "slide_captions": [
+        "South Asia",
+        "China and Mongolia",
+        "Southeast Asia"
+      ],
+      "slide_tags": [
+        "asia",
+        "south-asia",
+        "topo",
+        "webmaps"
+      ]
+    },
+    {
+      "id": "39",
+      "title": "The Colonial Andes",
+      "subtitle": "Tapestries and Silverwork, 1530-1830",
+      "year": 2004,
+      "description": "",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/69/200-square/0407-Andes-Viceroyalties.webp",
+      "slide_captions": [
+        "Map showing the Spanish viceroyalties which eventually formed the basis for some of the modern nation-states of South America.",
+        "Map of South America showing the approximate extent of the Inca empire and the four <i>suyus</i> which comprised it."
+      ],
+      "slide_tags": [
+        "americas",
+        "book",
+        "empire",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "129",
+      "title": "The Dawn of Egyptian Art",
+      "subtitle": "",
+      "year": 2012,
+      "description": "<p>Ancient Egypt: Predynastic and Early Dynastic sites</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/283/200-square/1201-Egypt-v8-Final-Full-Bleed.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "28",
+      "title": "The Great Lakes of Africa",
+      "subtitle": "Two Thousand Years of History",
+      "year": 2002,
+      "description": "Zone Books needed new maps for an English translation of the authoritative history of this region.",
+      "client_name": "Zone Books",
+      "thumbnail": "/slides/47/200-square/0212-Grand-Lacs-Overall.webp",
+      "slide_captions": [
+        "An overall map of the Great Lakes region of east Africa.",
+        "A selection of supplementary thematic maps, illustrating population density, elevation, rainfall and important archaeological sites."
+      ],
+      "slide_tags": [
+        "africa",
+        "book",
+        "cartogram",
+        "science",
+        "thematic",
+        "topo"
+      ]
+    },
+    {
+      "id": "160",
+      "title": "The Greatest Grid",
+      "subtitle": "The Master Plan of Manhattan",
+      "year": 2015,
+      "description": "<p>In collaboration with MediaCombo and the Museum of the City of New York, I designed and developed two interactive historical maps to for <a href=\"http://thegreatestgrid.mcny.org\">an online exhibition</a> about the origin of the grid plan for Manhattan. </p>\n<p>The original <a href=\"http://thegreatestgrid.mcny.org/greatest-grid/interactive-1811-plan\">1811 Commissioners' Plan</a> was brought to life with annotations which highlight various aspects of the initial conception of the grid. And the <a href=\"http://thegreatestgrid.mcny.org/greatest-grid/randel-composite-map\">Randel Farm Maps</a> (a 92-volume survey map of Manhattan in the 1810s on the eve of the grid) was composited into a single composite image, from which we indexed and made available every text on the map: landowners, physical features, roads and buildings.</p>\n<p>Both maps were georectified, tiled and presented as fully interactive web maps, with the ability to browse, search, zoom and compare against the modern street grid of Manhattan.</p>\n",
+      "client_name": "Museum of the City of New York",
+      "thumbnail": "/slides/351/200-square/01-home.webp",
+      "slide_captions": [
+        "Homepage (designed by <a href=\"http://www.mediacombo.net\">MediaCombo</a>)",
+        "Initial view of 1811 plan",
+        "Annotation to 1811 plan, showing the Parade Ground which was proposed but never built",
+        "Initial view of the composite Randel Farm Map",
+        "Browsing the indexed names on the Randel Farm Map",
+        "The origin of the numbered grid, at Broadway and Houston, with the modern street grid partially revealed"
+      ],
+      "slide_tags": [
+        "city",
+        "historical",
+        "interactive",
+        "large-scale",
+        "nyc",
+        "thematic",
+        "webmaps"
+      ]
+    },
+    {
+      "id": "141",
+      "title": "The Houses of Louis Kahn",
+      "subtitle": "",
+      "year": 2013,
+      "description": "<p>I created this map for the first <a href=\"http://yalepress.yale.edu/yupbooks/book.asp?isbn=9780300171181\">book</a> to look at Louis Kahn's major private residential projects.</p>\n",
+      "client_name": "Yale University Press",
+      "thumbnail": "/slides/307/200-square/1303-Kahn-Map-v6-Final.webp",
+      "slide_captions": [
+        "Philadelphia region with the houses of Louis Kahn"
+      ],
+      "slide_tags": [
+        "book",
+        "city",
+        "large-scale"
+      ]
+    },
+    {
+      "id": "26",
+      "title": "The Legacy of Genghis Khan",
+      "subtitle": "Courtly Art and Culture in Western Asia, 1256-1353",
+      "year": 2002,
+      "description": "",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/43/200-square/0207-Genghis-Mongol.webp",
+      "slide_captions": [
+        "An historical map showing the maximum extent of the Mongol Empire and its constituent Khanates, as well as invasion routes and major sites. Custom-generated topographic shaded relief, printed four-color.",
+        "A detail map of Greater Iran and its environs. Custom-generated topographic shaded relief, printed black & white.",
+        "A detail map showing the seasonal camps of the Ilkhans (Genghis Khan's successors in Persia). Custom-generated topographic shaded relief, printed black & white."
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "empire",
+        "europe",
+        "exhibition",
+        "historical",
+        "mesopotamia",
+        "middle-east",
+        "topo",
+        "world"
+      ]
+    },
+    {
+      "id": "166",
+      "title": "The Mary Griggs Burke Collection",
+      "subtitle": "",
+      "year": 2015,
+      "description": "<p>Over five decades Mary Griggs Burke assembled one of the finest private collections of Asian art, including the largest collection of Japanese art outside of Japan.</p>\n<p>The Burke Foundation produced a <a href=\"http://burkecollection.org/book\">two-volume catalogue</a> of the entire collection before it was to be gifted to various institutions, including the <a href=\"http://www.metmuseum.org/exhibitions/listings/2015/celebrating-the-arts-of-japan\">Metropolitan Museum</a> and the <a href=\"http://new.artsmia.org/exhibition/gifts-of-japanese-and-korean-art-from-the-mary-griggs-burke-collection/\">Minneapolis Institute of Art</a>.</p>\n<p>I was asked to create a website that would serve as an <a href=\"http://burkecollection.org\">online counterpart to the catalogue</a>, and would make use of the web to provide features not available in the printed book, such as multi-faceted browsing and searching capabilities, high-resolution image details, and interactive bibliographies.</p>\n",
+      "client_name": "Mary and Jackson Burke Foundation",
+      "thumbnail": "/slides/367/200-square/1506-0-home.webp",
+      "slide_captions": [
+        "Homepage",
+        "Browse by category",
+        "Faceted search",
+        "An object page",
+        "An image enlargement",
+        "Hi-resolution zoom",
+        "Browse by historical period",
+        "Browse by medium/format",
+        "Browse by artist"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "rails",
+        "website"
+      ]
+    },
+    {
+      "id": "81",
+      "title": "The Nepalese Legacy",
+      "subtitle": "",
+      "year": 2010,
+      "description": "Maps to illustrate an exhibition tracing the influence of Nepali artists on Tibetan Buddhist art after the decline of Indian Buddhism in the thirteenth century.",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/187/200-square/Map 1 Final.webp",
+      "slide_captions": [
+        "Western Tibet",
+        "Central Tibet"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "128",
+      "title": "The New Islamic Art Wing",
+      "subtitle": "Art of the Arab Lands, Turkey, Iran, Central Asia, and Later South Asia",
+      "year": 2011,
+      "description": "<p>Created in close collaboration with the Met's department of Islamic Art, this series of maps is part of the newly reimagined permanent exhibition of art from the Islamic world. Each map is tailored to design of the gallery in which it appears.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/273/200-square/1110-00-Overall-Entrance-Map-v5.webp",
+      "slide_captions": [
+        "World map installed at the entrance of the exhibition",
+        "Gallery 2: Arts of the early caliphates",
+        "Gallery 4: Eastern Islamic lands",
+        "Gallery 5: Egypt and Syria",
+        "Gallery 6: Iran and Central Asia",
+        "Gallery 8: Spain, North Africa and the western Mediterranean",
+        "Gallery 11: Arts of the Ottoman Court",
+        "Gallery 13: Safavid and later Iran",
+        "Gallery 14: Arts of South Asia and the Mughals",
+        "Gallery 15: Later South Asia"
+      ],
+      "slide_tags": [
+        "africa",
+        "europe",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "natural-color",
+        "south-asia",
+        "topo",
+        "world"
+      ]
+    },
+    {
+      "id": "137",
+      "title": "The Place of Provenance",
+      "subtitle": "Regional Styles in Tibetan Painting",
+      "year": 2012,
+      "description": "<p>Maps for the fourth in a series of exhibitions on Tibetan art.</p>\n",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/292/200-square/1208-1-Tibet-v3-Final.webp",
+      "slide_captions": [
+        "Tibet",
+        "Ü-Tsang",
+        "Kham",
+        "Amdo",
+        "Ngari"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "32",
+      "title": "The Responsive Eye",
+      "subtitle": "Ralph T. Coe and the Collecting of American Indian Art",
+      "year": 2003,
+      "description": "Map showing broad geographical classification of native peoples in North America.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/61/200-square/0307-Coe.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "americas",
+        "book",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "The Société Anonyme",
+      "subtitle": "Modernism for America",
+      "year": 2005,
+      "description": "A map illustration intended to convey a sense of the travels and international connections of the artists of the Société Anonyme.",
+      "client_name": "Yale University Art Gallery",
+      "thumbnail": "/slides/8/200-square/0506-Yale-Soc-Anon.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "historical",
+        "world"
+      ]
+    },
+    {
+      "id": "79",
+      "title": "The World of Khubilai Khan",
+      "subtitle": "",
+      "year": 2010,
+      "description": "Maps to illustrate an exhibition on the art of the Yuan Dynasty, founded by Khubilai Khan.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/181/200-square/1 Mongol Final.webp",
+      "slide_captions": [
+        "The Mongol Khanates and the Yuan Dynasty, ca. 1276",
+        "The Yuan Dynasty, ca. 1330"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "china",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "The Year One",
+      "subtitle": "Art of the Ancient World East and West",
+      "year": 2000,
+      "description": "A series of four duotone maps, each introducing a major area of the world for a millenial exhibition of art from around the world in the year 1 CE. ",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/19/200-square/0006-TY1-Americas.webp",
+      "slide_captions": [
+        "The Americas in the Year One.",
+        "Asia in the Year One.",
+        "The Roman Empire in the Year One",
+        "West Asia in the Year One."
+      ],
+      "slide_tags": [
+        "africa",
+        "americas",
+        "asia",
+        "book",
+        "empire",
+        "europe",
+        "exhibition",
+        "historical",
+        "middle-east",
+        "topo"
+      ]
+    },
+    {
+      "id": "145",
+      "title": "Tibet and India",
+      "subtitle": "Buddhist Traditions and Transformations",
+      "year": 2013,
+      "description": "<p>Maps for publication and exhibition showing sites of importance during the spread of Buddhism from north India to Tibet.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/316/200-square/1312-Asia-Map-v4-Final.webp",
+      "slide_captions": [
+        "<i>Bulletin</i> map",
+        "Exhibition map"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "historical",
+        "natural-color",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Timeline of Art History",
+      "subtitle": "",
+      "year": 2003,
+      "description": "The Met's award-winning educational website utilizes many dozens of maps which I created over the course of a couple of years.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/55/200-square/44-1923-Mediterranean_Arabi.webp",
+      "slide_captions": [
+        "Colonial powers on the Arabian peninsula.",
+        "Northern Italy, 1600-1800",
+        "Africa, 1914, showing colonial powers.",
+        "Africa, 1971, illustrating the process of decolonization.",
+        "Modern South Asia",
+        "North Africa and Egyot, 1885."
+      ],
+      "slide_tags": [
+        "africa",
+        "empire",
+        "europe",
+        "historical",
+        "middle-east",
+        "south-asia",
+        "topo",
+        "webmaps"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Timescapes",
+      "subtitle": "A Multimedia Portrait of New York",
+      "year": 2005,
+      "description": "<p>\r\nOn view permanently at the Museum of the City of New York, <i>Timescapes</i> is a film telling the history of New York City through maps.\r\n</p>\r\n\r\n<p>\r\nThis image is a false-color rendering of New York City and environs, suggesting the terrain and vegetation of the region before urbanization. \r\n</p>\r\n",
+      "client_name": "Local Projects",
+      "thumbnail": "/slides/14/200-square/0503-Timescapes.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "film",
+        "historical",
+        "nyc",
+        "topo"
+      ]
+    },
+    {
+      "id": "95",
+      "title": "Turkmen Jewelry",
+      "subtitle": "",
+      "year": 2011,
+      "description": "<p>A map of Central Asia for a book on 19th-20th c. Turkmen silver work. Note the disappearing Aral Sea.</p>",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/205/200-square/Turkmen-v4.webp",
+      "slide_captions": [
+        "Central Asia"
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "natural-color",
+        "topo"
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Turning Point",
+      "subtitle": "Oribe and the Arts of Sixteenth-Century Japan",
+      "year": 2003,
+      "description": "A map showing important kiln sites from Japan's Momoyama period (1573-1615).",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/62/200-square/0308-Oribe.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "historical",
+        "topo"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Up a Creek",
+      "subtitle": "",
+      "year": 2005,
+      "description": "<p>\r\nMap illustration to accompany an article about an expedition down the Saganavirktok River in Alaska, mounted by a science writer and several climate experts, to observe the effects of global climate change.\r\n</p>\r\n\r\n<p>\r\nI created these pieces by taking imagery for the region from several Landsat 7 wavelength bands, merging them to create a synthetic true-color image, and then draping the resulting composites over a three-dimensional USGS DEM terrain model.\r\n</p>\r\n",
+      "client_name": "Discover Magazine",
+      "thumbnail": "/slides/7/200-square/0507-Sagavanirktok.webp",
+      "slide_captions": [
+        "Full expedition route",
+        "Detail of Prudhoe Bay, Alaska",
+        "The illustration had to be sized so as to span eight pages of the magazine at high resolution. The resulting composite file was immense - approx 2GB. But it did allow for detailed usage in the layout, as shown on the opening spread here. (Art direction by Jason Lancaster)"
+      ],
+      "slide_tags": [
+        "magazine",
+        "satellite",
+        "science"
+      ]
+    },
+    {
+      "id": "51",
+      "title": "Urbanathlon",
+      "subtitle": "",
+      "year": 2006,
+      "description": "Race course map for an urban triathlon in Manhattan sponsored by Men's Health Magazine.",
+      "client_name": "Men's Health Magazine",
+      "thumbnail": "/slides/95/200-square/0609-Urbanathlon.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "city",
+        "large-scale",
+        "magazine",
+        "nyc"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Vermeer and the Delft School",
+      "subtitle": "",
+      "year": 2000,
+      "description": "",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/23/200-square/0011-Vermeer-1.webp",
+      "slide_captions": [
+        "A map of renaissance-era Delft, showing the locations of artists and patrons.",
+        "A detail of central Delft. I also designed a textual concordance to follow these two spreads."
+      ],
+      "slide_tags": [
+        "book",
+        "city",
+        "large-scale",
+        "plan"
+      ]
+    },
+    {
+      "id": "73",
+      "title": "Victorious Ones",
+      "subtitle": "",
+      "year": 2009,
+      "description": "A map of temple and pilgrimmage sites, to accompany an exhibition of images of the Tirthankaras of Jainism.",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/171/200-square/Jain v5.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "book",
+        "exhibition",
+        "historical",
+        "natural-color",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "163",
+      "title": "Vigée Le Brun",
+      "subtitle": "Woman Artist in Revolutionary France",
+      "year": 2015,
+      "description": "<p>A map showing the travels of <a href=\"https://www.artsy.net/artist/elisabeth-louise-vigee-le-brun\">Elisabeth Louise Vigée Le Brun</a>, for <a href=\"http://www.metmuseum.org/exhibitions/listings/2016/vigee-le-brun\">Vigée Le Brun: Woman Artist in Revolutionary France</a>, her first retrospective exhibition.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/364/200-square/1511-Vigee-v9b-FR.webp",
+      "slide_captions": [
+        "Travels of Elisabeth Louise Vigée Le Brun"
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "exhibition",
+        "historical",
+        "thematic",
+        "topo"
+      ]
+    },
+    {
+      "id": "152",
+      "title": "Warriors and Mothers",
+      "subtitle": "Epic Mbembe Art",
+      "year": 2014,
+      "description": "<p>Locator map of the Mbembe people of southeastern Nigeria, for an exhibition of monumental wooden sculpture.</p>\n",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/331/200-square/1408-Mbembe-Map-v4-Final.webp",
+      "slide_captions": [
+        null
+      ],
+      "slide_tags": [
+        "africa",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "What Is It?",
+      "subtitle": "",
+      "year": 2005,
+      "description": "A wall-size map leading viewers into an introductory exhibition of Himalayan Art",
+      "client_name": "Rubin Museum of Art",
+      "thumbnail": "/slides/3/200-square/0510-RMA-What-Is-It.webp",
+      "slide_captions": [
+        ""
+      ],
+      "slide_tags": [
+        "asia",
+        "exhibition",
+        "topo"
+      ]
+    },
+    {
+      "id": "83",
+      "title": "Wisdom Embodied",
+      "subtitle": "",
+      "year": 2010,
+      "description": "Map for a volume surveying the 120 works from the Met's collections of Indian and Chinese sculpture.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/190/200-square/Wisdom Map v6.webp",
+      "slide_captions": [
+        "China"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "china",
+        "natural-color",
+        "silk-road",
+        "topo"
+      ]
+    },
+    {
+      "id": "97",
+      "title": "Wonder of the Age",
+      "subtitle": "",
+      "year": 2011,
+      "description": "<p>A series of maps for a landmark exhibition and book, which convey recent scholarship allowing for the identification of some 40 individual artists across 800 years of Indian painting.</p>",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/213/200-square/India-v6-Final.webp",
+      "slide_captions": [
+        "India",
+        "Rajasthan",
+        "Himachal Pradesh and Punjab"
+      ],
+      "slide_tags": [
+        "asia",
+        "book",
+        "exhibition",
+        "natural-color",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
+      "id": "61",
+      "title": "Yale Medicine West Campus",
+      "subtitle": "",
+      "year": 2008,
+      "description": "I created map illustrations of Yale Medical School's planned West Campus expansion, for use as cover and editorial illustrations in <i>Yale Medicine</i> magazine.",
+      "client_name": "Yale Medicine",
+      "thumbnail": "/slides/140/200-square/YMspring08-Cover.webp",
+      "slide_captions": [
+        "Cover usage of my New Haven map.",
+        "Interior usage of my rendering of the west campus plan."
+      ],
+      "slide_tags": [
+        "city",
+        "magazine",
+        "plan"
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "id": 30,
+      "name": "2x4"
+    },
+    {
+      "id": 12,
+      "name": "@radical.media"
+    },
+    {
+      "id": 42,
+      "name": "Abrams Books"
+    },
+    {
+      "id": 13,
+      "name": "Asia Society"
+    },
+    {
+      "id": 18,
+      "name": "Brent Edwards"
+    },
+    {
+      "id": 11,
+      "name": "Caecilia Tripp"
+    },
+    {
+      "id": 14,
+      "name": "Color Lines Magazine"
+    },
+    {
+      "id": 31,
+      "name": "Columbia University Press"
+    },
+    {
+      "id": 37,
+      "name": "Consultancy Media"
+    },
+    {
+      "id": 6,
+      "name": "Discover Magazine"
+    },
+    {
+      "id": 26,
+      "name": "ESPN"
+    },
+    {
+      "id": 32,
+      "name": "Fine Arts Museum of San Francisco"
+    },
+    {
+      "id": 20,
+      "name": "Forma"
+    },
+    {
+      "id": 24,
+      "name": "Ghost Robot"
+    },
+    {
+      "id": 38,
+      "name": "Guggenheim Museum"
+    },
+    {
+      "id": 33,
+      "name": "International Fine Print Dealers Association"
+    },
+    {
+      "id": 4,
+      "name": "Local Projects"
+    },
+    {
+      "id": 44,
+      "name": "Mary and Jackson Burke Foundation"
+    },
+    {
+      "id": 34,
+      "name": "Maurice Berger"
+    },
+    {
+      "id": 22,
+      "name": "Men's Health Magazine"
+    },
+    {
+      "id": 1,
+      "name": "Metropolitan Museum of Art"
+    },
+    {
+      "id": 7,
+      "name": "Museum of Fine Arts, Houston"
+    },
+    {
+      "id": 41,
+      "name": "Museum of the City of New York"
+    },
+    {
+      "id": 29,
+      "name": "Nashville Public Television"
+    },
+    {
+      "id": 39,
+      "name": "National Gallery of Art"
+    },
+    {
+      "id": 23,
+      "name": "National Geographic Channel"
+    },
+    {
+      "id": 28,
+      "name": "Nelson-Atkins Museum of Art"
+    },
+    {
+      "id": 8,
+      "name": "New World Foundation"
+    },
+    {
+      "id": 17,
+      "name": "Norfleet Press"
+    },
+    {
+      "id": 16,
+      "name": "Norton Museum of Art"
+    },
+    {
+      "id": 21,
+      "name": "Philadelphia Museum of Art"
+    },
+    {
+      "id": 25,
+      "name": "PlayPumps International"
+    },
+    {
+      "id": 10,
+      "name": "Princeton University Art Museum"
+    },
+    {
+      "id": 35,
+      "name": "ProxyDemocracy"
+    },
+    {
+      "id": 9,
+      "name": "Rubin Museum of Art"
+    },
+    {
+      "id": 36,
+      "name": "Social Science Research Council"
+    },
+    {
+      "id": 43,
+      "name": "The Frick Collection"
+    },
+    {
+      "id": 40,
+      "name": "Univ. of New Mexico Press"
+    },
+    {
+      "id": 19,
+      "name": "Visible Collective"
+    },
+    {
+      "id": 5,
+      "name": "Women's eNews"
+    },
+    {
+      "id": 27,
+      "name": "Yale Medicine"
+    },
+    {
+      "id": 3,
+      "name": "Yale University Art Gallery"
+    },
+    {
+      "id": 2,
+      "name": "Yale University Press"
+    },
+    {
+      "id": 15,
+      "name": "Zone Books"
+    }
+  ],
+  "tags": [
+    {
+      "id": 46,
+      "name": "africa"
+    },
+    {
+      "id": 47,
+      "name": "americas"
+    },
+    {
+      "id": 48,
+      "name": "asia"
+    },
+    {
+      "id": 85,
+      "name": "blog"
+    },
+    {
+      "id": 49,
+      "name": "book"
+    },
+    {
+      "id": 50,
+      "name": "cartogram"
+    },
+    {
+      "id": 81,
+      "name": "chart"
+    },
+    {
+      "id": 51,
+      "name": "china"
+    },
+    {
+      "id": 52,
+      "name": "city"
+    },
+    {
+      "id": 86,
+      "name": "contour"
+    },
+    {
+      "id": 87,
+      "name": "drupal"
+    },
+    {
+      "id": 53,
+      "name": "electoral"
+    },
+    {
+      "id": 54,
+      "name": "empire"
+    },
+    {
+      "id": 55,
+      "name": "europe"
+    },
+    {
+      "id": 56,
+      "name": "exhibition"
+    },
+    {
+      "id": 75,
+      "name": "film"
+    },
+    {
+      "id": 57,
+      "name": "gis"
+    },
+    {
+      "id": 83,
+      "name": "google-earth"
+    },
+    {
+      "id": 58,
+      "name": "historical"
+    },
+    {
+      "id": 59,
+      "name": "interactive"
+    },
+    {
+      "id": 68,
+      "name": "large-scale"
+    },
+    {
+      "id": 60,
+      "name": "magazine"
+    },
+    {
+      "id": 61,
+      "name": "mesopotamia"
+    },
+    {
+      "id": 62,
+      "name": "middle-east"
+    },
+    {
+      "id": 78,
+      "name": "motion"
+    },
+    {
+      "id": 84,
+      "name": "natural-color"
+    },
+    {
+      "id": 63,
+      "name": "nyc"
+    },
+    {
+      "id": 88,
+      "name": "perspective"
+    },
+    {
+      "id": 64,
+      "name": "plan"
+    },
+    {
+      "id": 76,
+      "name": "presentation"
+    },
+    {
+      "id": 89,
+      "name": "rails"
+    },
+    {
+      "id": 65,
+      "name": "satellite"
+    },
+    {
+      "id": 66,
+      "name": "science"
+    },
+    {
+      "id": 67,
+      "name": "silk-road"
+    },
+    {
+      "id": 69,
+      "name": "south-asia"
+    },
+    {
+      "id": 82,
+      "name": "thematic"
+    },
+    {
+      "id": 70,
+      "name": "topo"
+    },
+    {
+      "id": 92,
+      "name": "trade"
+    },
+    {
+      "id": 77,
+      "name": "tv"
+    },
+    {
+      "id": 71,
+      "name": "usa"
+    },
+    {
+      "id": 72,
+      "name": "webmaps"
+    },
+    {
+      "id": 73,
+      "name": "website"
+    },
+    {
+      "id": 74,
+      "name": "world"
+    }
+  ]
+}
