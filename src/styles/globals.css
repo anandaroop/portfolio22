@@ -24,7 +24,7 @@
   }
 
   .modal-styles::backdrop {
-    background: #99999999;
+    background: #000000cc;
   }
 
   /* debugging styles */

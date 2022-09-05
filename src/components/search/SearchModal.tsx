@@ -56,16 +56,18 @@ export const SearchModal: React.FC = () => {
       className="modal-styles container h-[90vh] w-[60em] border-8 border-black border-opacity-20 bg-white bg-opacity-95 p-7"
       ref={dialogRef}
     >
-      <div className="relative lg:text-xl">
-        <button
-          className="absolute right-0 block aspect-square w-8"
-          onClick={exitSearchMode}
-        >
-          ✕
-        </button>
-        <h2 className="mb-4 text-base font-bold lg:text-2xl">
-          Search results{query.length > 1 ? ` for "${query}"` : ""}
-        </h2>
+      <div className="lg:text-xl">
+        <div className="mb-4 flex align-top">
+          <h2 className="h-8 flex-1 text-base font-bold lg:text-2xl">
+            Search results{query.length > 1 ? ` for "${query}"` : ""}
+          </h2>
+          <button
+            className="block aspect-square w-8 text-lg lg:text-2xl"
+            onClick={exitSearchMode}
+          >
+            ✕
+          </button>
+        </div>
 
         <input
           className="my-2 w-full border-2 border-neutral-200 px-2 py-1 text-lg lg:px-3 lg:py-2 lg:text-xl"
