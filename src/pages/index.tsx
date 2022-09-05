@@ -6,7 +6,7 @@ import { gql } from "graphql-request"
 
 import { fetchData } from "~/lib/fetchData"
 // import { ProjectList } from "~/components/ProjectList"
-import { ProjectListMemo as ProjectList } from "~/components/ProjectList"
+import { ProjectListMemo as ProjectList } from "~/components/project-list/ProjectList"
 
 interface Props {
   allProjects: Project[]

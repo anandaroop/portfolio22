@@ -4,7 +4,7 @@ import type { Project, Tag, TagSlide } from "~/types"
 import Head from "next/head"
 import _ from "lodash"
 import { fetchData } from "~/lib/fetchData"
-import { ProjectList } from "~/components/ProjectList"
+import { ProjectList } from "~/components/project-list/ProjectList"
 import { gql } from "graphql-request"
 
 interface Props {
