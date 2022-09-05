@@ -90,6 +90,7 @@ export const SearchModal: React.FC = () => {
 }
 
 const MatchingTags: React.FC<{ tags: Partial<TagDocument>[] }> = ({ tags }) => {
+  const { exitSearchMode } = useSearch()
   if (!tags.length) return null
 
   return (
@@ -99,8 +100,11 @@ const MatchingTags: React.FC<{ tags: Partial<TagDocument>[] }> = ({ tags }) => {
         {tags.map((tag) => {
           return (
             <li className="mr-2 inline-block" key={tag.id}>
-              <Link href={`/`}>
-                <a className="text-neutral-500 underline underline-offset-4">
+              <Link href={`/tags/${tag.name}`}>
+                <a
+                  className="text-neutral-500 underline underline-offset-4"
+                  onClick={exitSearchMode}
+                >
                   {tag.name}
                 </a>
               </Link>
