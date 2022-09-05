@@ -2,6 +2,7 @@ import type { NextPage } from "next"
 import type { Project } from "~/types"
 
 import Head from "next/head"
+import { gql } from "graphql-request"
 
 import { fetchData } from "~/lib/fetchData"
 import { getIdFromSlug, getSlugFromProject } from "~/lib/slugs"
@@ -52,14 +53,14 @@ const Page: NextPage<Props> = ({ project }) => {
 export default Page
 
 export async function getStaticPaths() {
-  const { data } = await fetchData(`
-    query ProjectIDsQuery { 
-        allProjects(filter: {visible: 1}) {
-            id
-            title
-        } 
+  const { data } = await fetchData(gql`
+    query ProjectIDsQuery {
+      allProjects(filter: { visible: 1 }) {
+        id
+        title
+      }
     }
-    `)
+  `)
 
   const paths = data.allProjects.map(
     ({ id, title }: { id: number; title: string }) => {
@@ -89,33 +90,33 @@ export async function getStaticProps(context: Context) {
   const {
     data: { project },
   } = await fetchData(
-    `
-        query ProjectQuery($id: ID!) {
-            project: Project(id: $id) {
-                id
-                title
-                year
-                month
-                description
-                Client {
-                    name
-                }
-                Slides {
-                    id
-                    position
-                    caption
-                    clip
-                    vimeo_clipid
-                    aspect
-                    image
-                    baseName
-                    placeholder
-                    width
-                    height
-                }
-            }
+    gql`
+      query ProjectQuery($id: ID!) {
+        project: Project(id: $id) {
+          id
+          title
+          year
+          month
+          description
+          Client {
+            name
+          }
+          Slides {
+            id
+            position
+            caption
+            clip
+            vimeo_clipid
+            aspect
+            image
+            baseName
+            placeholder
+            width
+            height
+          }
         }
-        `,
+      }
+    `,
     { id }
   )
 

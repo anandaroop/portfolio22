@@ -2,6 +2,7 @@ import type { NextPage } from "next"
 import type { Project } from "~/types"
 
 import Head from "next/head"
+import { gql } from "graphql-request"
 
 import { fetchData } from "~/lib/fetchData"
 // import { ProjectList } from "~/components/ProjectList"
@@ -31,26 +32,30 @@ const Home: NextPage<Props> = ({ allProjects }) => {
 export default Home
 
 export async function getStaticProps(): Promise<{ props: Props }> {
-  const response = await fetchData(`
-      query ProjectsQuery {
-          allProjects(filter: {visible: 1}, sortField: "year", sortOrder: "desc") {
-              ...project
-          }
+  const response = await fetchData(gql`
+    query ProjectsQuery {
+      allProjects(
+        filter: { visible: 1 }
+        sortField: "year"
+        sortOrder: "desc"
+      ) {
+        ...project
       }
-      
-      fragment project on Project {
-          id
-          title
-          year
-          Client {
-              name
-          }
-          Slides {
-              id
-              baseName
-              placeholder
-          }
+    }
+
+    fragment project on Project {
+      id
+      title
+      year
+      Client {
+        name
       }
+      Slides {
+        id
+        baseName
+        placeholder
+      }
+    }
   `)
   return { props: response.data }
 }
