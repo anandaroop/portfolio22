@@ -12,6 +12,7 @@ const searchEngine = SearchEngine.create()
 
 export const SearchModal: React.FC = () => {
   const dialogRef = useRef<HTMLDialogElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
 
   const { inSearchMode, enterSearchMode, exitSearchMode, query, setQuery } =
     useSearch()
@@ -25,6 +26,7 @@ export const SearchModal: React.FC = () => {
       // avoid Next hot-refresh error msg
       if (!dialog.hasAttribute("open")) {
         dialog.showModal()
+        inputRef.current?.select()
       }
     } else {
       dialog.close()
@@ -61,6 +63,7 @@ export const SearchModal: React.FC = () => {
 
         <input
           className="my-2 w-full border-2 border-neutral-200 px-2 py-1 text-lg lg:px-3 lg:py-2 lg:text-xl"
+          ref={inputRef}
           type="text"
           placeholder="Enter some search terms to see results"
           value={query}
