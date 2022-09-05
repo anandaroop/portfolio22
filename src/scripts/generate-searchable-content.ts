@@ -79,7 +79,7 @@ async function fetchData(query: string) {
       tags: allTags.map((x: any) => ({ ...x, id: parseInt(x.id) })),
     }
 
-    const fileName = `./searchable-content.json`
+    const fileName = `./data/searchable-content.json`
     const json = JSON.stringify(output, null, 2)
     writeFileSync(fileName, json)
   } catch (err) {

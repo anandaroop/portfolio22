@@ -4,7 +4,7 @@ import { parse } from "path"
 import { Slide } from "../types"
 ;(async function () {
   try {
-    const data = JSON.parse(readFileSync("./data.json", "utf8"))
+    const data = JSON.parse(readFileSync("./data/data.json", "utf8"))
 
     const promisedSlidesWithMetadata = data.slides.map(async (slide: Slide) => {
       const inputPath = `public/slides/${slide.id}/orig/${slide.image}`

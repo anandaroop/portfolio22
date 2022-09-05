@@ -2,7 +2,7 @@
 
 import type { Client, Project, Tag } from "~/types"
 
-import data from "../../../data.json"
+import data from "../../../data/data.json"
 
 export type JankyResults = {
   clients: Client[]
