@@ -8,4 +8,4 @@ fi
 export $(grep -v '^#' .env | xargs)
 
 # schlep
-tar cvfz - out | ssh ${ARCOM_USER}@${ARCOM_HOST} 'cd ~/www/next; rm -r html.bak; mv html html.bak; tar xvfz -; mv out html'
+tar cvfz - out | ssh ${ARCOM_USER}@${ARCOM_HOST} 'cd ~/www/anandarooproy.com; rm -r html.bak; mv html html.bak; tar xvfz -; mv out html'
