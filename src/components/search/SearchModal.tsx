@@ -73,7 +73,7 @@ export const SearchModal: React.FC = () => {
           className="my-2 w-full border-2 border-neutral-200 px-2 py-1 text-lg lg:px-3 lg:py-2 lg:text-xl"
           ref={inputRef}
           type="text"
-          placeholder="Enter some search terms to see results"
+          placeholder="Search by keyword, e.g. title, tag, client, year"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           autoFocus
