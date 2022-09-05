@@ -16,7 +16,7 @@ const Page: NextPage<Props> = ({ tagName, projects }) => {
   return (
     <>
       <Head>
-        <title>Anandaroop Roy</title>
+        <title>{`Anandaroop Roy | Tag: ${tagName}`}</title>
         <meta
           name="description"
           content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"

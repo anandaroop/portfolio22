@@ -12,12 +12,11 @@ interface Props {
   client: Client
 }
 
-const Page: NextPage<Props> = (props) => {
-  const { client } = props
+const Page: NextPage<Props> = ({ client }) => {
   return (
     <>
       <Head>
-        <title>Anandaroop Roy</title>
+        <title>{`Anandaroop Roy | ${client.name}`}</title>
         <meta
           name="description"
           content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
