@@ -1,32 +1,20 @@
-import type { Client, Project, Tag } from "~/types"
+import type { Project } from "~/types"
+import type { ClientDocument, ProjectDocument, TagDocument } from "./engine"
 
-import React, {
-  useEffect,
-  useRef,
-  // useState
-} from "react"
+import React, { useEffect, useRef } from "react"
 import Link from "next/link"
 
 import { useSearch } from "./SearchContext"
-import {
-  // JankyResults,
-  JankySearch,
-} from "./JankySearch"
 import { getSlugFromProject } from "~/lib/slugs"
+import { SearchEngine } from "./engine"
 
-const jankySearch = JankySearch.create()
+const searchEngine = SearchEngine.create()
 
 export const SearchModal: React.FC = () => {
   const dialogRef = useRef<HTMLDialogElement>(null)
 
   const { inSearchMode, enterSearchMode, exitSearchMode, query, setQuery } =
     useSearch()
-
-  // const [results, setResults] = useState<JankyResults>({
-  //   clients: [],
-  //   projects: [],
-  //   tags: [],
-  // })
 
   useEffect(() => {
     const dialog = dialogRef.current
@@ -58,24 +46,15 @@ export const SearchModal: React.FC = () => {
     }
   }, [inSearchMode, exitSearchMode, enterSearchMode])
 
-  // asynchronously fetch results when query changes
-  // useEffect(() => {
-  //   const fetchResults = async () => {
-  //     const newResults = await jankySearch.search(query)
-  //     setResults(newResults)
-  //   }
-  //   fetchResults()
-  // }, [query])
-
   // synchronously fetch results when query changes
-  const results = jankySearch.searchSync(query)
+  const results = searchEngine.searchSync(query)
 
   return (
     <dialog
       className="modal-styles container h-[90vh] w-[60em] border-8 border-black border-opacity-20 bg-white bg-opacity-95 p-7"
       ref={dialogRef}
     >
-      <div className="text-xl leading-8">
+      <div className="text-xl">
         <h2 className="mb-4 text-2xl font-bold">
           Search results{query.length > 1 ? ` for "${query}"` : ""}
         </h2>
@@ -89,24 +68,26 @@ export const SearchModal: React.FC = () => {
           autoFocus
         />
 
-        <MatchingProjects projects={results.projects} />
         <MatchingTags tags={results.tags} />
         <MatchingClients clients={results.clients} />
+        <MatchingProjects
+          projects={results.projects as unknown as ProjectDocument[]}
+        />
       </div>
     </dialog>
   )
 }
 
-const MatchingTags: React.FC<{ tags: Partial<Tag>[] }> = ({ tags }) => {
+const MatchingTags: React.FC<{ tags: Partial<TagDocument>[] }> = ({ tags }) => {
   if (!tags.length) return null
 
   return (
-    <div className="mt-5">
-      <h3 className="font-bold">Tags</h3>
-      <ul>
+    <div>
+      <h3 className="mt-5 mb-2 font-bold">Tags</h3>
+      <ul className="leading-8">
         {tags.map((tag) => {
           return (
-            <li className="mr-2 inline-block " key={tag.id}>
+            <li className="mr-2 inline-block" key={tag.id}>
               <Link href={`/`}>
                 <a className="text-neutral-500 underline underline-offset-4">
                   {tag.name}
@@ -120,15 +101,15 @@ const MatchingTags: React.FC<{ tags: Partial<Tag>[] }> = ({ tags }) => {
   )
 }
 
-const MatchingClients: React.FC<{ clients: Partial<Client>[] }> = ({
+const MatchingClients: React.FC<{ clients: Partial<ClientDocument>[] }> = ({
   clients,
 }) => {
   if (!clients.length) return null
 
   return (
-    <div className="mt-5">
-      <div className="font-bold">Clients</div>
-      <ul>
+    <div>
+      <h3 className="mt-5 mb-2 font-bold">Clients</h3>
+      <ul className="leading-8">
         {clients.map((client) => {
           return (
             <li className="mr-2 inline-block" key={client.id}>
@@ -145,26 +126,38 @@ const MatchingClients: React.FC<{ clients: Partial<Client>[] }> = ({
   )
 }
 
-const MatchingProjects: React.FC<{ projects: Partial<Project>[] }> = ({
+const MatchingProjects: React.FC<{ projects: ProjectDocument[] }> = ({
   projects,
 }) => {
   const { query, exitSearchMode } = useSearch()
   if (!query.length) return null
 
   return (
-    <div className="mt-4">
-      <div className="font-bold">Projects</div>
+    <div className="">
+      <h3 className="mt-5 mb-2 font-bold">Projects</h3>
       <ul>
-        {projects.map((project) => {
+        {projects.map((project: ProjectDocument) => {
           const slug = getSlugFromProject(project as unknown as Project)
           return (
             <li className="mr-2 inline" key={project.id}>
               <Link href={`/projects/${slug}`}>
-                <a
-                  className="text-neutral-500 underline underline-offset-4"
-                  onClick={exitSearchMode}
-                >
-                  {project.title}
+                <a className="text-neutral-500 " onClick={exitSearchMode}>
+                  <div className="flex items-center">
+                    <img
+                      className="mr-4 h-12"
+                      src={project.thumbnail}
+                      alt={project.title}
+                    />
+                    <div>
+                      <span className="underline underline-offset-4">
+                        {project.title}
+                      </span>
+                      <span className="text-neutral-400 no-underline">
+                        {" "}
+                        {project.client_name}, {project.year}
+                      </span>
+                    </div>
+                  </div>
                 </a>
               </Link>
             </li>

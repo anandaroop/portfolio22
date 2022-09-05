@@ -22,6 +22,7 @@
     "go": "yarn export && yarn deploy"
   },
   "dependencies": {
+    "minisearch": "^5.0.0",
     "next": "12.2.5",
     "photoswipe": "^5.3.0",
     "react": "18.2.0",
