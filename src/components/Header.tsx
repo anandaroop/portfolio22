@@ -26,7 +26,7 @@ export const Header = () => {
         </div>
         <div className="flex-0 ml-2 flex flex-col justify-center">
           <button
-            className="border-2 border-neutral-200 bg-white py-1 px-2 placeholder-neutral-200 dark:bg-neutral-500 dark:text-neutral-100 xl:px-4 xl:py-2"
+            className="border-2 border-neutral-200 bg-white py-1 px-2 placeholder-neutral-200 dark:border-neutral-700 dark:bg-neutral-500 dark:text-neutral-100 xl:px-4 xl:py-2 "
             onClick={enterSearchMode}
           >
             <span>Search&nbsp;</span>
