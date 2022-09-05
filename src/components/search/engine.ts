@@ -80,6 +80,16 @@ export class SearchEngine {
   }
 
   searchSync(query: string) {
+    if (query.length == 0) {
+      // zero state
+      return {
+        tags: searchableContent.tags,
+        clients: searchableContent.clients,
+        projects: [],
+      }
+    }
+
+    // else real results
     const tags = this.tagsIndex.search(query, { prefix: true })
     const clients = this.clientsIndex.search(query, { prefix: true })
     const projects = this.projectsIndex.search(query, {
