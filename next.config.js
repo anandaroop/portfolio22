@@ -7,10 +7,6 @@ const nextConfig = {
     esmExternals: true,
     scrollRestoration: true,
   },
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
 }
 
 module.exports = nextConfig
