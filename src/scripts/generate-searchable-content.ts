@@ -1,6 +1,8 @@
+import type { Client, Project, Slide, Tag, TagSlide } from "~/types"
+
 import { writeFileSync } from "fs"
-import { request, gql } from "graphql-request"
 import _ from "lodash"
+import { request, gql } from "graphql-request"
 
 async function fetchData(query: string) {
   const response = await request("http://localhost:3001", query)
@@ -52,10 +54,10 @@ async function fetchData(query: string) {
       }
     `)
 
-    const reshape = (project: any) => {
-      const captions = project.Slides.map((s: any) => s.caption)
-      const tags = project.Slides.map((s: any) =>
-        s.TagsSlides.map((st: any) => st.Tag.name)
+    const reshape = (project: Project) => {
+      const captions = project.Slides.map((s: Slide) => s.caption)
+      const tags = project.Slides.map((s: Slide) =>
+        s.TagsSlides.map((st: TagSlide) => st.Tag.name)
       )
       const slide = project.Slides[0]
       const thumbnail = `/slides/${slide.id}/200-square/${slide.baseName}.webp`
@@ -75,8 +77,10 @@ async function fetchData(query: string) {
 
     const output = {
       projects: allProjects.map(reshape),
-      clients: allClients.map((x: any) => ({ ...x, id: parseInt(x.id) })),
-      tags: allTags.map((x: any) => ({ ...x, id: parseInt(x.id) })),
+      // @ts-expect-error id string vs number weirdness
+      clients: allClients.map((x: Client) => ({ ...x, id: parseInt(x.id) })),
+      // @ts-expect-error id string vs number weirdness
+      tags: allTags.map((x: Tag) => ({ ...x, id: parseInt(x.id) })),
     }
 
     const fileName = `./data/searchable-content.json`

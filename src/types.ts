@@ -31,6 +31,7 @@ export type Slide = {
   width: number
   height: number
   Project: Project
+  TagsSlides: TagSlide[]
 }
 
 export type Tag = {

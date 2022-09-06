@@ -2,7 +2,6 @@ import type { NextPage } from "next"
 import type { Client, Project } from "~/types"
 
 import Head from "next/head"
-import _ from "lodash"
 import { fetchData } from "~/lib/fetchData"
 import { ProjectList } from "~/components/project-list/ProjectList"
 import { gql } from "graphql-request"

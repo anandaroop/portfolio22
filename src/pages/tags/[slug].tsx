@@ -1,5 +1,5 @@
 import type { NextPage } from "next"
-import type { Project, Tag, TagSlide } from "~/types"
+import type { Project, TagSlide } from "~/types"
 
 import Head from "next/head"
 import _ from "lodash"
@@ -53,6 +53,7 @@ export async function getStaticPaths() {
   return { paths, fallback: false }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function extractProjects(response: any): Project[] {
   const tag = response.data.allTags[0]
   const projects = tag.TagsSlides.map((ts: TagSlide) => ts.Slide.Project)

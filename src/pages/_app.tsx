@@ -4,7 +4,7 @@ import type { AppProps } from "next/app"
 import { DEBUG_BREAKPOINTS } from "~/lib/debug"
 import { Header } from "~/components/Header"
 import { Footer } from "~/components/Footer"
-import { SearchProvider, useSearch } from "~/components/search/SearchContext"
+import { SearchProvider } from "~/components/search/SearchContext"
 import { SearchModal } from "~/components/search/SearchModal"
 
 const breakpoint_outline_styles =
