@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <div className="flex-initial">
       <header className="flex content-between border-b-2 border-b-neutral-200 px-6 py-5 opacity-70 hover:opacity-100 dark:border-b-neutral-700 lg:mb-2 lg:pb-8">
-        <div className="flex-1 basis-3/4">
+        <div className="flex-1">
           <Link href={`/`}>
             <a className="inline-block">
               <h1 className="flex flex-col text-xl dark:text-white lg:block lg:text-3xl">
