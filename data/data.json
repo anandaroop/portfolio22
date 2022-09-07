@@ -1953,6 +1953,19 @@
       "featured": 0,
       "created_on": "2016-12-05T17:58:42",
       "updated_on": "2016-12-05T18:03:38"
+    },
+    {
+      "id": 167,
+      "title": "Art of Impermanence",
+      "subtitle": "Japanese Works from the John C. Weber Collection and Mr. and Mrs. John D. Rockefeller 3rd Collection",
+      "client_id": 13,
+      "year": 2019,
+      "month": 11,
+      "description": "<p> Map for <a href=\"/new-york/exhibitions/art-impermanence-japanese-works-john-c-weber-collection-and-mr-and-mrs-john-d\">The Art of Impermanence: Japanese Works from the John C. Weber Collection and Mr. and Mrs. John D. Rockefeller 3rd Collection</a> </p>",
+      "visible": 1,
+      "featured": 0,
+      "created_on": "2022-09-06",
+      "updated_on": "2022-09-06"
     }
   ],
   "slides": [
@@ -6461,6 +6474,21 @@
       "height": 652,
       "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAASUlEQVQImWNYv2np9h0r92yevWfzvANbZzM8evni2euXr18/e//25Yd3Lxm+/fr9Hwz+gRHD55+//iHzX7x+/R4M3r179/bdOwAIikOaM3t7PAAAAABJRU5ErkJggg==",
       "baseName": "1506-8-artists"
+    },
+    {
+      "id": 376,
+      "project_id": 167,
+      "image": "Art of Impermanence Map v5.jpg",
+      "caption": "East Asia",
+      "url": null,
+      "created_on": "2022-09-06",
+      "updated_on": "2022-09-06",
+      "position": 1,
+      "clip": 0,
+      "width": 2000,
+      "height": 1335,
+      "baseName": "Art of Impermanence Map v5",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//ANTZvMrTs7nIqr3VzsXf4QDI173D1L+80srG6fnB2tgAxdi9x+PrwtnVwdravdPNAMDQr8Xk7cTh6cPe4sDf7AC6y7fE4+3E5vPE5vTD5PFpJj00324n6QAAAABJRU5ErkJggg=="
     }
   ],
   "tags": [
@@ -11821,6 +11849,18 @@
     {
       "tag_id": 89,
       "slide_id": 375
+    },
+    {
+      "tag_id": 48,
+      "slide_id": 376
+    },
+    {
+      "tag_id": 49,
+      "slide_id": 376
+    },
+    {
+      "tag_id": 56,
+      "slide_id": 376
     }
   ]
 }
