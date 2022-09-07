@@ -2,7 +2,7 @@ import Link from "next/link"
 import { useSearch } from "~/components/search/SearchContext"
 
 export const Header = () => {
-  const { enterSearchMode } = useSearch()
+  const { canDialog, enterSearchMode } = useSearch()
 
   return (
     <div className="flex-initial">
@@ -25,17 +25,18 @@ export const Header = () => {
           </Link>
         </div>
         <div className="flex-0 ml-2 flex flex-col justify-center">
-          <button
-            className="border-2 border-neutral-200 bg-white py-1 px-2 placeholder-neutral-200 dark:border-neutral-700 dark:bg-neutral-500 dark:text-neutral-100 xl:px-4 xl:py-2 "
-            onClick={enterSearchMode}
-          >
-            <span>Search&nbsp;</span>
-            <span className="hidden xl:inline">
-              by keyword, client or year&nbsp;
-            </span>
-            <span className="hidden sm:inline">🔎</span>
-          </button>
-          {/* <div>lol</div> */}
+          {canDialog && (
+            <button
+              className="border-2 border-neutral-200 bg-white py-1 px-2 placeholder-neutral-200 dark:border-neutral-700 dark:bg-neutral-500 dark:text-neutral-100 xl:px-4 xl:py-2 "
+              onClick={enterSearchMode}
+            >
+              <span>Search&nbsp;</span>
+              <span className="hidden xl:inline">
+                by keyword, client or year&nbsp;
+              </span>
+              <span className="hidden sm:inline">🔎</span>
+            </button>
+          )}
         </div>
       </header>
     </div>

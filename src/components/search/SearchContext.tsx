@@ -17,6 +17,9 @@ type SearchContextType = {
   // search results
   query: string
   setQuery: Dispatch<SetStateAction<string>>
+
+  // dialog support
+  canDialog: boolean
 }
 
 export const SearchContext = React.createContext<SearchContextType>({
@@ -26,6 +29,7 @@ export const SearchContext = React.createContext<SearchContextType>({
   toggleSearchMode: () => console.log("unimplemented"),
   query: "",
   setQuery: () => console.log("unimplemented"),
+  canDialog: false,
 })
 
 export const SearchProvider: React.FC<{ children: ReactNode }> = ({
@@ -37,6 +41,8 @@ export const SearchProvider: React.FC<{ children: ReactNode }> = ({
   const toggleSearchMode = () => setSearchMode(!inSearchMode)
 
   const [query, setQuery] = useState<string>("")
+
+  const [canDialog, setCanDialog] = useState<boolean>(false)
 
   useEffect(() => {
     // Most inert-ness seems to be handled natively by <dialog> element
@@ -51,6 +57,15 @@ export const SearchProvider: React.FC<{ children: ReactNode }> = ({
     }
   }, [inSearchMode])
 
+  useEffect(() => {
+    if (typeof HTMLDialogElement === "function") {
+      const tmpDialog = document.createElement("dialog")
+      if (typeof tmpDialog.close === "function") {
+        setCanDialog(true)
+      }
+    }
+  }, [setCanDialog])
+
   return (
     <SearchContext.Provider
       value={{
@@ -60,6 +75,7 @@ export const SearchProvider: React.FC<{ children: ReactNode }> = ({
         toggleSearchMode,
         query,
         setQuery,
+        canDialog,
       }}
     >
       {children}

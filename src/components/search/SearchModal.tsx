@@ -14,10 +14,18 @@ export const SearchModal: React.FC = () => {
   const dialogRef = useRef<HTMLDialogElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const { inSearchMode, enterSearchMode, exitSearchMode, query, setQuery } =
-    useSearch()
+  const {
+    inSearchMode,
+    enterSearchMode,
+    exitSearchMode,
+    query,
+    setQuery,
+    canDialog,
+  } = useSearch()
 
   useEffect(() => {
+    if (!canDialog) return
+
     const dialog = dialogRef.current
     if (!dialog) return
 
@@ -46,7 +54,9 @@ export const SearchModal: React.FC = () => {
       dialog.removeEventListener("close", exitSearchMode)
       window.removeEventListener("keydown", listenForHotKey)
     }
-  }, [inSearchMode, exitSearchMode, enterSearchMode])
+  }, [inSearchMode, exitSearchMode, enterSearchMode, canDialog])
+
+  if (!canDialog) return null
 
   // synchronously fetch results when query changes
   const results = searchEngine.searchSync(query)
