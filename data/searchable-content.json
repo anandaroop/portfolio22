@@ -584,7 +584,6 @@
       "slide_tags": [
         "book",
         "historical",
-        null,
         "topo",
         "usa"
       ]
@@ -639,7 +638,9 @@
         "Mexico and Central America, with the likely origin of the Maya codex highlighted."
       ],
       "slide_tags": [
-        null
+        "americas",
+        "book",
+        "exhibition"
       ]
     },
     {
@@ -673,7 +674,11 @@
         "Worldwide Dia locations and sites"
       ],
       "slide_tags": [
-        null
+        "book",
+        "city",
+        "europe",
+        "nyc",
+        "usa"
       ]
     },
     {
@@ -2000,7 +2005,9 @@
         "Map of the Burgundian Netherlands, ca. 1441"
       ],
       "slide_tags": [
-        null
+        "europe",
+        "exhibition",
+        "historical"
       ]
     },
     {

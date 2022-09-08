@@ -5384,7 +5384,9 @@
       "height": 500,
       "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAW0lEQVQImQFQAK//AM+/oqaHU66QXaqMV7ymfgDPvZ6rl2urq5enmnq9pnwAz72dqJZznaivlY14vqZ7ANLBo5l+T3ltVY52Sr6nfgDPvZ+sl2mzonWymWm8p34NJCyc8ipVFQAAAABJRU5ErkJggg==",
       "baseName": "J44",
-      "tags": ["book"]
+      "tags": [
+        "book"
+      ]
     },
     {
       "id": 175,
@@ -8450,7 +8452,14 @@
       "width": 2000,
       "height": 1556,
       "baseName": "Dia Map v5 Final w Bleed",
-      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAV0lEQVQImQXBSwqAIBAA0Ln/jVw0UH5RtJCgVFroZgJXiQfoPeBcxXjW2nrvIRzA2JJSmnMQkbUeSnnG+HIu3u9GO2itCWGkNIIrxA1eIsTVWX9fSQr9A81YPfrDph9KAAAAAElFTkSuQmCC"
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAV0lEQVQImQXBSwqAIBAA0Ln/jVw0UH5RtJCgVFroZgJXiQfoPeBcxXjW2nrvIRzA2JJSmnMQkbUeSnnG+HIu3u9GO2itCWGkNIIrxA1eIsTVWX9fSQr9A81YPfrDph9KAAAAAElFTkSuQmCC",
+      "tags": [
+        "book",
+        "city",
+        "nyc",
+        "usa",
+        "europe"
+      ]
     },
     {
       "id": 378,
@@ -8465,7 +8474,12 @@
       "width": 1661,
       "height": 2000,
       "baseName": "Bruges Map v9 Final",
-      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//ANLXy8LT3MuyntXGp9vUvwDB3uzVvKfXsI3XwKXa1cAA2dK92dK92c+52c222dO+ANzWw9vPudmqi9m5ntjUvwDi3M7g2cnZxq3YzbfX0r0o6TrHOPaargAAAABJRU5ErkJggg=="
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//ANLXy8LT3MuyntXGp9vUvwDB3uzVvKfXsI3XwKXa1cAA2dK92dK92c+52c222dO+ANzWw9vPudmqi9m5ntjUvwDi3M7g2cnZxq3YzbfX0r0o6TrHOPaargAAAABJRU5ErkJggg==",
+      "tags": [
+        "europe",
+        "exhibition",
+        "historical"
+      ]
     },
     {
       "id": 379,
@@ -8480,7 +8494,12 @@
       "width": 2000,
       "height": 1086,
       "baseName": "Codice Map v3 Final3",
-      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//AOKgguvPvPP17PDu4/Dt4gDgoYPlt5/z8uju8urlwawA3qWK3pt85LOa3rei252BAPDm2erMuerLuOW7pdueggDy8+nw8+rz9u3z8unt3M1uJDz6ethHeAAAAABJRU5ErkJggg=="
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//AOKgguvPvPP17PDu4/Dt4gDgoYPlt5/z8uju8urlwawA3qWK3pt85LOa3rei252BAPDm2erMuerLuOW7pdueggDy8+nw8+rz9u3z8unt3M1uJDz6ethHeAAAAABJRU5ErkJggg==",
+      "tags": [
+        "americas",
+        "book",
+        "exhibition"
+      ]
     }
   ]
 }

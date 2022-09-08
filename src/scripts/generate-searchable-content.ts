@@ -10,6 +10,10 @@ async function fetchData(query: string) {
 }
 
 ;(async function () {
+  console.warn(
+    "This relies on graphql serving up the latest data.json, may require a restart"
+  )
+
   try {
     const { allSlides } = await fetchData(gql`
       {
