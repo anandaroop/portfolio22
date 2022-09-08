@@ -307,6 +307,13 @@
       "abbr": "dia",
       "created_on": "2022-09-07",
       "updated_on": "2022-09-07"
+    },
+    {
+      "id": 46,
+      "name": "Getty Museum",
+      "abbr": "gtty",
+      "created_on": "2022-09-07",
+      "updated_on": "2022-09-07"
     }
   ],
   "projects": [
@@ -1995,6 +2002,19 @@
       "year": 2018,
       "month": 3,
       "description": "<p>Map for a book and <a href=\"https://www.frick.org/press/charterhouse_bruges_jan_van_eyck_petrus_christus_jan_vos\">exhibition</a> at the Frick, featuring masterworks from fifteenth-century Bruges.</p>",
+      "visible": 1,
+      "featured": 0,
+      "created_on": "2022-09-07",
+      "updated_on": "2022-09-07"
+    },
+    {
+      "id": 170,
+      "title": "Códice Maya de México",
+      "subtitle": "Understanding the Oldest Surviving Book of the Americas",
+      "client_id": 46,
+      "year": 2022,
+      "month": 3,
+      "description": "A map accompanying a book and exhibition dedicated to the oldest surviving book from the Americas, <a href=\"https://en.wikipedia.org/wiki/Maya_Codex_of_Mexico\">a roughly 12th century Mayan almanac</a> that tracked the movements of Venus.",
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-07",
@@ -6552,6 +6572,21 @@
       "height": 2000,
       "baseName": "Bruges Map v9 Final",
       "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//ANLXy8LT3MuyntXGp9vUvwDB3uzVvKfXsI3XwKXa1cAA2dK92dK92c+52c222dO+ANzWw9vPudmqi9m5ntjUvwDi3M7g2cnZxq3YzbfX0r0o6TrHOPaargAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": 379,
+      "project_id": 170,
+      "image": "Codice Map v3 Final3.jpg",
+      "caption": "Mexico and Central America, with the likely origin of the Maya codex highlighted.",
+      "url": null,
+      "created_on": "2022-09-07",
+      "updated_on": "2022-09-07",
+      "position": 1,
+      "clip": 0,
+      "width": 2000,
+      "height": 1086,
+      "baseName": "Codice Map v3 Final3",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//AOKgguvPvPP17PDu4/Dt4gDgoYPlt5/z8uju8urlwawA3qWK3pt85LOa3rei252BAPDm2erMuerLuOW7pdueggDy8+nw8+rz9u3z8unt3M1uJDz6ethHeAAAAABJRU5ErkJggg=="
     }
   ],
   "tags": [

@@ -1969,6 +1969,19 @@
       ]
     },
     {
+      "id": "169",
+      "title": "The Charterhouse of Bruges",
+      "subtitle": "Jan van Eyck, Petrus Christus, and Jan Vos",
+      "year": 2018,
+      "description": "<p>Map for a book and <a href=\"https://www.frick.org/press/charterhouse_bruges_jan_van_eyck_petrus_christus_jan_vos\">exhibition</a> at the Frick, featuring masterworks from fifteenth-century Bruges.</p>",
+      "client_name": "The Frick Collection",
+      "thumbnail": "/slides/378/200-square/Bruges Map v9 Final.webp",
+      "slide_captions": [
+        "Map of the Burgundian Netherlands, ca. 1441"
+      ],
+      "slide_tags": []
+    },
+    {
       "id": "27",
       "title": "The Chinese Collection",
       "subtitle": "Selected Works from the Norton Museum of Art",
