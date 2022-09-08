@@ -646,6 +646,19 @@
       ]
     },
     {
+      "id": "168",
+      "title": "Dia",
+      "subtitle": "Dia: An Introduction to Dia's Locations and Sites",
+      "year": 2020,
+      "description": "<p>This map of Dia's worldwide art sites and installations was used as the front and back endpapers for <cite>Dia: An Introduction to Dia’s Locations and Sites</cite>.</p>",
+      "client_name": "Dia Art Foundation",
+      "thumbnail": "/slides/377/200-square/Dia Map v5 Final w Bleed.webp",
+      "slide_captions": [
+        "Worldwide Dia locations and sites"
+      ],
+      "slide_tags": []
+    },
+    {
       "id": "164",
       "title": "Divine Pleasures",
       "subtitle": "Painting from India's Rajput Courts",
@@ -2636,6 +2649,10 @@
     {
       "id": 31,
       "name": "Columbia University Press"
+    },
+    {
+      "id": 45,
+      "name": "Dia Art Foundation"
     },
     {
       "id": 6,
