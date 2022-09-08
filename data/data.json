@@ -300,6 +300,13 @@
       "abbr": "burk",
       "created_on": "2016-12-05T17:43:58",
       "updated_on": "2016-12-05T17:43:58"
+    },
+    {
+      "id": 45,
+      "name": "Dia Art Foundation",
+      "abbr": "dia",
+      "created_on": "2022-09-07",
+      "updated_on": "2022-09-07"
     }
   ],
   "projects": [
@@ -1966,6 +1973,19 @@
       "featured": 0,
       "created_on": "2022-09-06",
       "updated_on": "2022-09-06"
+    },
+    {
+      "id": 168,
+      "title": "Dia",
+      "subtitle": "Dia: An Introduction to Dia's Locations and Sites",
+      "client_id": 45,
+      "year": 2020,
+      "month": 6,
+      "description": "<p>This map of Dia's worldwide art sites and installations was used as the front and back endpapers for <cite>Dia: An Introduction to Dia’s Locations and Sites</cite>.</p>",
+      "visible": 1,
+      "featured": 0,
+      "created_on": "2022-09-07",
+      "updated_on": "2022-09-07"
     }
   ],
   "slides": [
@@ -6489,6 +6509,21 @@
       "height": 1335,
       "baseName": "Art of Impermanence Map v5",
       "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//ANTZvMrTs7nIqr3VzsXf4QDI173D1L+80srG6fnB2tgAxdi9x+PrwtnVwdravdPNAMDQr8Xk7cTh6cPe4sDf7AC6y7fE4+3E5vPE5vTD5PFpJj00324n6QAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": 377,
+      "project_id": 168,
+      "image": "Dia Map v5 Final w Bleed.jpg",
+      "caption": "Worldwide Dia locations and sites",
+      "url": null,
+      "created_on": "2022-09-07",
+      "updated_on": "2022-09-07",
+      "position": 1,
+      "clip": 0,
+      "width": 2000,
+      "height": 1556,
+      "baseName": "Dia Map v5 Final w Bleed",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAV0lEQVQImQXBSwqAIBAA0Ln/jVw0UH5RtJCgVFroZgJXiQfoPeBcxXjW2nrvIRzA2JJSmnMQkbUeSnnG+HIu3u9GO2itCWGkNIIrxA1eIsTVWX9fSQr9A81YPfrDph9KAAAAAElFTkSuQmCC"
     }
   ],
   "tags": [
