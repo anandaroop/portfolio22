@@ -13,6 +13,7 @@
     "clean-images": "find public/slides -type f -not -path '*/orig/*' -print0 | xargs -0 rm",
     "images": "ts-node src/scripts/process-images.ts",
     "search": "ts-node src/scripts/generate-searchable-content.ts",
+    "content": "yarn images && yarn search",
     "build": "next build",
     "preexport": "yarn clean && next build",
     "export": "next export",

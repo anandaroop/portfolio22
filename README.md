@@ -6,11 +6,10 @@
 # update content
 vi data/data.json
 
-# update generated image variants
-yarn images
-
-# prepare data for search engine
-yarn searchable-content
+# update content files
+yarn content
+# => yarn images # update generated image variants
+# => yarn searchable-content # prepare data for client-side search
 ```
 
 ## Develop
