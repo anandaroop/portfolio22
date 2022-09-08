@@ -1,5 +1,5 @@
 import type { NextPage } from "next"
-import type { Project, TagSlide } from "~/types"
+import type { Project, Slide } from "~/types"
 
 import Head from "next/head"
 import _ from "lodash"
@@ -37,14 +37,20 @@ export default Page
 
 export async function getStaticPaths() {
   const { data } = await fetchData(gql`
-    query TagsQuery {
-      allTags(sortField: "name") {
-        name
+    {
+      allSlides {
+        tags
       }
     }
   `)
 
-  const paths = data.allTags.map(({ name }: { name: string }) => {
+  const uniqueTags = _.compact(
+    _.uniq(
+      _.flatten(data.allSlides.map(({ tags }: { tags: string[] }) => tags))
+    )
+  ).sort()
+
+  const paths = uniqueTags.map((name) => {
     return {
       params: { slug: name },
     }
@@ -55,8 +61,7 @@ export async function getStaticPaths() {
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function extractProjects(response: any): Project[] {
-  const tag = response.data.allTags[0]
-  const projects = tag.TagsSlides.map((ts: TagSlide) => ts.Slide.Project)
+  const projects = response.data.allSlides.map((s: Slide) => s.Project)
   const sortedProjects = _.sortBy(projects, (p) => -p.year)
   const uniqueProjects = _.uniqBy(sortedProjects, (p) => p.id)
   const result = uniqueProjects.filter((p: Project) => p.visible)
@@ -79,23 +84,11 @@ export async function getStaticProps(
   const response = await fetchData(
     gql`
       query TagQuery($name: String) {
-        allTags(filter: { name: $name }) {
-          ...tag
-        }
-      }
-
-      fragment tag on Tag {
-        id
-        name
-        TagsSlides {
-          Slide {
-            TagsSlides {
-              tag_id
-              slide_id
-            }
-            Project {
-              ...project
-            }
+        allSlides(filter: { tags: [$name] }) {
+          caption
+          tags
+          Project {
+            ...project
           }
         }
       }

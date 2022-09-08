@@ -1,4 +1,4 @@
-import type { Client, Project, Slide, Tag, TagSlide } from "~/types"
+import type { Client, Project, Slide } from "~/types"
 
 import { writeFileSync } from "fs"
 import _ from "lodash"
@@ -11,11 +11,10 @@ async function fetchData(query: string) {
 
 ;(async function () {
   try {
-    const { allTags } = await fetchData(gql`
+    const { allSlides } = await fetchData(gql`
       {
-        allTags(sortField: "name") {
-          id
-          name
+        allSlides {
+          tags
         }
       }
     `)
@@ -44,11 +43,7 @@ async function fetchData(query: string) {
             id
             baseName
             caption
-            TagsSlides {
-              Tag {
-                name
-              }
-            }
+            tags
           }
         }
       }
@@ -56,9 +51,7 @@ async function fetchData(query: string) {
 
     const reshape = (project: Project) => {
       const captions = project.Slides.map((s: Slide) => s.caption)
-      const tags = project.Slides.map((s: Slide) =>
-        s.TagsSlides.map((st: TagSlide) => st.Tag.name)
-      )
+      const tags = project.Slides.map(({ tags }) => tags)
       const slide = project.Slides[0]
       const thumbnail = `/slides/${slide.id}/200-square/${slide.baseName}.webp`
 
@@ -75,12 +68,14 @@ async function fetchData(query: string) {
       }
     }
 
+    const allTags = allSlides.map((s: Slide) => s.tags)
+    const uniqueTags = _.uniq(_.compact(_.flatten(allTags))).sort() as string[]
+
     const output = {
       projects: allProjects.map(reshape),
       // @ts-expect-error id string vs number weirdness
       clients: allClients.map((x: Client) => ({ ...x, id: parseInt(x.id) })),
-      // @ts-expect-error id string vs number weirdness
-      tags: allTags.map((x: Tag) => ({ ...x, id: parseInt(x.id) })),
+      tags: uniqueTags.map((tag: string, i: number) => ({ id: i, name: tag })),
     }
 
     const fileName = `./data/searchable-content.json`

@@ -584,6 +584,7 @@
       "slide_tags": [
         "book",
         "historical",
+        null,
         "topo",
         "usa"
       ]
@@ -627,6 +628,21 @@
       ]
     },
     {
+      "id": "170",
+      "title": "Códice Maya de México",
+      "subtitle": "Understanding the Oldest Surviving Book of the Americas",
+      "year": 2022,
+      "description": "A map accompanying a book and exhibition dedicated to the oldest surviving book from the Americas, <a href=\"https://en.wikipedia.org/wiki/Maya_Codex_of_Mexico\">a roughly 12th century Mayan almanac</a> that tracked the movements of Venus.",
+      "client_name": "Getty Museum",
+      "thumbnail": "/slides/379/200-square/Codice Map v3 Final3.webp",
+      "slide_captions": [
+        "Mexico and Central America, with the likely origin of the Maya codex highlighted."
+      ],
+      "slide_tags": [
+        null
+      ]
+    },
+    {
       "id": "45",
       "title": "Detainee Map",
       "subtitle": "Thousand Points Of Light",
@@ -656,7 +672,9 @@
       "slide_captions": [
         "Worldwide Dia locations and sites"
       ],
-      "slide_tags": []
+      "slide_tags": [
+        null
+      ]
     },
     {
       "id": "164",
@@ -1568,7 +1586,9 @@
         "",
         ""
       ],
-      "slide_tags": []
+      "slide_tags": [
+        null
+      ]
     },
     {
       "id": "85",
@@ -1979,7 +1999,9 @@
       "slide_captions": [
         "Map of the Burgundian Netherlands, ca. 1441"
       ],
-      "slide_tags": []
+      "slide_tags": [
+        null
+      ]
     },
     {
       "id": "27",
@@ -2684,6 +2706,10 @@
       "name": "Forma"
     },
     {
+      "id": 46,
+      "name": "Getty Museum"
+    },
+    {
       "id": 24,
       "name": "Ghost Robot"
     },
@@ -2810,175 +2836,175 @@
   ],
   "tags": [
     {
-      "id": 46,
+      "id": 0,
       "name": "africa"
     },
     {
-      "id": 47,
+      "id": 1,
       "name": "americas"
     },
     {
-      "id": 48,
+      "id": 2,
       "name": "asia"
     },
     {
-      "id": 85,
+      "id": 3,
       "name": "blog"
     },
     {
-      "id": 49,
+      "id": 4,
       "name": "book"
     },
     {
-      "id": 50,
+      "id": 5,
       "name": "cartogram"
     },
     {
-      "id": 81,
+      "id": 6,
       "name": "chart"
     },
     {
-      "id": 51,
+      "id": 7,
       "name": "china"
     },
     {
-      "id": 52,
+      "id": 8,
       "name": "city"
     },
     {
-      "id": 86,
+      "id": 9,
       "name": "contour"
     },
     {
-      "id": 87,
+      "id": 10,
       "name": "drupal"
     },
     {
-      "id": 53,
+      "id": 11,
       "name": "electoral"
     },
     {
-      "id": 54,
+      "id": 12,
       "name": "empire"
     },
     {
-      "id": 55,
+      "id": 13,
       "name": "europe"
     },
     {
-      "id": 56,
+      "id": 14,
       "name": "exhibition"
     },
     {
-      "id": 75,
+      "id": 15,
       "name": "film"
     },
     {
-      "id": 57,
+      "id": 16,
       "name": "gis"
     },
     {
-      "id": 83,
+      "id": 17,
       "name": "google-earth"
     },
     {
-      "id": 58,
+      "id": 18,
       "name": "historical"
     },
     {
-      "id": 59,
+      "id": 19,
       "name": "interactive"
     },
     {
-      "id": 68,
+      "id": 20,
       "name": "large-scale"
     },
     {
-      "id": 60,
+      "id": 21,
       "name": "magazine"
     },
     {
-      "id": 61,
+      "id": 22,
       "name": "mesopotamia"
     },
     {
-      "id": 62,
+      "id": 23,
       "name": "middle-east"
     },
     {
-      "id": 78,
+      "id": 24,
       "name": "motion"
     },
     {
-      "id": 84,
+      "id": 25,
       "name": "natural-color"
     },
     {
-      "id": 63,
+      "id": 26,
       "name": "nyc"
     },
     {
-      "id": 88,
+      "id": 27,
       "name": "perspective"
     },
     {
-      "id": 64,
+      "id": 28,
       "name": "plan"
     },
     {
-      "id": 76,
+      "id": 29,
       "name": "presentation"
     },
     {
-      "id": 89,
+      "id": 30,
       "name": "rails"
     },
     {
-      "id": 65,
+      "id": 31,
       "name": "satellite"
     },
     {
-      "id": 66,
+      "id": 32,
       "name": "science"
     },
     {
-      "id": 67,
+      "id": 33,
       "name": "silk-road"
     },
     {
-      "id": 69,
+      "id": 34,
       "name": "south-asia"
     },
     {
-      "id": 82,
+      "id": 35,
       "name": "thematic"
     },
     {
-      "id": 70,
+      "id": 36,
       "name": "topo"
     },
     {
-      "id": 92,
+      "id": 37,
       "name": "trade"
     },
     {
-      "id": 77,
+      "id": 38,
       "name": "tv"
     },
     {
-      "id": 71,
+      "id": 39,
       "name": "usa"
     },
     {
-      "id": 72,
+      "id": 40,
       "name": "webmaps"
     },
     {
-      "id": 73,
+      "id": 41,
       "name": "website"
     },
     {
-      "id": 74,
+      "id": 42,
       "name": "world"
     }
   ]

@@ -14,7 +14,6 @@ export type Project = {
   visible: boolean
   featured: boolean
   Slides: Slide[]
-  TagsSlides: TagSlide[]
   Client: Client
 }
 
@@ -31,16 +30,11 @@ export type Slide = {
   width: number
   height: number
   Project: Project
-  TagsSlides: TagSlide[]
+  tags: string[]
 }
 
 export type Tag = {
+  /* id is meaningless, since this not a relation any more */
   id: number
   name: string
-  TagsSlides: TagSlide[]
-}
-
-export type TagSlide = {
-  Slide: Slide
-  Tag: Tag
 }
