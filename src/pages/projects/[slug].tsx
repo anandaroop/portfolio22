@@ -38,8 +38,13 @@ const Page: NextPage<Props> = ({ project }) => {
         <h2 className="text-3xl font-medium md:text-4xl lg:text-5xl">
           {project.title}
         </h2>
+        {project.subtitle && (
+          <h3 className="my-2 text-lg text-neutral-500 dark:text-neutral-400 md:text-xl lg:text-2xl">
+            {project.subtitle}
+          </h3>
+        )}
 
-        <div className="my-2 p-1 text-lg font-medium md:text-xl lg:text-2xl">
+        <div className="my-2 text-lg md:text-xl lg:text-2xl">
           <Link href={`/clients/${clientSlug}`}>
             <a className="underline-offset-2 hover:underline">
               {project.Client.name}
@@ -49,7 +54,7 @@ const Page: NextPage<Props> = ({ project }) => {
         </div>
 
         <div
-          className="maxleading-loose prose prose-neutral my-4 dark:prose-invert dark:text-neutral-400 md:prose-xl lg:prose-2xl"
+          className="prose prose-neutral mt-6 leading-loose text-neutral-500 dark:prose-invert dark:text-neutral-400 md:prose-xl lg:prose-2xl"
           dangerouslySetInnerHTML={{ __html: project.description }}
         />
 
@@ -106,6 +111,7 @@ export async function getStaticProps(context: Context) {
         project: Project(id: $id) {
           id
           title
+          subtitle
           year
           month
           description
