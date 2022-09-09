@@ -314,6 +314,13 @@
       "abbr": "gtty",
       "created_on": "2022-09-07",
       "updated_on": "2022-09-07"
+    },
+    {
+      "id": 47,
+      "name": "Scala Books",
+      "abbr": "scla",
+      "created_on": "2022-09-08",
+      "updated_on": "2022-09-08"
     }
   ],
   "projects": [
@@ -2032,6 +2039,32 @@
       "featured": 0,
       "created_on": "2022-09-07",
       "updated_on": "2022-09-07"
+    },
+    {
+      "id": 172,
+      "title": "The Colmar Treasure",
+      "subtitle": "A Medieval Jewish Legacy",
+      "client_id": 47,
+      "year": 2019,
+      "month": 3,
+      "description": "A map to accompany a book and an exhibition at the Met Cloisters about a cache of precious objects hidden by the Jewish community of Colmar, France during the Black Death pogroms of the 14th century.",
+      "visible": 1,
+      "featured": 0,
+      "created_on": "2022-09-08",
+      "updated_on": "2022-09-08"
+    },
+    {
+      "id": 173,
+      "title": "Islamic Art Wing",
+      "subtitle": "",
+      "client_id": 1,
+      "year": 2022,
+      "month": 8,
+      "description": "A decade after <a href=\"/projects/the-new-islamic-art-wing-128\">creating the original maps</a> for the new Islamic Art wing, I was asked to update the world map that sits at the entrance.",
+      "visible": 1,
+      "featured": 0,
+      "created_on": "2022-09-08",
+      "updated_on": "2022-09-08"
     }
   ],
   "slides": [
@@ -8449,7 +8482,9 @@
       "tags": [
         "asia",
         "book",
-        "exhibition"
+        "exhibition",
+        "topo",
+        "natural-color"
       ]
     },
     {
@@ -8554,6 +8589,48 @@
       "height": 2000,
       "baseName": "Map 3 - Madurai v5 Final",
       "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAASUlEQVQImQXBwQ2AMAgAQPbfSaCWFqEFYowvl/EOUjnkiEp9P98L9iQXjIlhYvcDoWyCNmgJljKsQZdQWC/roQ3yamlnupRLKv8rTDqLaGlh/AAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": 382,
+      "project_id": 172,
+      "image": "Europe v4 Final.jpg",
+      "caption": "Colmar, France and environs",
+      "url": null,
+      "created_on": "2022-09-08",
+      "updated_on": "2022-09-08",
+      "position": 1,
+      "clip": 0,
+      "tags": [
+        "europe",
+        "book",
+        "exhibition"
+      ],
+      "width": 1600,
+      "height": 2000,
+      "baseName": "Europe v4 Final",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAATklEQVQImRXJSw6AIAwFQO5/Jw2xVeMKWTzKr1WJBzEuJ+M6lga66z4e0RacCVvmBrZyvAO/ESZEr3k1IXcVlnNO0atsmuj/Cu6JTMgyf7M1Pch/JgCNAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": 383,
+      "project_id": 173,
+      "image": "Map 00 2022 v5-01.jpg",
+      "caption": "Revised world map for the entrance to the Islamic Art wing",
+      "url": null,
+      "created_on": "2022-09-08",
+      "updated_on": "2022-09-08",
+      "position": 1,
+      "clip": 0,
+      "tags": [
+        "exhibition",
+        "historical",
+        "natural-color",
+        "topo",
+        "world"
+      ],
+      "width": 4000,
+      "height": 2361,
+      "baseName": "Map 00 2022 v5-01",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAV0lEQVQImQXB0Q5AIBQA0Pv/XrDx6q0Xs1Q0ubeJlUxYn+Qc0KqdZWVUvYhqVQ0g9Q5ZQJbDmP0At+OnHXY3bcSs6cDI8tgFpRejxwNB88IGS+mj9NAVf0C+NdgG7FB/AAAAAElFTkSuQmCC"
     }
   ]
 }

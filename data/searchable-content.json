@@ -200,7 +200,9 @@
       "slide_tags": [
         "asia",
         "book",
-        "exhibition"
+        "exhibition",
+        "natural-color",
+        "topo"
       ]
     },
     {
@@ -1081,6 +1083,25 @@
         "historical",
         "thematic",
         "topo"
+      ]
+    },
+    {
+      "id": "173",
+      "title": "Islamic Art Wing",
+      "subtitle": "",
+      "year": 2022,
+      "description": "A decade after <a href=\"/projects/the-new-islamic-art-wing-128\">creating the original maps</a> for the new Islamic Art wing, I was asked to update the world map that sits at the entrance.",
+      "client_name": "Metropolitan Museum of Art",
+      "thumbnail": "/slides/383/200-square/Map 00 2022 v5-01.webp",
+      "slide_captions": [
+        "Revised world map for the entrance to the Islamic Art wing"
+      ],
+      "slide_tags": [
+        "exhibition",
+        "historical",
+        "natural-color",
+        "topo",
+        "world"
       ]
     },
     {
@@ -2070,6 +2091,23 @@
       ]
     },
     {
+      "id": "172",
+      "title": "The Colmar Treasure",
+      "subtitle": "A Medieval Jewish Legacy",
+      "year": 2019,
+      "description": "A map to accompany a book and an exhibition at the Met Cloisters about a cache of precious objects hidden by the Jewish community of Colmar, France during the Black Death pogroms of the 14th century.",
+      "client_name": "Scala Books",
+      "thumbnail": "/slides/382/200-square/Europe v4 Final.webp",
+      "slide_captions": [
+        "Colmar, France and environs"
+      ],
+      "slide_tags": [
+        "book",
+        "europe",
+        "exhibition"
+      ]
+    },
+    {
       "id": "39",
       "title": "The Colonial Andes",
       "subtitle": "Tapestries and Silverwork, 1530-1830",
@@ -2823,6 +2861,10 @@
     {
       "id": 9,
       "name": "Rubin Museum of Art"
+    },
+    {
+      "id": 47,
+      "name": "Scala Books"
     },
     {
       "id": 36,
