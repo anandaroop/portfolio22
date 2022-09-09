@@ -1839,6 +1839,26 @@
       ]
     },
     {
+      "id": "171",
+      "title": "Storied Stone",
+      "subtitle": "Reframing the Philadelphia Museum of Art's South Indian Temple Hall",
+      "year": 2022,
+      "description": "Maps to accompany a book about the history of the temple installation inside the Philadelphia Museum of Art.",
+      "client_name": "Philadelphia Museum of Art",
+      "thumbnail": "/slides/380/200-square/Map 2 - Southern India v6 Final.webp",
+      "slide_captions": [
+        "Southern India",
+        "City map of Madurai"
+      ],
+      "slide_tags": [
+        "book",
+        "city",
+        "plan",
+        "south-asia",
+        "topo"
+      ]
+    },
+    {
       "id": "100",
       "title": "Storytelling in Japanese Painting",
       "subtitle": "",
