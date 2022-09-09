@@ -68,12 +68,13 @@ import { Slide } from "../types"
     }
     // console.log({ updatedSlides })
 
-    const timestamp = new Date()
-      .toISOString()
-      .replace(/\W/g, "")
-      .replace(/\d{3}Z$/, "")
-      .replace(/T/, ".")
-    const fileName = `./data.${timestamp}.json`
+    // const timestamp = new Date()
+    //   .toISOString()
+    //   .replace(/\W/g, "")
+    //   .replace(/\d{3}Z$/, "")
+    //   .replace(/T/, ".")
+    // const fileName = `./data.${timestamp}.json`
+    const fileName = `./data/data.json`
 
     const json = JSON.stringify({ ...data, slides: updatedSlides }, null, 2)
 
