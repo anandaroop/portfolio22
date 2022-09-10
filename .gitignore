@@ -41,6 +41,7 @@ next-env.d.ts
 *.tgz
 
 # image procesing
+public/slides/*/full
 public/slides/*/200-square
 public/slides/*/500-min
 data.*.*.json

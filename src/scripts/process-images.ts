@@ -30,6 +30,16 @@ import { Slide } from "../types"
 
       let dirName
 
+      /* full (force rgb) */
+      dirName = `public/slides/${slide.id}/full`
+      existsSync(dirName) || mkdirSync(dirName)
+      image
+        .resize(2000, 2000, {
+          fit: sharp.fit.inside,
+        })
+        .toFormat("webp")
+        .toFile(`public/slides/${slide.id}/full/${baseName}.webp`)
+
       /* square 200px */
       dirName = `public/slides/${slide.id}/200-square`
       existsSync(dirName) || mkdirSync(dirName)

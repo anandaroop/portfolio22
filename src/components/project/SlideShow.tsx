@@ -41,7 +41,7 @@ export const SlideShow: React.FC<Props> = ({ slides, square }) => {
       >
         {slides.map((slide) => {
           const src = `/slides/${slide.id}/500-min/${slide.baseName}.webp`
-          const largeSrc = `/slides/${slide.id}/orig/${slide.image}`
+          const largeSrc = `/slides/${slide.id}/full/${slide.baseName}.webp`
 
           // for these 1000px images, we want to present it larger than its natural size
           const scaled = scaleUp(slide)
