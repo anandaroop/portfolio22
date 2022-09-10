@@ -28,7 +28,8 @@ export const ProjectSummary: React.FC<Props> = ({ project }) => {
             <LazyLoadImage
               id="image-square-child"
               alt={slide.caption}
-              className="w-full opacity-50 transition-opacity group-hover:opacity-100 group-focus:opacity-100 dark:opacity-60"
+              className="w-full"
+              wrapperClassName="opacity-50 transition-opacity group-hover:opacity-100 group-focus:opacity-100 dark:opacity-60"
               src={imgSrc}
               placeholderSrc={slide.placeholder}
             />
