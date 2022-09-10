@@ -58,7 +58,7 @@ const Page: NextPage<Props> = ({ project }) => {
           dangerouslySetInnerHTML={{ __html: project.description }}
         />
 
-        <SlideShow slides={photoSlides} />
+        <SlideShow slides={photoSlides} square />
 
         {videoClips.length > 0 && <VimeoClips clips={videoClips} />}
       </div>

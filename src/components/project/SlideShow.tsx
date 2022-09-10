@@ -9,6 +9,7 @@ import "photoswipe/style.css"
 
 interface Props {
   slides: Slide[]
+  square?: boolean
 }
 
 const SLIDE_DIMENSION = 1600
@@ -22,7 +23,7 @@ const scaleUp = ({ width, height }: { width: number; height: number }) => {
   }
 }
 
-export const SlideShow: React.FC<Props> = ({ slides }) => {
+export const SlideShow: React.FC<Props> = ({ slides, square }) => {
   useEffect(() => {
     const lightbox = new PhotoSwipeLightbox({
       gallery: "#slide-show",
@@ -48,14 +49,22 @@ export const SlideShow: React.FC<Props> = ({ slides }) => {
           return (
             <div key={slide.id}>
               <a
-                className="slide"
+                className={
+                  square
+                    ? "slide aspect-w-1 aspect-h-1 inline-block w-full"
+                    : "slide"
+                }
                 href={largeSrc}
                 data-pswp-width={scaled.width}
                 data-pswp-height={scaled.height}
                 data-cropped="true"
               >
                 <img
-                  className="w-full transition-transform hover:scale-[102%]"
+                  className={
+                    square
+                      ? "object-cover transition-transform hover:scale-[102%]"
+                      : "transition-transform hover:scale-[102%]"
+                  }
                   src={src}
                   alt={slide.caption}
                 />
