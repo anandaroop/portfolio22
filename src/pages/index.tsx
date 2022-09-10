@@ -53,6 +53,7 @@ export async function getStaticProps(): Promise<{ props: Props }> {
         id
         baseName
         placeholder
+        caption
       }
     }
   `)

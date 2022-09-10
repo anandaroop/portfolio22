@@ -16,32 +16,19 @@ export const ProjectSummary: React.FC<Props> = ({ project }) => {
 
   return (
     <Link href={`/projects/${slug}`}>
-      <a
-        id="summary-square-parent"
-        className="group aspect-w-1 aspect-h-1 w-full"
-      >
-        <div id="summary-square-child" className="relative">
-          <div
-            id="image-square-parent"
-            className="aspect-w-1 aspect-h-1 absolute w-full"
-          >
+      <a className="summary-square-parent group aspect-w-1 aspect-h-1 w-full">
+        <div className="summary-square-child relative">
+          <div className="image-square-parent aspect-w-1 aspect-h-1 absolute w-full">
             <LazyLoadImage
-              id="image-square-child"
               alt={slide.caption}
               className="w-full"
-              wrapperClassName="opacity-50 transition-opacity group-hover:opacity-100 group-focus:opacity-100 dark:opacity-60"
+              wrapperClassName="image-square-child opacity-50 transition-opacity group-hover:opacity-100 group-focus:opacity-100 dark:opacity-60"
               src={imgSrc}
               placeholderSrc={slide.placeholder}
             />
           </div>
-          <div
-            id="text-square-parent"
-            className="aspect-w-1 aspect-h-1 absolute w-full"
-          >
-            <div
-              id="text-square-child"
-              className="text-shadow dark:text-shadow-dark overflow-hidden p-2 text-lg transition-opacity group-hover:opacity-0 group-focus:opacity-0 md:text-xl lg:text-2xl"
-            >
+          <div className="text-square-parent aspect-w-1 aspect-h-1 absolute w-full">
+            <div className="text-square-child text-shadow dark:text-shadow-dark overflow-hidden p-2 text-lg transition-opacity group-hover:opacity-0 group-focus:opacity-0 md:text-xl lg:text-2xl">
               <h2 className="font-semibold text-neutral-900 dark:text-neutral-100">
                 {project.title}
               </h2>
