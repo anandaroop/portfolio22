@@ -72,7 +72,7 @@ export const SearchModal: React.FC = () => {
             Search results{query.length > 1 ? ` for "${query}"` : ""}
           </h2>
           <button
-            className="block aspect-square w-8 text-lg lg:text-2xl"
+            className="block h-8 w-8 text-lg lg:text-2xl"
             onClick={exitSearchMode}
           >
             ✕

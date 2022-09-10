@@ -55,7 +55,7 @@ export const SlideShow: React.FC<Props> = ({ slides }) => {
                 data-cropped="true"
               >
                 <img
-                  className="aspect-square w-full object-cover transition-transform hover:scale-[102%]"
+                  className="w-full transition-transform hover:scale-[102%]"
                   src={src}
                   alt={slide.caption}
                 />
