@@ -20,7 +20,6 @@ const Page: NextPage<Props> = ({ client }) => {
           name="description"
           content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <h2 className="p-6 text-2xl font-medium md:text-3xl lg:text-4xl">

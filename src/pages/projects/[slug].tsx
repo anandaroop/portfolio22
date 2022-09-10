@@ -31,7 +31,6 @@ const Page: NextPage<Props> = ({ project }) => {
           name="description"
           content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="p-6">

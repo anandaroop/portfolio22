@@ -7,6 +7,7 @@ import { Footer } from "~/components/Footer"
 import { SearchProvider } from "~/components/search/SearchContext"
 import { SearchModal } from "~/components/search/SearchModal"
 import Script from "next/script"
+import Head from "next/head"
 
 const breakpoint_outline_styles =
   "outline outline-8 outline-red-500 sm:outline-orange-500 md:outline-yellow-500 lg:outline-green-500 xl:outline-blue-600 2xl:outline-violet-500"
@@ -14,6 +15,9 @@ const breakpoint_outline_styles =
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </Head>
       <Script
         id="clarity-analytics"
         strategy="afterInteractive"
