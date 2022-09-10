@@ -25,3 +25,6 @@ email obfuscation
 
 modals
 : native dialog with inert + diy scroll lock
+
+css native aspect-ratio
+: Safari 14 🙁
