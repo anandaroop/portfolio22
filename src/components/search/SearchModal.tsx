@@ -6,9 +6,7 @@ import Link from "next/link"
 
 import { useSearch } from "./SearchContext"
 import { getSlugFromClient, getSlugFromProject } from "~/lib/slugs"
-import { SearchEngine } from "./engine"
-
-const searchEngine = SearchEngine.create()
+import { searchEngine } from "./engine"
 
 export const SearchModal: React.FC = () => {
   const dialogRef = useRef<HTMLDialogElement>(null)
@@ -99,7 +97,9 @@ export const SearchModal: React.FC = () => {
   )
 }
 
-const MatchingTags: React.FC<{ tags: Partial<TagDocument>[] }> = ({ tags }) => {
+export const MatchingTags: React.FC<{ tags: Partial<TagDocument>[] }> = ({
+  tags,
+}) => {
   const { exitSearchMode } = useSearch()
   if (!tags.length) return null
 
@@ -126,9 +126,9 @@ const MatchingTags: React.FC<{ tags: Partial<TagDocument>[] }> = ({ tags }) => {
   )
 }
 
-const MatchingClients: React.FC<{ clients: Partial<ClientDocument>[] }> = ({
-  clients,
-}) => {
+export const MatchingClients: React.FC<{
+  clients: Partial<ClientDocument>[]
+}> = ({ clients }) => {
   const { exitSearchMode } = useSearch()
   if (!clients.length) return null
 
@@ -156,7 +156,7 @@ const MatchingClients: React.FC<{ clients: Partial<ClientDocument>[] }> = ({
   )
 }
 
-const MatchingProjects: React.FC<{ projects: ProjectDocument[] }> = ({
+export const MatchingProjects: React.FC<{ projects: ProjectDocument[] }> = ({
   projects,
 }) => {
   const { query, exitSearchMode } = useSearch()

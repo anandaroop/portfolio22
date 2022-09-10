@@ -104,3 +104,5 @@ export class SearchEngine {
     }
   }
 }
+
+export const searchEngine = SearchEngine.create()
