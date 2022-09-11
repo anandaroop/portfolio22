@@ -4,6 +4,7 @@ import Link from "next/link"
 import { getSlugFromClient } from "~/lib/slugs"
 import { SlideShow } from "./SlideShow"
 import { VimeoClips } from "./VimeoClips"
+import { abort } from "process"
 
 interface Props {
   project: Project
@@ -11,7 +12,9 @@ interface Props {
 
 export const ProjectView: React.FC<Props> = ({ project }) => {
   const clientSlug = getSlugFromClient(project.Client)
-  const photoSlides = project.Slides.filter((slide) => !slide.clip)
+  const photoSlides = project.Slides.filter((slide) => !slide.clip).sort(
+    (a, b) => (a.position < b.position ? -1 : b.position < a.position ? 1 : 0)
+  )
   const videoClips = project.Slides.filter((slide) => !!slide.clip)
 
   return (
