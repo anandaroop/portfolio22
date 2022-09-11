@@ -1863,6 +1863,18 @@
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-11"
+    },
+    {
+      "id": 176,
+      "title": "The Eternal Feast",
+      "subtitle": "Banqueting in Chinese Art from the 10th to the 14th Century",
+      "client_id": 10,
+      "year": 2019,
+      "month": 8,
+      "description": "Maps to accompany an book and exhibition about images of feasting in Chinese art from the Song, Liao, and Yuan dynasties.",
+      "visible": 1,
+      "featured": 0,
+      "created_on": "2022-09-11"
     }
   ],
   "slides": [
@@ -8203,6 +8215,72 @@
       "height": 1774,
       "baseName": "3 Big Route v6 Final",
       "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAVUlEQVQImQXB4Q5AIBAA4Hv/d+KPsWwtOVpOpENZzeYVfB/QJBYU2pjZP3QWQNkMopZ9payzXMAFNqol7EaUemW4U94JL2/DNiN5yO8X+XhzSoEcxx/HuT+IM6A2hAAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": 388,
+      "project_id": 176,
+      "image": "Eternal Feast Map 1v5.jpg",
+      "caption": "Dynasties, ca. 1050",
+      "url": null,
+      "created_on": "2022-09-11",
+      "position": 1,
+      "clip": 0,
+      "tags": [
+        "topo",
+        "asia",
+        "exhibition",
+        "book",
+        "historical",
+        "empire"
+      ],
+      "width": 1655,
+      "height": 2000,
+      "baseName": "Eternal Feast Map 1v5",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//AOHk0Nrdxdfdw9jgx8Xg5ADm59Xg38/R1cbC2tq43e0A4OPS3N/PzNjMw9zfrN35ALff8N3j1czg3rDd87Pc8gCn2PS83em94O2x3PK73enTZj7ZqFSxggAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": 389,
+      "project_id": 176,
+      "image": "Eternal Feast Map 2v5.jpg",
+      "caption": "Dynasties, ca. 1150",
+      "url": null,
+      "created_on": "2022-09-11",
+      "position": 1,
+      "clip": 0,
+      "tags": [
+        "topo",
+        "asia",
+        "exhibition",
+        "book",
+        "historical",
+        "empire"
+      ],
+      "width": 1655,
+      "height": 2000,
+      "baseName": "Eternal Feast Map 2v5",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//AOTl1OPi0OLg0NrYzsPb4wDl59Ti387Y08bE1tm33OwA4ePS3ODQytbLwNjbq9z4ALfe8N3j1czg3rHd87Pd8gCn2PS83uq94O2x3PK73engeD7/ao0XQwAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": 390,
+      "project_id": 176,
+      "image": "Eternal Feast Map 3v5.jpg",
+      "caption": "Dynasties, ca. 1300",
+      "url": null,
+      "created_on": "2022-09-11",
+      "position": 1,
+      "clip": 0,
+      "tags": [
+        "topo",
+        "asia",
+        "exhibition",
+        "book",
+        "historical",
+        "empire"
+      ],
+      "width": 1655,
+      "height": 2000,
+      "baseName": "Eternal Feast Map 3v5",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAW0lEQVQImQFQAK//AOTm1OThy+bhyeThysfe4ADl4svk4Mnm38bR3ti23OwA4ODP39rE5d7Ez9/bqtz5ALfe8d3g0dDf27Hd8rPc8gCn2PS83uq94O6x3PO73entQj8/1uJTEAAAAABJRU5ErkJggg=="
     }
   ]
 }
