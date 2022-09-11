@@ -6,7 +6,7 @@ export const Header = () => {
 
   return (
     <div className="flex-initial">
-      <header className="flex content-between border-b-2 border-b-neutral-200 px-6 py-5 opacity-70 hover:opacity-100 dark:border-b-neutral-700 lg:mb-2 lg:pb-8">
+      <header className="flex content-between border-b-2 border-b-neutral-200 px-6 py-5 opacity-70 hover:opacity-100 dark:border-b-neutral-700">
         <div className="flex-1">
           <Link href={`/`}>
             <a className="inline-block">
