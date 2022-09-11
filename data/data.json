@@ -1839,6 +1839,18 @@
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-08"
+    },
+    {
+      "id": 174,
+      "title": "Bestowing Beauty",
+      "subtitle": "Masterpieces from Persian Lands",
+      "client_id": 7,
+      "year": 2019,
+      "month": 8,
+      "description": "Maps to accompany an book and exhibition of a private collection of Persian art",
+      "visible": 1,
+      "featured": 0,
+      "created_on": "2022-09-11"
     }
   ],
   "slides": [
@@ -8097,6 +8109,27 @@
       "height": 2361,
       "baseName": "Map 00 2022 v5-01",
       "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAV0lEQVQImQXB0Q5AIBQA0Pv/XrDx6q0Xs1Q0ubeJlUxYn+Qc0KqdZWVUvYhqVQ0g9Q5ZQJbDmP0At+OnHXY3bcSs6cDI8tgFpRejxwNB88IGS+mj9NAVf0C+NdgG7FB/AAAAAElFTkSuQmCC"
+    },
+    {
+      "id": 384,
+      "project_id": 174,
+      "image": "Eurasia Map v2b Final w Bleed.jpg",
+      "caption": "Iran and neighboring lands",
+      "url": null,
+      "created_on": "2022-09-11",
+      "position": 1,
+      "clip": 0,
+      "tags": [
+        "middle-east",
+        "topo",
+        "natural-color",
+        "exhibition",
+        "book"
+      ],
+      "width": 2000,
+      "height": 1233,
+      "baseName": "Eurasia Map v2b Final w Bleed",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAT0lEQVQImQXBQQ6AIAwEwP7/NR48KIgYKQilS6OJJz/jDK1Ii/p2Qy1nixR1D9WVlpocpQeSXkT5EkY7k3oSKIR1iBuvQyI2rpANz4Rvhv0UzTpMj/PROQAAAABJRU5ErkJggg=="
     }
   ]
 }
