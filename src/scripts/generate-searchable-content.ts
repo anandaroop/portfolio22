@@ -50,6 +50,8 @@ async function fetchData(query: string) {
     `)
 
     const reshape = (project: Project) => {
+      console.log(project.id, project.title)
+
       const captions = project.Slides.map((s: Slide) => s.caption)
       const tags = project.Slides.map(({ tags }) => tags)
       const slide = project.Slides[0]
