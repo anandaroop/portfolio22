@@ -61,7 +61,7 @@ export async function getStaticPaths() {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function extractProjects(response: any): Project[] {
   const projects = response.data.allSlides.map((s: Slide) => s.Project)
-  const sortedProjects = _.sortBy(projects, (p) => -p.year)
+  const sortedProjects = _.sortBy(projects, (p) => -p.year * 12 - p.month)
   const uniqueProjects = _.uniqBy(sortedProjects, (p) => p.id)
   const result = uniqueProjects.filter((p: Project) => p.visible)
   return result
@@ -97,6 +97,7 @@ export async function getStaticProps(
         id
         title
         year
+        month
         Client {
           name
         }

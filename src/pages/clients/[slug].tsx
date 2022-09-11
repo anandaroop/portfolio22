@@ -6,6 +6,7 @@ import { fetchData } from "~/lib/fetchData"
 import { ProjectList } from "~/components/project-list/ProjectList"
 import { gql } from "graphql-request"
 import { getIdFromSlug, getSlugFromClient } from "~/lib/slugs"
+import { sortBy } from "lodash"
 
 interface Props {
   client: Client
@@ -93,6 +94,7 @@ export async function getStaticProps(
         id
         title
         year
+        month
         Client {
           name
         }
@@ -106,6 +108,10 @@ export async function getStaticProps(
     { id }
   )
 
-  client.Projects = client.Projects.filter((p: Project) => p.visible)
+  const projects = sortBy(client.Projects, (p) => {
+    return -p.year * 12 - p.month
+  }).filter((p: Project) => p.visible)
+
+  client.Projects = projects
   return { props: { client } }
 }
