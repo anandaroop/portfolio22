@@ -51,8 +51,8 @@ export const SlideShow: React.FC<Props> = ({ slides, square }) => {
               <a
                 className={
                   square
-                    ? "slide aspect-w-1 aspect-h-1 inline-block w-full"
-                    : "slide"
+                    ? "slide aspect-w-1 aspect-h-1 inline-block w-full cursor-zoom-in"
+                    : "slide cursor-zoom-in"
                 }
                 href={largeSrc}
                 data-pswp-width={scaled.width}
