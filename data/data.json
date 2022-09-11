@@ -1851,6 +1851,18 @@
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-11"
+    },
+    {
+      "id": 175,
+      "title": "Diamond Mountains",
+      "subtitle": "Travel and Nostalgia in Korean Art",
+      "client_id": 1,
+      "year": 2017,
+      "month": 11,
+      "description": "Maps to accompany an book and exhibition of pictorial representations of Mount Geumgang in present-day North Korea, also known as the Diamond Mountains.",
+      "visible": 1,
+      "featured": 0,
+      "created_on": "2022-09-11"
     }
   ],
   "slides": [
@@ -8130,6 +8142,67 @@
       "height": 1233,
       "baseName": "Eurasia Map v2b Final w Bleed",
       "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAT0lEQVQImQXBQQ6AIAwEwP7/NR48KIgYKQilS6OJJz/jDK1Ii/p2Qy1nixR1D9WVlpocpQeSXkT5EkY7k3oSKIR1iBuvQyI2rpANz4Rvhv0UzTpMj/PROQAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": 385,
+      "project_id": 175,
+      "image": "1 Korea Overall v8 Final.jpg",
+      "caption": "Korea, with featured mountains",
+      "url": null,
+      "created_on": "2022-09-11",
+      "position": 2,
+      "clip": 0,
+      "tags": [
+        "topo",
+        "asia",
+        "exhibition",
+        "book"
+      ],
+      "width": 1800,
+      "height": 2000,
+      "baseName": "1 Korea Overall v8 Final",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAWUlEQVQImQXB7QpAMBQA0Pv+r+OfopSR5mNzh93N19ZIyDM4B3ielklU5zE2JfkbRrJ9L0WV0RYovECrN/7qeKEUUnhgaJlZHaIUnJnjAzXguJ/aWL24yc4/pFo+h9+PIMsAAAAASUVORK5CYII="
+    },
+    {
+      "id": 386,
+      "project_id": 175,
+      "image": "2 Jeong Seon Route Map v7.jpg",
+      "caption": "Diamond mountain sites, overlaid on existing illustrated view",
+      "url": null,
+      "created_on": "2022-09-11",
+      "position": 3,
+      "clip": 0,
+      "tags": [
+        "topo",
+        "asia",
+        "exhibition",
+        "book"
+      ],
+      "width": 1919,
+      "height": 691,
+      "baseName": "2 Jeong Seon Route Map v7",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAVklEQVQImQXBSwqAIBAA0Ln/tcRPi1ZFYeNoYKUbIbMQXfUepFLSW2rvtbWvNZivQzmSBke/C0IYHA2WOGqGmpsNhDWCUFrDUCtHsMYwnX6JIT455PsHWTxBeOTOVXcAAAAASUVORK5CYII="
+    },
+    {
+      "id": 387,
+      "project_id": 175,
+      "image": "3 Big Route v6 Final.jpg",
+      "caption": "Travel route for Eight Famous Views of Gwandong",
+      "url": null,
+      "created_on": "2022-09-11",
+      "position": 1,
+      "clip": 0,
+      "tags": [
+        "topo",
+        "asia",
+        "exhibition",
+        "book",
+        "historical"
+      ],
+      "width": 2000,
+      "height": 1774,
+      "baseName": "3 Big Route v6 Final",
+      "placeholder": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAVUlEQVQImQXB4Q5AIBAA4Hv/d+KPsWwtOVpOpENZzeYVfB/QJBYU2pjZP3QWQNkMopZ9payzXMAFNqol7EaUemW4U94JL2/DNiN5yO8X+XhzSoEcxx/HuT+IM6A2hAAAAABJRU5ErkJggg=="
     }
   ]
 }
