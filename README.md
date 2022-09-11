@@ -15,8 +15,7 @@ yarn content
 ## Develop
 
 ```sh
-# basic dev loop
-yarn graphql
+# basic dev loop - runs graphql and next servers
 yarn dev
 
 # for steady feedback about dark mode
@@ -26,7 +25,6 @@ yarn dark
 ## Deploy
 
 ```sh
-
 # for impatient deploy
 yarn go
 

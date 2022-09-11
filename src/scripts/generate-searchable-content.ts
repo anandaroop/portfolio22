@@ -5,15 +5,11 @@ import _ from "lodash"
 import { request, gql } from "graphql-request"
 
 async function fetchData(query: string) {
-  const response = await request("http://localhost:3001", query)
+  const response = await request("http://localhost:3002", query)
   return response
 }
 
 ;(async function () {
-  console.warn(
-    "This relies on graphql serving up the latest data.json, may require a restart"
-  )
-
   try {
     const { allSlides } = await fetchData(gql`
       {
