@@ -1763,7 +1763,7 @@
       "client_id": 13,
       "year": 2019,
       "month": 11,
-      "description": "<p> Map to accompany an <a href=\"/new-york/exhibitions/art-impermanence-japanese-works-john-c-weber-collection-and-mr-and-mrs-john-d\">exhibition</a> at the Asia Society.</p>",
+      "description": "<p> Map to accompany an <a href=\"https://asiasociety.org/new-york/exhibitions/art-impermanence-japanese-works-john-c-weber-collection-and-mr-and-mrs-john-d\">exhibition</a> at the Asia Society about transience and impermanence in Japanese art.</p>",
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-06"
@@ -1799,7 +1799,7 @@
       "client_id": 46,
       "year": 2022,
       "month": 3,
-      "description": "A map accompanying a book and exhibition dedicated to the oldest surviving book from the Americas, <a href=\"https://en.wikipedia.org/wiki/Maya_Codex_of_Mexico\">a roughly 12th century Mayan almanac</a> that tracked the movements of Venus.",
+      "description": "A map accompanying a <a href=\"https://shop.getty.edu/products/codice-maya-de-mexico-understanding-the-oldest-surviving-book-of-the-americas-978-1606067888\">book</a> and exhibition dedicated to the oldest surviving book from the Americas, <a href=\"https://en.wikipedia.org/wiki/Maya_Codex_of_Mexico\">a roughly 12th century Mayan almanac</a> that tracked the movements of Venus.",
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-07"
@@ -1823,7 +1823,7 @@
       "client_id": 47,
       "year": 2019,
       "month": 3,
-      "description": "A map to accompany a book and an exhibition at the Met Cloisters about a cache of precious objects hidden by the Jewish community of Colmar, France during the Black Death pogroms of the 14th century.",
+      "description": "A map to accompany a book and an <a href=\"https://www.metmuseum.org/exhibitions/listings/2019/colmar-treasure-medieval-jewish-legacy\">exhibition</a> at the Met Cloisters about a cache of precious objects hidden by the Jewish community of Colmar, France during the Black Death pogroms of the 14th century.",
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-08"
@@ -1847,7 +1847,7 @@
       "client_id": 7,
       "year": 2019,
       "month": 8,
-      "description": "Maps to accompany an book and exhibition of a private collection of Persian art",
+      "description": "Maps to accompany an book and <a href=\"https://www.mfah.org/exhibitions/bestowing-beauty-masterpieces-persian-lands\">exhibition</a> of a private collection of Persian art",
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-11"
@@ -1859,7 +1859,7 @@
       "client_id": 1,
       "year": 2017,
       "month": 11,
-      "description": "Maps to accompany an book and exhibition of pictorial representations of Mount Geumgang in present-day North Korea, also known as the Diamond Mountains.",
+      "description": "Maps to accompany an book and <a href=\"https://www.metmuseum.org/exhibitions/listings/2018/diamond-mountains\">exhibition</a> of pictorial representations of Mount Geumgang in present-day North Korea, also known as the Diamond Mountains.",
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-11"
@@ -1871,7 +1871,7 @@
       "client_id": 10,
       "year": 2019,
       "month": 8,
-      "description": "Maps to accompany an book and exhibition about images of feasting in Chinese art from the Song, Liao, and Yuan dynasties.",
+      "description": "Maps to accompany an book and <a href=\"https://artmuseum.princeton.edu/art/exhibitions/3479\">exhibition</a> about images of feasting in Chinese art from the Song, Liao, and Yuan dynasties.",
       "visible": 1,
       "featured": 0,
       "created_on": "2022-09-11"
