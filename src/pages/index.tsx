@@ -20,6 +20,14 @@ const Home: NextPage<Props> = ({ allProjects }) => {
           name="description"
           content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
         />
+        <meta property="og:title" content="Anandaroop Roy" />
+        <meta
+          property="og:description"
+          content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.anandarooproy.com/" />
+        <meta property="og:image" content="/og-image.jpg" />
       </Head>
 
       <ProjectList projects={allProjects} />

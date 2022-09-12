@@ -17,10 +17,6 @@ const Page: NextPage<Props> = ({ project }) => {
     <>
       <Head>
         <title>{`Anandaroop Roy | ${project.title}`}</title>
-        <meta
-          name="description"
-          content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
-        />
       </Head>
 
       <ProjectView project={project} />

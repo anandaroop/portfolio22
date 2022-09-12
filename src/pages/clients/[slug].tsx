@@ -17,10 +17,6 @@ const Page: NextPage<Props> = ({ client }) => {
     <>
       <Head>
         <title>{`Anandaroop Roy | ${client.name}`}</title>
-        <meta
-          name="description"
-          content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
-        />
       </Head>
 
       <h2 className="p-6 text-2xl font-medium md:text-3xl lg:text-4xl">

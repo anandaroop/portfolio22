@@ -17,6 +17,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="icon" type="image/png" href="/favicon.png" />
+        <meta
+          name="description"
+          content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
+        />
       </Head>
       <Script
         id="clarity-analytics"
