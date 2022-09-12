@@ -1,7 +1,7 @@
 import type { Client, Project } from "~/types"
 import type { ClientDocument, ProjectDocument, TagDocument } from "./engine"
 
-import React, { useEffect, useRef } from "react"
+import React, { useEffect, useMemo, useRef } from "react"
 import Link from "next/link"
 
 import { useSearch } from "./SearchContext"
@@ -54,10 +54,10 @@ export const SearchModal: React.FC = () => {
     }
   }, [inSearchMode, exitSearchMode, enterSearchMode, canDialog])
 
-  if (!canDialog) return null
+  // synchronously fetch and memoize results when query changes
+  const results = useMemo(() => searchEngine.searchSync(query), [query])
 
-  // synchronously fetch results when query changes
-  const results = searchEngine.searchSync(query)
+  if (!canDialog) return null
 
   return (
     <dialog
