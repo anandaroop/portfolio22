@@ -8,15 +8,17 @@ vi data/data.json
 
 # update content files
 yarn content
-# => yarn images # update generated image variants
+# => yarn images # update generated image variants, then…
 # => yarn searchable-content # prepare data for client-side search
 ```
 
 ## Develop
 
 ```sh
-# basic dev loop - runs graphql and next servers
+# basic dev loop
 yarn dev
+# => yarn graphql # graphql server for local json db, and concurrently…
+# => yarn dev # next dev server
 
 # for steady feedback about dark mode
 yarn dark
