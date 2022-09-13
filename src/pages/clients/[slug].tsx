@@ -6,7 +6,7 @@ import { fetchData } from "~/lib/fetchData"
 import { ProjectList } from "~/components/project-list/ProjectList"
 import { gql } from "graphql-request"
 import { getIdFromSlug, getSlugFromClient } from "~/lib/slugs"
-import { sortBy } from "lodash"
+import sortBy from "lodash/sortBy"
 
 interface Props {
   client: Client

@@ -1,8 +1,10 @@
 import type { Client, Project, Slide } from "~/types"
 
 import { writeFileSync } from "fs"
-import _ from "lodash"
 import { request, gql } from "graphql-request"
+import compact from "lodash/compact"
+import flatten from "lodash/flatten"
+import uniq from "lodash/uniq"
 
 async function fetchData(query: string) {
   const response = await request("http://localhost:3002", query)
@@ -66,12 +68,12 @@ async function fetchData(query: string) {
         client_name: project.Client.name,
         thumbnail,
         slide_captions: captions,
-        slide_tags: _.uniq(_.flatten(tags).sort()),
+        slide_tags: uniq(flatten(tags).sort()),
       }
     }
 
     const allTags = allSlides.map((s: Slide) => s.tags)
-    const uniqueTags = _.uniq(_.compact(_.flatten(allTags))).sort() as string[]
+    const uniqueTags = uniq(compact(flatten(allTags))).sort() as string[]
 
     const output = {
       projects: allProjects.map(reshape),

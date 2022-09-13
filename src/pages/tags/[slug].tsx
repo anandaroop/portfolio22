@@ -2,10 +2,15 @@ import type { NextPage } from "next"
 import type { Project, Slide } from "~/types"
 
 import Head from "next/head"
-import _ from "lodash"
+import { gql } from "graphql-request"
+import compact from "lodash/compact"
+import flatten from "lodash/flatten"
+import uniq from "lodash/uniq"
+import sortBy from "lodash/sortBy"
+import uniqBy from "lodash/uniqBy"
+
 import { fetchData } from "~/lib/fetchData"
 import { ProjectList } from "~/components/project-list/ProjectList"
-import { gql } from "graphql-request"
 
 interface Props {
   tagName: string
@@ -43,10 +48,8 @@ export async function getStaticPaths() {
     }
   `)
 
-  const uniqueTags = _.compact(
-    _.uniq(
-      _.flatten(data.allSlides.map(({ tags }: { tags: string[] }) => tags))
-    )
+  const uniqueTags = compact(
+    uniq(flatten(data.allSlides.map(({ tags }: { tags: string[] }) => tags)))
   ).sort()
 
   const paths = uniqueTags.map((name) => {
@@ -61,8 +64,8 @@ export async function getStaticPaths() {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function extractProjects(response: any): Project[] {
   const projects = response.data.allSlides.map((s: Slide) => s.Project)
-  const sortedProjects = _.sortBy(projects, (p) => -p.year * 12 - p.month)
-  const uniqueProjects = _.uniqBy(sortedProjects, (p) => p.id)
+  const sortedProjects = sortBy(projects, (p) => -p.year * 12 - p.month)
+  const uniqueProjects = uniqBy(sortedProjects, (p) => p.id)
   const result = uniqueProjects.filter((p: Project) => p.visible)
   return result
 }

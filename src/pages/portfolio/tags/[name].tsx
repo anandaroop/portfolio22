@@ -2,7 +2,9 @@ import type { NextPage } from "next/types"
 
 import Link from "next/link"
 import Head from "next/head"
-import _ from "lodash"
+import compact from "lodash/compact"
+import flatten from "lodash/flatten"
+import uniq from "lodash/uniq"
 import { gql } from "graphql-request"
 
 import { fetchData } from "~/lib/fetchData"
@@ -45,10 +47,8 @@ export async function getStaticPaths() {
     }
   `)
 
-  const uniqueTags = _.compact(
-    _.uniq(
-      _.flatten(data.allSlides.map(({ tags }: { tags: string[] }) => tags))
-    )
+  const uniqueTags = compact(
+    uniq(flatten(data.allSlides.map(({ tags }: { tags: string[] }) => tags)))
   ).sort() as string[]
 
   const paths = uniqueTags.map((name: string) => {
