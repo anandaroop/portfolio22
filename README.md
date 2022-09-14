@@ -18,7 +18,7 @@ yarn content
 # basic dev loop
 yarn dev
 # => yarn graphql # graphql server for local json db, and concurrently…
-# => yarn dev # next dev server
+# => yarn next dev # next dev server
 
 # for steady feedback about dark mode
 yarn dark
