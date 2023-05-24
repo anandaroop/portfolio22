@@ -21,6 +21,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="description"
           content="Portfolio site of Anandaroop Roy, freelance cartographer and information designer in New York City"
         />
+        <meta
+          name="google-site-verification"
+          content="r6vhpbVafG1tD2rTtiQXqs4luJrRmKZEe5Sb6ETUops"
+        />
       </Head>
       <Script
         id="clarity-analytics"
