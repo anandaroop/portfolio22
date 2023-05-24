@@ -2016,7 +2016,8 @@
       "tags": [
         "magazine",
         "satellite",
-        "science"
+        "science",
+        "route"
       ]
     },
     {
@@ -2691,7 +2692,8 @@
         "exhibition",
         "historical",
         "topo",
-        "world"
+        "world",
+        "route"
       ]
     },
     {
@@ -3623,7 +3625,9 @@
         "book",
         "empire",
         "historical",
-        "world"
+        "world",
+        "trade",
+        "route"
       ]
     },
     {
@@ -4545,7 +4549,9 @@
         "exhibition",
         "historical",
         "middle-east",
-        "topo"
+        "topo",
+        "trade",
+        "route"
       ]
     },
     {
@@ -4645,7 +4651,8 @@
         "exhibition",
         "historical",
         "natural-color",
-        "topo"
+        "topo",
+        "route"
       ]
     },
     {
@@ -5887,7 +5894,8 @@
         "book",
         "historical",
         "south-asia",
-        "topo"
+        "topo",
+        "route"
       ]
     },
     {
@@ -6606,7 +6614,8 @@
         "natural-color",
         "silk-road",
         "topo",
-        "trade"
+        "trade",
+        "route"
       ]
     },
     {
@@ -6752,6 +6761,7 @@
         "historical",
         "topo",
         "trade",
+        "route",
         "world"
       ]
     },
@@ -6774,6 +6784,7 @@
         "historical",
         "topo",
         "trade",
+        "route",
         "world"
       ]
     },
@@ -7750,7 +7761,8 @@
         "exhibition",
         "historical",
         "thematic",
-        "topo"
+        "topo",
+        "route"
       ]
     },
     {
@@ -8209,7 +8221,8 @@
         "asia",
         "exhibition",
         "book",
-        "historical"
+        "historical",
+        "route"
       ],
       "width": 2000,
       "height": 1774,

@@ -191,7 +191,7 @@
       "title": "Art of Impermanence",
       "subtitle": "Japanese Works from the John C. Weber Collection and Mr. and Mrs. John D. Rockefeller 3rd Collection",
       "year": 2019,
-      "description": "<p> Map to accompany an <a href=\"/new-york/exhibitions/art-impermanence-japanese-works-john-c-weber-collection-and-mr-and-mrs-john-d\">exhibition</a> at the Asia Society.</p>",
+      "description": "<p> Map to accompany an <a href=\"https://asiasociety.org/new-york/exhibitions/art-impermanence-japanese-works-john-c-weber-collection-and-mr-and-mrs-john-d\">exhibition</a> at the Asia Society about transience and impermanence in Japanese art.</p>",
       "client_name": "Asia Society",
       "thumbnail": "/slides/376/200-square/Art of Impermanence Map v5.webp",
       "slide_captions": [
@@ -307,7 +307,7 @@
       "title": "Bestowing Beauty",
       "subtitle": "Masterpieces from Persian Lands",
       "year": 2019,
-      "description": "Maps to accompany an book and exhibition of a private collection of Persian art",
+      "description": "Maps to accompany an book and <a href=\"https://www.mfah.org/exhibitions/bestowing-beauty-masterpieces-persian-lands\">exhibition</a> of a private collection of Persian art",
       "client_name": "Museum of Fine Arts, Houston",
       "thumbnail": "/slides/384/200-square/Eurasia Map v2b Final w Bleed.webp",
       "slide_captions": [
@@ -355,7 +355,9 @@
         "exhibition",
         "historical",
         "middle-east",
-        "topo"
+        "route",
+        "topo",
+        "trade"
       ]
     },
     {
@@ -652,7 +654,7 @@
       "title": "Códice Maya de México",
       "subtitle": "Understanding the Oldest Surviving Book of the Americas",
       "year": 2022,
-      "description": "A map accompanying a book and exhibition dedicated to the oldest surviving book from the Americas, <a href=\"https://en.wikipedia.org/wiki/Maya_Codex_of_Mexico\">a roughly 12th century Mayan almanac</a> that tracked the movements of Venus.",
+      "description": "A map accompanying a <a href=\"https://shop.getty.edu/products/codice-maya-de-mexico-understanding-the-oldest-surviving-book-of-the-americas-978-1606067888\">book</a> and exhibition dedicated to the oldest surviving book from the Americas, <a href=\"https://en.wikipedia.org/wiki/Maya_Codex_of_Mexico\">a roughly 12th century Mayan almanac</a> that tracked the movements of Venus.",
       "client_name": "Getty Museum",
       "thumbnail": "/slides/379/200-square/Codice Map v3 Final3.webp",
       "slide_captions": [
@@ -707,7 +709,7 @@
       "title": "Diamond Mountains",
       "subtitle": "Travel and Nostalgia in Korean Art",
       "year": 2017,
-      "description": "Maps to accompany an book and exhibition of pictorial representations of Mount Geumgang in present-day North Korea, also known as the Diamond Mountains.",
+      "description": "Maps to accompany an book and <a href=\"https://www.metmuseum.org/exhibitions/listings/2018/diamond-mountains\">exhibition</a> of pictorial representations of Mount Geumgang in present-day North Korea, also known as the Diamond Mountains.",
       "client_name": "Metropolitan Museum of Art",
       "thumbnail": "/slides/385/200-square/1 Korea Overall v8 Final.webp",
       "slide_captions": [
@@ -720,6 +722,7 @@
         "book",
         "exhibition",
         "historical",
+        "route",
         "topo"
       ]
     },
@@ -1075,6 +1078,7 @@
         "historical",
         "middle-east",
         "natural-color",
+        "route",
         "topo",
         "trade",
         "world"
@@ -1167,6 +1171,7 @@
         "historical",
         "middle-east",
         "natural-color",
+        "route",
         "silk-road",
         "topo",
         "trade",
@@ -1269,6 +1274,7 @@
         "exhibition",
         "historical",
         "natural-color",
+        "route",
         "topo"
       ]
     },
@@ -1956,6 +1962,7 @@
         "asia",
         "book",
         "historical",
+        "route",
         "south-asia",
         "topo"
       ]
@@ -1996,7 +2003,9 @@
         "book",
         "empire",
         "historical",
+        "route",
         "topo",
+        "trade",
         "world"
       ]
     },
@@ -2135,7 +2144,7 @@
       "title": "The Colmar Treasure",
       "subtitle": "A Medieval Jewish Legacy",
       "year": 2019,
-      "description": "A map to accompany a book and an exhibition at the Met Cloisters about a cache of precious objects hidden by the Jewish community of Colmar, France during the Black Death pogroms of the 14th century.",
+      "description": "A map to accompany a book and an <a href=\"https://www.metmuseum.org/exhibitions/listings/2019/colmar-treasure-medieval-jewish-legacy\">exhibition</a> at the Met Cloisters about a cache of precious objects hidden by the Jewish community of Colmar, France during the Black Death pogroms of the 14th century.",
       "client_name": "Scala Books",
       "thumbnail": "/slides/382/200-square/Europe v4 Final.webp",
       "slide_captions": [
@@ -2192,7 +2201,7 @@
       "title": "The Eternal Feast",
       "subtitle": "Banqueting in Chinese Art from the 10th to the 14th Century",
       "year": 2019,
-      "description": "Maps to accompany an book and exhibition about images of feasting in Chinese art from the Song, Liao, and Yuan dynasties.",
+      "description": "Maps to accompany an book and <a href=\"https://artmuseum.princeton.edu/art/exhibitions/3479\">exhibition</a> about images of feasting in Chinese art from the Song, Liao, and Yuan dynasties.",
       "client_name": "Princeton University Art Museum",
       "thumbnail": "/slides/388/200-square/Eternal Feast Map 1v5.webp",
       "slide_captions": [
@@ -2295,6 +2304,7 @@
         "historical",
         "mesopotamia",
         "middle-east",
+        "route",
         "topo",
         "world"
       ]
@@ -2603,6 +2613,7 @@
       ],
       "slide_tags": [
         "magazine",
+        "route",
         "satellite",
         "science"
       ]
@@ -2680,6 +2691,7 @@
         "europe",
         "exhibition",
         "historical",
+        "route",
         "thematic",
         "topo"
       ]
@@ -3092,50 +3104,54 @@
     },
     {
       "id": 31,
-      "name": "satellite"
+      "name": "route"
     },
     {
       "id": 32,
-      "name": "science"
+      "name": "satellite"
     },
     {
       "id": 33,
-      "name": "silk-road"
+      "name": "science"
     },
     {
       "id": 34,
-      "name": "south-asia"
+      "name": "silk-road"
     },
     {
       "id": 35,
-      "name": "thematic"
+      "name": "south-asia"
     },
     {
       "id": 36,
-      "name": "topo"
+      "name": "thematic"
     },
     {
       "id": 37,
-      "name": "trade"
+      "name": "topo"
     },
     {
       "id": 38,
-      "name": "tv"
+      "name": "trade"
     },
     {
       "id": 39,
-      "name": "usa"
+      "name": "tv"
     },
     {
       "id": 40,
-      "name": "webmaps"
+      "name": "usa"
     },
     {
       "id": 41,
-      "name": "website"
+      "name": "webmaps"
     },
     {
       "id": 42,
+      "name": "website"
+    },
+    {
+      "id": 43,
       "name": "world"
     }
   ]
