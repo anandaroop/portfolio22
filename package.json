@@ -17,6 +17,7 @@
     "build": "concurrently -n graphql,build -k -s command-build \"yarn:graphql\" \"next build\"",
     "preexport": "yarn clean && yarn build",
     "export": "concurrently -n graphql,build -k -s command-build \"yarn:graphql\" \"next export\"",
+    "postexport": "echo '<!DOCTYPE html><html><head><meta http-equiv=\"refresh\" content=\"1;url=/\"></head><body><p>Redirecting...</p></html>' > out/portfolio/index.html",
     "serve": "serve out",
     "start": "next start",
     "deploy": "./src/scripts/deploy.sh",
